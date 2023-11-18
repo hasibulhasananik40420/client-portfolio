@@ -9,11 +9,6 @@ import Footer from "../Footer/Footer";
 
 const ImpactContainer = () => {
 
-  const [isActive, setIsActive] = useState(false);
-
-  const toggleActiveState = () => {
-    setIsActive(!isActive);
-  };
 
 
   const handleScroll = (e) => {
@@ -38,7 +33,7 @@ const ImpactContainer = () => {
         <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* part 1 */}
 
-          <div className="lg:w-[420px] w-full">
+          <div className="2xl:w-[420px] lg:w-[400px] w-full">
             <p className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] mb-4">
               Owned Research
             </p>
@@ -47,21 +42,16 @@ const ImpactContainer = () => {
               {/* number 1 */}
               <Link
                 onClick={handleScroll}
-                className="border-[1px] border-[#28163B] px-6 flex items-center h-[100px] cursor-pointer nav-link hover:bg-[#28163B] duration-300 group"
+                className={` border-[1px] border-[#28163B] px-6 flex items-center h-[100px] cursor-pointer nav-link hover:bg-[#28163B] duration-300 group`}
                 to="#OwnedResearch"
                 style={{ borderRadius: "4px 4px 0px 0px" }}
               >
                 <p className="text-[16px] text-[#2B2B2B] font-semibold font-Montserrat leading-6 group-hover:text-white">1. Research Prioritization</p>
-                {/* <span className="flex justify-between items-center lg:w-[396px] w-full">
-                   <p>
-                    1. Research Prioritization
-                  </p>
-                  <PiArrowBendLeftDownLight className="text-white" />
-                </span> */}
+               
               </Link>
               {/* number 2 */}
               <Link
-                onClick={{handleScroll,toggleActiveState}}
+                onClick={handleScroll}
                 className=" border-[1px] border-[#28163B] rounded-sm px-6 flex items-center h-[100px] cursor-pointer nav-link hover:bg-[#28163B] duration-300 group"
                 to="#DiscoveryResearch"
                 style={{ borderRadius: "4px 4px 0px 0px" }}
@@ -86,7 +76,7 @@ const ImpactContainer = () => {
           </div>
 
           {/* part 2 */}
-          <div className="lg:w-[420px] w-full">
+          <div className="2xl:w-[420px] lg:w-[400px] w-full">
             <p className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] mb-4">
               Supported Research
             </p>
@@ -103,7 +93,7 @@ const ImpactContainer = () => {
           </div>
 
           {/* part 3 */}
-          <div className="lg:w-[420px] w-full">
+          <div className="2xl:w-[420px] lg:w-[400px] w-full">
             <p className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] mb-4">
               Proposed Future Research
             </p>
@@ -137,7 +127,7 @@ const ImpactContainer = () => {
 
       {/*  content 1 here */}
 
-      <div className="bg-white mt-[90px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
+      <div className="bg-white mt-[220px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
         <h1
           className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3"
           id="OwnedResearch"
@@ -238,7 +228,7 @@ const ImpactContainer = () => {
 
       
          {/*  content 2 here */}
-      <div className="bg-white mt-[90px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
+      <div className="bg-white mt-[220px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
         <h1
           className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3"
           id="SupportedResearch"
@@ -281,7 +271,7 @@ const ImpactContainer = () => {
 
 
   {/*  content 3 here */}
-      <div className="bg-white mt-[90px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
+      <div className="bg-white mt-[220px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
         <h1
           className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3"
          

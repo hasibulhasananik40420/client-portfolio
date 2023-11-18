@@ -52,20 +52,20 @@ const Header = () => {
 
          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-3 lg:ml-5 md:ml-0 ml-0 mt-10 md:mt-12 lg:mt-0">
           
-          <Link to={'/details-1'} className="bg-[#4030E8] 2xl:w-[500px] lg:w-[440px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[420px] h-[380px] flex flex-col justify-center items-center cursor-pointer hover:bg-secondaryColor duration-300">
+          <Link to={'/details-1'} className="bg-[#4030E8] 2xl:w-[500px] lg:w-[410px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[420px] h-[380px] flex flex-col justify-center items-center cursor-pointer hover:bg-secondaryColor duration-300">
               <h1 className="text-white 2xl:text-[32px] lg:text-[29px] md:text-[36px] text-[22px] font-Montserrat font-extrabold px-4 text-center">Kimberly-Clark Professional</h1>
               
               <p className="text-white 2xl:text-[20px] lg:text-[18px] md:text-[22px] text-[14px] font-Montserrat font-medium text-center mt-6 lg:w-[400px] md:w-[450px] w-full px-4 md:px-0">UX Research Lead-Evaluactive Research Workingshop Facilitation, Concept Testing</p>
          </Link> 
          
-          <Link to={'/details-2'} className="bg-[#06D6A0] 2xl:w-[500px] lg:w-[440px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[420px] h-[380px] flex flex-col justify-center items-center cursor-pointer hover:bg-secondaryColor duration-300">
+          <Link to={'/details-2'} className="bg-[#06D6A0] 2xl:w-[500px] lg:w-[410px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[420px] h-[380px] flex flex-col justify-center items-center cursor-pointer hover:bg-secondaryColor duration-300">
               <h1 className="text-white 2xl:text-[32px] lg:text-[29px] md:text-[36px] text-[22px] font-Montserrat font-extrabold px-4 text-center">Montgomery County Social Services</h1>
               
               <p className="text-white 2xl:text-[20px] lg:text-[18px] md:text-[22px] text-[14px] font-Montserrat font-medium text-center mt-6 lg:w-[400px] md:w-[450px] w-full px-4 md:px-0">UX Research Lead-Evaluactive Research Workingshop Facilitation, Concept Testing</p>
          </Link> 
 
 
-          <Link to={'/details-3'} className="bg-[#0b1218] 2xl:w-[500px] lg:w-[440px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[420px] h-[380px] flex flex-col justify-center items-center cursor-pointer hover:bg-secondaryColor duration-300">
+          <Link to={'/details-3'} className="bg-[#0b1218] 2xl:w-[500px] lg:w-[410px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[420px] h-[380px] flex flex-col justify-center items-center cursor-pointer hover:bg-secondaryColor duration-300">
               <h1 className="text-white 2xl:text-[32px] lg:text-[29px] md:text-[36px] text-[22px] font-Montserrat font-extrabold px-4 text-center">New Feature</h1>
               
               <p className="text-white 2xl:text-[20px] lg:text-[18px] md:text-[22px] text-[14px] font-Montserrat font-medium text-center mt-6 lg:w-[400px] md:w-[450px] w-full px-4 md:px-0">Suggested Fuel Stops

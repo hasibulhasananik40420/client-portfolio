@@ -23,7 +23,7 @@ const DetailsThree = () => {
             </div>
 
              <div className='lg:w-[448px] w-full mt-10 md:mt-10 lg:mt-0'>
-                <img className='lg:w-[448px] w-full h-[492px] rounded-lg' src='https://img.freepik.com/free-photo/side-view-man-gas-station_23-2150697514.jpg?w=360&t=st=1700148162~exp=1700148762~hmac=08eb9ed6c92f16d8c0894847261645b2c5e07b9f8daac220895057da4b68c579' alt="" />
+                <img className='lg:w-[448px] object-cover w-full h-[492px] rounded-lg' src='https://img.freepik.com/free-photo/side-view-man-gas-station_23-2150697514.jpg?w=360&t=st=1700148162~exp=1700148762~hmac=08eb9ed6c92f16d8c0894847261645b2c5e07b9f8daac220895057da4b68c579' alt="" />
              </div>
 
          </div>
