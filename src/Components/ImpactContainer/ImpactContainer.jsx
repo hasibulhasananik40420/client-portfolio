@@ -57,7 +57,7 @@ const ImpactContainer = () => {
                 style={{ borderRadius: "4px 4px 0px 0px" }}
               >
                 <p className="text-[16px] text-[#2B2B2B] font-semibold font-Montserrat leading-6 group-hover:text-white">
-                  1. Discovery Research
+                  2. Discovery Research
                 </p>
               </Link>
 
@@ -87,7 +87,7 @@ const ImpactContainer = () => {
               style={{ borderRadius: "4px 4px 0px 0px" }}
             >
               <p className="text-[16px] text-[#2B2B2B] font-semibold font-Montserrat leading-6 group-hover:text-white">
-                3. UMUX-Lite Benchmarking (Pre-release)
+                1. UMUX-Lite Benchmarking (Pre-release)
               </p>
             </Link>
           </div>
@@ -105,7 +105,7 @@ const ImpactContainer = () => {
                 style={{ borderRadius: "4px 4px 0px 0px" }}
               >
                 <p className="text-[16px] text-[#2B2B2B] font-semibold font-Montserrat leading-6 group-hover:text-white">
-                  3. Concept Testing
+                  1. Concept Testing
                 </p>
               </Link>
               {/* number 2 */}
@@ -138,6 +138,12 @@ const ImpactContainer = () => {
         {/* item 1 */}
         <div className="lg:flex items-center justify-between mt-[48px]">
           <div className="lg:w-[560px] w-full">
+           
+            <span className="flex items-center gap-2">
+                <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+               <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">Owned Research</p>
+            </span>
+             
             <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
               Research Prioritization
             </h1>
@@ -163,11 +169,15 @@ const ImpactContainer = () => {
         </div>
 
         {/* item 2 */}
-        <div className="lg:flex items-center justify-between mt-[120px]">
+        <div className="lg:flex items-center justify-between mt-[120px]" id="DiscoveryResearch">
           <div className="lg:w-[560px] w-full">
+          <span className="flex items-center gap-2">
+                <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+               <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">Owned Research</p>
+            </span>
             <h1
               className="text-black text-[32px] font-semibold leading-[44px] font-Playfair"
-              id="DiscoveryResearch"
+              
             >
               Discovery Research
             </h1>
@@ -193,11 +203,16 @@ const ImpactContainer = () => {
         </div>
 
         {/* item 3 */}
-        <div className="lg:flex items-center justify-between mt-[120px]">
+        <div className="lg:flex items-center justify-between mt-[120px]" id="JourneyMapping">
           <div className="lg:w-[560px] w-full">
+
+          <span className="flex items-center gap-2">
+                <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+               <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">Owned Research</p>
+            </span>
             <h1
               className="text-black text-[32px] font-semibold leading-[44px] font-Playfair"
-              id="JourneyMapping"
+              
             >
               Journey Mapping
             </h1>
@@ -228,16 +243,21 @@ const ImpactContainer = () => {
 
       
          {/*  content 2 here */}
-      <div className="bg-white mt-[220px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
+      <div className="bg-white mt-[220px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4"  id="SupportedResearch">
+        
         <h1
           className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3"
-          id="SupportedResearch"
+         
         >
          Supported Research
         </h1>
 
         <div className="lg:flex items-center justify-between mt-[48px]">
           <div className="lg:w-[620px] w-full">
+          <span className="flex items-center gap-2">
+                <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+               <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">Supported Research</p>
+            </span>
             <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
              UMUX-Lite Benchmarking (Pre-release)
             </h1>
@@ -272,6 +292,7 @@ const ImpactContainer = () => {
 
   {/*  content 3 here */}
       <div className="bg-white mt-[220px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4">
+        
         <h1
           className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3"
          
@@ -279,9 +300,13 @@ const ImpactContainer = () => {
            Proposed Future Research
         </h1>
 
-        <div className="lg:flex items-center justify-between mt-[48px]">
+        <div className="lg:flex items-center justify-between mt-[48px]" id="ConceptTesting">
           <div className="lg:w-[620px] w-full">
-            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair"  id="ConceptTesting">
+          <span className="flex items-center gap-2">
+                <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+               <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">Proposed Future Research</p>
+            </span>
+            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair"  >
             Concept Testing
             </h1>
 
@@ -307,9 +332,13 @@ const ImpactContainer = () => {
 
 
 
-  <div className="lg:flex items-center justify-between mt-[110px]">
+        <div className="lg:flex items-center justify-between mt-[110px]" id="Post-release">
           <div className="lg:w-[620px] w-full">
-            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair" id="Post-release">
+          <span className="flex items-center gap-2">
+                <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+               <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">Proposed Future Research</p>
+            </span>
+            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair" >
             UMUX-Lite Benchmarking (Post-release)
             </h1>
 

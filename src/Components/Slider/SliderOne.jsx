@@ -9,36 +9,36 @@ const SliderOne = () => {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 1, // Adjust the number of slides to show at a time
-    slidesToScroll: 1, // Adjust the number of slides to scroll
+    slidesToShow: 1, 
+    slidesToScroll: 1, 
     autoplay: false,
 
-    autoplaySpeed: 5000, // Adjust the autoplay speed in milliseconds
+    autoplaySpeed: 5000, 
   };
   return (
     <div className=" mt-10 md:mt-10 lg:mt-0">
       <Slider {...sliderSettings}>
        
 
-         <div className="lg:w-[512px] w-full">
+         <div className="lg:w-[512px] w-full border-none outline-none">
          <img
-              className="object-contain w-full h-[416px] border flex justify-center items-center mx-auto outline-none border-none"
+              className="object-contain w-full h-[416px] flex justify-center items-center mx-auto outline-none border-none"
               src={image1}
               alt=""
             />
          </div>
 
-         <div className="lg:w-[512px] w-full">
+         <div className="lg:w-[512px] w-full border-none outline-none">
          <img
-              className="object-contain w-full h-[416px] border flex justify-center items-center mx-auto outline-none border-none"
+              className="object-contain w-full h-[416px] flex justify-center items-center mx-auto outline-none border-none"
               src={image2}
               alt=""
             />
          </div>
 
-         <div className="lg:w-[512px] w-full">
+         <div className="lg:w-[512px] w-full border-none outline-none">
          <img
-              className="object-contain w-full h-[416px] border flex justify-center items-center mx-auto outline-none border-none"
+              className="object-contain w-full h-[416px]  flex justify-center items-center mx-auto outline-none border-none"
               src={image2}
               alt=""
             />
@@ -53,3 +53,5 @@ const SliderOne = () => {
 };
 
 export default SliderOne;
+
+
