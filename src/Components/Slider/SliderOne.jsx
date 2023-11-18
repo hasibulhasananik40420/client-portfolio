@@ -4,7 +4,13 @@ import Slider from "react-slick";
 import image1 from "../../assets/slide1.png";
 import image2 from "../../assets/slide2.png";
 
+
+
 const SliderOne = () => {
+
+
+
+
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -17,6 +23,7 @@ const SliderOne = () => {
   };
   return (
     <div className=" mt-10 md:mt-10 lg:mt-0">
+  
       <Slider {...sliderSettings}>
        
 
@@ -53,5 +60,4 @@ const SliderOne = () => {
 };
 
 export default SliderOne;
-
 
