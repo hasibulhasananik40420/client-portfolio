@@ -169,7 +169,7 @@ const SectionCard = () => {
                   activeButton === "button1" ? "#FFFFFF" : "#2B2B2B"
                 }] font-semibold font-Montserrat leading-6`}
               >
-                2. Supported Research
+               Owned Research
               </p>
               {activeButton === "button1" && (
                 <PiArrowBendLeftDownLight className="text-white" />
@@ -190,7 +190,7 @@ const SectionCard = () => {
                   activeButton === "button2" ? "#FFFFFF" : "#2B2B2B"
                 }] font-semibold font-Montserrat leading-6`}
               >
-                2. Supported Research
+                Supported Research
               </p>
               {activeButton === "button2" && (
                 <PiArrowBendLeftDownLight className="text-white" />
@@ -211,7 +211,7 @@ const SectionCard = () => {
                   activeButton === "button3" ? "#FFFFFF" : "#2B2B2B"
                 }] font-semibold font-Montserrat leading-6`}
               >
-                2. Proposed Research
+                 Proposed Research
               </p>
               {activeButton === "button3" && (
                 <PiArrowBendLeftDownLight className="text-white" />
@@ -225,7 +225,7 @@ const SectionCard = () => {
 
       {/*  content 1 here */}
 
-      <div  className={` bg-white mt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4`} id="OwnedResearch">
+      <div  className={` bg-white pt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4 `} id="OwnedResearch">
         <h1
           className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3"
         >
@@ -341,7 +341,7 @@ const SectionCard = () => {
 
       {/*  content 2 here */}
       <div
-        className="bg-white mt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4"
+        className="bg-white pt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4"
         id="SupportedResearch"
       >
         <h1 className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3">
@@ -382,7 +382,7 @@ const SectionCard = () => {
       </div>
 
       {/*  content 3 here */}
-      <div className="bg-white mt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4" id="ProposedResearch">
+      <div className="bg-white pt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4" id="ProposedResearch">
         <h1 className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3">
           Proposed Future Research
         </h1>
