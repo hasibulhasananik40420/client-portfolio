@@ -1,17 +1,14 @@
-
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import { MdArrowForwardIos, MdClose, MdOutlineArrowBackIos } from "react-icons/md";
-import image1 from "../../assets/slide1.png";
-import image2 from "../../assets/slide2.png";
 
-const SliderOne = () => {
+const SliderFive = () => {
 
     const images = [
-      image2,
-      image1,
-      image2,
-      image1
+        'https://img.freepik.com/free-photo/car-refueling-fuel-station_1303-27942.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais',
+        'https://img.freepik.com/free-vector/oil-drop-sun-rays_1182-1236.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais',
+        'https://img.freepik.com/free-photo/close-up-woman-gas-station_23-2148906372.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais',
+        'https://img.freepik.com/free-photo/man-putting-gasoline-fuel-into-his-car-pump-gas-station_1150-6631.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais'
       ];
     
       const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -37,7 +34,7 @@ const SliderOne = () => {
 
   return (
     <div>
-      <div className='lg:w-[560px] w-full h-[416px] relative mt-14 md:mt-14 lg:mt-0'>
+      <div className='lg:w-[560px] w-full h-[416px] relative'>
         <div className="lg:w-[560px] w-full border-none outline-none ">
           <img
             className="object-cover lg:w-[560px] w-full h-[416px] flex justify-center items-center mx-auto outline-none border-none cursor-pointer"
@@ -49,12 +46,12 @@ const SliderOne = () => {
       </div>
 
       {isModalOpen && (
-        <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center items-center bg-[#323232] bg-opacity-95">
-          <div className="lg:w-[560px] w-full md:px-4 lg:mx-0 mx-0">
-          <MdClose onClick={handleModalClose} className='text-white text-3xl font-bold cursor-pointer mb-1 lg:ml-[-10px] md:ml-0 ml-0'/>
-            <div className=" w-full border-[6px] border-white">
+        <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center items-center bg-[#323232] bg-opacity-95 ">
+          <div className="lg:w-[560px] w-full ">
+          <MdClose onClick={handleModalClose} className='text-white text-3xl font-bold cursor-pointer mb-1 ml-[-10px]'/>
+            <div className=" w-full border-4 outline-none">
               <img
-                className=" w-full h-[416px] flex justify-center items-center mx-auto"
+                className=" w-full h-[416px] flex justify-center items-center mx-auto "
                 src={images[selectedImageIndex]}
                 alt=""
               />
@@ -62,7 +59,7 @@ const SliderOne = () => {
             </div>
              
 
-            <div className="absolute inset-0 flex  items-center justify-between mx-auto lg:w-[500px] w-full px-4 md:px-8 lg:px-0">
+            <div className="absolute inset-0 flex  items-center justify-between mx-auto lg:w-[500px] w-full px-4 md:px-4 lg:px-0">
                 
                 <span onClick={() => handleSlideButtonClick('prev')} className='bg-[#28163B] rounded-full w-10 h-10 flex justify-center items-center cursor-pointer'><MdOutlineArrowBackIos  className='text-white' /></span>
 
@@ -90,6 +87,4 @@ const SliderOne = () => {
   )
 }
 
-export default SliderOne
-
-
+export default SliderFive

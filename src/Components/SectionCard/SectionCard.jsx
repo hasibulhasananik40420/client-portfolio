@@ -74,7 +74,7 @@ const SectionCard = () => {
       <div className="bg-[#FBF7FF] ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-containerX mx-auto px-4 md:px-8 lg:px-4 py-[70px]">
           {/* card1 */}
-          <div className="w-[424px] bg-white border-[1px] border-[#28163B] rounded-[4px] p-6">
+          <div className="2xl:w-[424px] lg:w-[400px] w-full bg-white border-[1px] border-[#28163B] rounded-[4px] p-6">
             <h1 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px]">
               Owned Research
             </h1>
@@ -97,7 +97,7 @@ const SectionCard = () => {
           </div>
 
           {/* card2 */}
-          <div className="w-[424px] bg-white border-[1px] border-[#28163B] rounded-[4px] p-6">
+          <div className="2xl:w-[424px] lg:w-[400px] w-full bg-white border-[1px] border-[#28163B] rounded-[4px] p-6">
             <h1 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px]">
             Supported Research
             </h1>
@@ -120,7 +120,7 @@ const SectionCard = () => {
           </div>
 
           {/* card3 */}
-          <div className="w-[424px] bg-white border-[1px] border-[#28163B] rounded-[4px] p-6">
+          <div className="2xl:w-[424px] lg:w-[400px] w-full bg-white border-[1px] border-[#28163B] rounded-[4px] p-6">
             <h1 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px]">
             Proposed Future Research
             </h1>
@@ -456,6 +456,9 @@ const SectionCard = () => {
             <SliderOne />
           </div>
         </div>
+
+
+
       </div>
     </div>
   );
