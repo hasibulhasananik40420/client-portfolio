@@ -127,7 +127,7 @@ const Header = () => {
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-2 lg:gap-x-6 lg:gap-y-6 2xl:gap-x-6 2xl:gap-y-6 mt-5">
               <Link
-                to={"/"}
+                to={"/details-4"}
                 className="bg-[#064DD6] 2xl:w-[424px] lg:w-[400px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[380px] 2xl:h-[360px] h-[360px] flex flex-col justify-center items-center cursor-pointer rounded-lg hover:bg-secondaryColor duration-300"
               >
                 <h1 className="text-white 2xl:text-[28px] lg:text-[28px] md:text-[36px] text-[22px] font-Montserrat font-extrabold text-center leading-[38px] px-4">
@@ -140,7 +140,7 @@ const Header = () => {
               </Link>
 
               <Link
-                to={"/"}
+                to={"/details-5"}
                 className="bg-[#064DD6] 2xl:w-[424px] lg:w-[400px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[380px] 2xl:h-[360px] h-[360px] flex flex-col justify-center items-center mt-5 md:mt-5 lg:mt-0 cursor-pointer rounded-lg hover:bg-secondaryColor duration-300"
               >
                 <h1 className="text-white 2xl:text-[28px] lg:text-[28px] md:text-[36px] text-[22px] font-Montserrat font-extrabold text-center leading-[38px]">
