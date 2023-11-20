@@ -7,12 +7,12 @@ import doc from "../../assets/Frame 66.svg";
 const Header = () => {
   return (
     <div className="max-w-container mx-auto lg:px-4 2xl:px-0  px-4 md:px-8 py-6 ">
-      <div className="lg:flex justify-center lg:gap-[90px] 2xl:gap-[90px]">
+      <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
-            <div className="w-full mt-4">
+            <div className="w-full">
               <img
-                className="w-full md:w-[600px] lg:w-[350px] 2xl:w-[424px] object-cover md:mx-auto lg:mx-0 2xl:h-[593px] lg:h-[410px] md:h-[400px] h-[350px]"
+                className="w-full md:w-[600px] lg:w-[424px] 2xl:w-[424px] object-cover md:mx-auto lg:mx-0 2xl:h-[415px] lg:h-[430px] md:h-[400px] h-[350px] rounded-lg"
                 src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/collections/a14009ec-3cfd-4ee1-bda6-acbd78e90f0f/t6ZGYj060JbLeYt1.png"
                 alt=""
               />
@@ -49,7 +49,7 @@ const Header = () => {
             >
               {" "}
               <img
-                className="w-[35px] h-[35px] object-cover rounded-full cursor-pointer"
+                className="w-[30px] h-[30px] object-cover rounded-full cursor-pointer"
                 src={linkedin}
                 alt=""
               />{" "}
@@ -58,14 +58,14 @@ const Header = () => {
             <a href="mailto:info@chadxsmith.co" target="_blank">
               {" "}
               <img
-                className="w-[35px] h-[35px] object-cover rounded-full cursor-pointer"
+                className="w-[30px] h-[30px] object-cover rounded-full cursor-pointer"
                 src={email}
                 alt=""
               />
             </a>
             <a href="https://drive.google.com/file/d/16pu0ysZ4vX7aDGJGoIxZrMIfmGO83rLm/view" target="_blank">
               <img
-                className="w-[35px] h-[35px] object-cover rounded-full cursor-pointer"
+                className="w-[30px] h-[30px] object-cover rounded-full cursor-pointer"
                 src={doc}
                 alt=""
               />
@@ -80,7 +80,7 @@ const Header = () => {
           <h1 className="text-[#2B2B2B] text-[24px] font-Playfair font-semibold leading-[34px] mt-10 md:mt-12 lg:mt-0">
             Case Studies{" "}
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-2 lg:gap-x-6 lg:gap-y-6 2xl:gap-x-6 2xl:gap-y-6 mt-5">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-2 lg:gap-x-6 lg:gap-y-6 2xl:gap-x-6 2xl:gap-y-6 mt-[21px]">
             <Link
               to={"/details-1"}
               className="bg-[#58A942] 2xl:w-[424px] lg:w-[400px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[380px] 2xl:h-[360px] h-[360px] flex flex-col justify-center items-center cursor-pointer rounded-lg hover:bg-secondaryColor duration-300"
@@ -121,7 +121,7 @@ const Header = () => {
             </Link>
           </div>
 
-          <div className="mt-20">
+          <div className="mt-[70px]">
             <h1 className="text-[#2B2B2B] text-[24px] font-Playfair font-semibold leading-[34px]">
               UXR Techniques
             </h1>

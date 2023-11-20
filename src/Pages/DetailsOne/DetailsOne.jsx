@@ -1,31 +1,10 @@
-import { Link } from "react-router-dom";
-import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
 
 /* eslint-disable react/no-unescaped-entities */
 const DetailsOne = () => {
   return (
     <div className="">
-      <div className="bg-[#4030E8] border-b h-[12vh] ">
-        <div className="max-w-6xl mx-auto flex items-center gap-3 h-[12vh]">
-          <div>
-           <Link to={'/'}>
-           <img
-              className="w-[60px] h-[60px] rounded-full cursor-pointer"
-              src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/intro-2x_ROY.png"
-              alt=""
-            />
-           </Link>
-          </div>
-          <div>
-            <h1 className="text-[20px] text-white font-normal font-Montserrat">
-              Chad
-            </h1>
-            <h1 className="text-[12px] text-white font-normal font-Montserrat">
-              Senior UX Researcher
-            </h1>
-          </div>
-        </div>
-      </div>
+       <Navbar/>
 
 
       <div className="bg-[#4030E8]  lg:h-[100vh] md:h-[90vh] h-[80vh] flex flex-col justify-center items-center">
@@ -211,7 +190,7 @@ const DetailsOne = () => {
 
 
     <div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
 
 

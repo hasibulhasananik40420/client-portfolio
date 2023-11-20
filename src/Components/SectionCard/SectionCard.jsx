@@ -1,12 +1,11 @@
 import { GoArrowRight } from "react-icons/go";
-import { PiArrowBendLeftDownLight } from "react-icons/pi";
 import { Link } from "react-router-dom";
 import SliderOne from "../Slider/SliderOne";
 import SliderTwo from "../Slider/SliderTwo";
 import SliderThree from "../Slider/SliderThree";
 import SliderFour from "../Slider/SliderFour";
 import { useEffect, useState } from "react";
-
+import arrow from '../../assets/arrow.svg'
 const SectionCard = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [activeButton, setActiveButton] = useState("button1");
@@ -146,7 +145,7 @@ const SectionCard = () => {
         {/* 3 item card here */}
 
         <div
-          className={`py-10 ${
+          className={`py-6 ${
             isSticky
               ? "visible fixed top-0 w-full bg-[#FBF7FF]"
               : "hidden"
@@ -158,7 +157,7 @@ const SectionCard = () => {
             {/* number 1 */}
 
             <Link to="#OwnedResearch" onClick={handleClick}
-              className={`border-[1px] rounded-sm px-6 flex items-center justify-between h-[100px] cursor-pointer nav-link ${
+              className={`border-[1px] rounded-sm px-6 flex items-center justify-between h-[56px] cursor-pointer nav-link ${
                 activeButton === "button1" ? "bg-[#28163B] text-white" : ""
               }`}
               
@@ -172,14 +171,15 @@ const SectionCard = () => {
                Owned Research
               </p>
               {activeButton === "button1" && (
-                <PiArrowBendLeftDownLight className="text-white" />
+                // <PiArrowBendLeftDownLight className="text-white" />
+                <img className="w-[24px] h-[24px]" src={arrow} alt="" />
               )}
             </Link>
 
             {/* number 2 */}
 
             <Link  to="#SupportedResearch" onClick={handleClick}
-              className={`border-[1px] rounded-sm px-6 flex items-center justify-between h-[100px] cursor-pointer nav-link ${
+              className={`border-[1px] rounded-sm px-6 flex items-center justify-between h-[56px] cursor-pointer nav-link ${
                 activeButton === "button2" ? "bg-[#28163B] text-white" : ""
               }`}
              
@@ -193,14 +193,14 @@ const SectionCard = () => {
                 Supported Research
               </p>
               {activeButton === "button2" && (
-                <PiArrowBendLeftDownLight className="text-white" />
-              )}
+                <img className="w-[24px] h-[24px]" src={arrow} alt="" />
+                )}
             </Link>
 
             {/* number 3*/}
 
             <Link  to="#ProposedResearch" onClick={handleClick}
-              className={`border-[1px] rounded-sm px-6 flex items-center justify-between h-[100px] cursor-pointer nav-link ${
+              className={`border-[1px] rounded-sm px-6 flex items-center justify-between h-[56px] cursor-pointer nav-link ${
                 activeButton === "button3" ? "bg-[#28163B] text-white" : ""
               }`}
              
@@ -214,8 +214,8 @@ const SectionCard = () => {
                  Proposed Research
               </p>
               {activeButton === "button3" && (
-                <PiArrowBendLeftDownLight className="text-white" />
-              )}
+                <img className="w-[24px] h-[24px]" src={arrow} alt="" />
+                )}
             </Link>
           </div>
         </div>
