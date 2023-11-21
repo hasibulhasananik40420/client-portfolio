@@ -63,7 +63,7 @@ const SliderTwo = () => {
 
   return (
     <div>
-      <div className="lg:w-[560px] w-full h-[416px] border-2 border-gray-800 relative mt-14 md:mt-14 lg:mt-0 ">
+      <div className="lg:w-[560px] w-full h-[416px] border-[1px] border-[#D9D9D9] relative mt-14 md:mt-14 lg:mt-0 ">
         <Slider {...settings}>
           {images.map((image, index) => (
             <div key={index} className="lg:w-[560px] w-full h-[425px]  ">
@@ -84,10 +84,7 @@ const SliderTwo = () => {
       {isModalOpen && (
         <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center items-center bg-[#323232] bg-opacity-95">
           <div className="lg:w-[560px] w-full md:px-4 lg:mx-0 mx-0">
-            <MdClose
-              onClick={handleModalClose}
-              className="text-white text-3xl font-bold cursor-pointer mb-1 lg:ml-[-10px] md:ml-0 ml-0"
-            />
+            
             <div className=" w-full border-[6px] border-white">
               <img
                 className=" w-full h-[416px] flex justify-center items-center mx-auto"
@@ -111,12 +108,22 @@ const SliderTwo = () => {
                 <MdArrowForwardIos className="text-white" />
               </span>
             </div>
+            <div className="flex justify-between items-center">
+            <div>
             <h1 className="text-white text-[16px] mt-2 font-Montserrat font-normal ">
             {images[selectedImageIndex].text}
             </h1>
             <span className="text-white text-[13px] font-normal font-Montserrat">
               Image {`${selectedImageIndex + 1} of ${images.length}`}
             </span>
+            </div>
+           <div>
+           <MdClose
+              onClick={handleModalClose}
+              className="text-white text-3xl font-bold cursor-pointer hover:text-red-500 duration-300"
+            />
+           </div>
+            </div>
           </div>
         </div>
       )}

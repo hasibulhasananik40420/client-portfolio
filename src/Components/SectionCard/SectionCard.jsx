@@ -13,10 +13,15 @@ const SectionCard = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-
+      //  this positon for top side
+      // const button1Threshold = 0;
+      // const button2Threshold = 3250; // Adjust this value based on your specific requirements
+      // const button3Threshold = 4000; // Adjust this value based on your specific requirements 
+      
+      //  this positon for bottom side
       const button1Threshold = 0;
-      const button2Threshold = 3250; // Adjust this value based on your specific requirements
-      const button3Threshold = 4000; // Adjust this value based on your specific requirements
+      const button2Threshold = 3050; // Adjust this value based on your specific requirements
+      const button3Threshold = 3700; // Adjust this value based on your specific requirements
 
       if (
         scrollPosition >= button1Threshold &&
@@ -33,8 +38,13 @@ const SectionCard = () => {
       } else {
         setActiveButton(""); // You may want to set this to the default active button
       }
-
-      const scrollThreshold = 1650; // Adjust this value based on your specific requirements
+        // top side
+      // const scrollThreshold = 1650; // Adjust this value based on your specific requirements
+     
+     
+     
+      //  bottom side
+       const scrollThreshold = 1200; // Adjust this value based on your specific requirements
 
       setIsSticky(scrollPosition > scrollThreshold);
     };
@@ -70,7 +80,7 @@ const SectionCard = () => {
 
   return (
     <div>
-      <div className="bg-[#FBF7FF] ">
+      <div className="bg-[#FBF7FF]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-containerX mx-auto px-4 md:px-8 lg:px-4 py-[70px]">
           {/* card1 */}
           <div className="2xl:w-[424px] lg:w-[400px] w-full bg-white border-[1px] border-[#28163B] rounded-[4px] p-6">
@@ -143,11 +153,12 @@ const SectionCard = () => {
         </div>
 
         {/* 3 item card here */}
+        {/* visible fixed top-0 w-full bg-[#FBF7FF] */}
 
         <div
           className={`py-6 ${
             isSticky
-              ? "visible fixed top-0 w-full bg-[#FBF7FF]"
+              ? "visible fixed bottom-0 left-0 right-0 w-full bg-[#FBF7FF]"
               : "hidden"
           } z-50`}
         >
@@ -225,7 +236,7 @@ const SectionCard = () => {
 
       {/*  content 1 here */}
 
-      <div  className={` bg-white pt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4 `} id="OwnedResearch">
+      <div  className={` bg-white pt-[150px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4 `} id="OwnedResearch">
         <h1
           className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3"
         >
@@ -340,8 +351,7 @@ const SectionCard = () => {
       </div>
 
       {/*  content 2 here */}
-      <div
-        className="bg-white pt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4"
+      <div className="bg-white pt-[170px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4"
         id="SupportedResearch"
       >
         <h1 className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3">
@@ -382,7 +392,7 @@ const SectionCard = () => {
       </div>
 
       {/*  content 3 here */}
-      <div className="bg-white pt-[270px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4" id="ProposedResearch">
+      <div className="bg-white pt-[170px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4" id="ProposedResearch">
         <h1 className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3">
           Proposed Future Research
         </h1>
