@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import ImpactCard from "../../Components/ImpactCard/ImpactCard";
 import Navbar from "../../Components/Navbar/Navbar";
 import SectionCard from "../../Components/SectionCard/SectionCard";
@@ -72,9 +73,9 @@ const DetailsThree = () => {
       </div>
 
 
-      {/* <div className="pt-20">
+      <div className="pb-20">
      <Footer/>
-     </div> */}
+     </div>
     </div>
   );
 };

@@ -1,11 +1,18 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
-import { MdArrowForwardIos, MdClose, MdOutlineArrowBackIos } from "react-icons/md";
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
+import {
+  MdArrowForwardIos,
+  MdClose,
+  MdOutlineArrowBackIos,
+} from "react-icons/md";
+import image1 from "../../assets/slide1.png";
+import image2 from "../../assets/slide2.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const CustomSlider = ({ images, captions}) => {
+const CustomSlider = ({ images }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -13,6 +20,10 @@ const CustomSlider = ({ images, captions}) => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+ 
+ 
+
 
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -36,18 +47,18 @@ const CustomSlider = ({ images, captions}) => {
 
   return (
     <div>
-      <div className="lg:w-[560px] w-full h-[416px] border-2 border-gray-800 relative mt-14 md:mt-14 lg:mt-0 ">
+      <div className="lg:w-[560px] w-full h-[416px] border-[1px] border-[#D9D9D9] relative mt-14 md:mt-14 lg:mt-0 ">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="lg:w-[560px] w-full h-[425px]  ">
+            <div key={index} className="lg:w-[560px] w-full h-[425px]">
               <img
-                className="object-cover lg:w-[560px] w-full h-[340px] p-4 flex justify-center items-center mx-auto outline-none border-none cursor-pointer"
-                src={image}
+                className="object-contain lg:w-[560px] w-full h-[340px] p-4 flex justify-center items-center mx-auto outline-none border-none cursor-pointer"
+                src={image.image}
                 alt=""
                 onClick={() => handleImageClick(index)}
               />
               <h1 className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5 mt-4 text-center">
-                {captions[index]}
+              {image.text}
               </h1>
             </div>
           ))}
@@ -57,14 +68,11 @@ const CustomSlider = ({ images, captions}) => {
       {isModalOpen && (
         <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center items-center bg-[#323232] bg-opacity-95">
           <div className="lg:w-[560px] w-full md:px-4 lg:mx-0 mx-0">
-            <MdClose
-              onClick={handleModalClose}
-              className="text-white text-3xl font-bold cursor-pointer mb-1 lg:ml-[-10px] md:ml-0 ml-0"
-            />
+           
             <div className=" w-full border-[6px] border-white">
               <img
                 className=" w-full h-[416px] flex justify-center items-center mx-auto"
-                src={images[selectedImageIndex]}
+                src={images[selectedImageIndex].image}
                 alt=""
               />
             </div>
@@ -84,12 +92,22 @@ const CustomSlider = ({ images, captions}) => {
                 <MdArrowForwardIos className="text-white" />
               </span>
             </div>
+            <div className="flex justify-between items-center">
+            <div>
             <h1 className="text-white text-[16px] mt-2 font-Montserrat font-normal ">
-              Click the right half of the image to move forward.
+            {images[selectedImageIndex].text}
             </h1>
             <span className="text-white text-[13px] font-normal font-Montserrat">
               Image {`${selectedImageIndex + 1} of ${images.length}`}
             </span>
+            </div>
+           <div>
+           <MdClose
+              onClick={handleModalClose}
+              className="text-white text-3xl font-bold cursor-pointer hover:text-red-500 duration-300"
+            />
+           </div>
+            </div>
           </div>
         </div>
       )}

@@ -44,7 +44,7 @@ const DetailsOne = () => {
         <div className="max-w-6xl mx-auto lg:flex justify-center gap-20 lg:py-32 py-20 px-4 md:px-8 lg:px-4">
           <div className="lg:w-[435px] md:w-[460px] w-full">
             <img
-              className="object-contain  md:mx-auto lg:mx-0 w-full h-[250px]"
+              className="object-cover  md:mx-auto lg:mx-0 w-full h-[250px] "
               src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/62e80b15f390fd00034ec3f3/fQVEh4j4dYynL7O9.png"
               alt=""
             />
@@ -107,7 +107,7 @@ const DetailsOne = () => {
         <div className="max-w-6xl mx-auto lg:flex justify-center gap-20 lg:py-28 py-20 px-4 md:px-8 lg:px-4">
           <div className="lg:w-[535px] md:w-[500px] w-full">
             <img
-              className="object-contain md:mx-auto lg:mx-0 w-full h-[250px]"
+              className="object-cover md:mx-auto lg:mx-0 w-full h-[250px]"
               src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/62e80b15f390fd00034ec3f3/RwULxviOWChjljTP.png"
               alt=""
             />
@@ -154,7 +154,7 @@ const DetailsOne = () => {
         <div className="max-w-6xl mx-auto lg:flex justify-center gap-20 lg:pt-28  lg:py-0 py-20 px-4 md:px-8 lg:px-4 font-Montserrat">
           <div className="lg:w-[550px] md:w-[500px] w-full">
             <img
-              className=" object-contain  md:mx-auto lg:mx-0 w-full h-[250px]"
+              className=" object-contain border md:mx-auto lg:mx-0 w-full h-[250px]"
               src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/62e80b15f390fd00034ec3f3/Zk7pbktb1nOr2aZm.png"
               alt=""
             />
