@@ -4,10 +4,16 @@ import arrow from "../../assets/arrow.svg";
 import CustomSlider from "../Slider/CustomSlider";
 import ResearchCardTwo from "../ResearchCard/ResearchCardTwo";
 
-import ExperienceMappingImage4 from "../../assets/Owned Research/1.Experience Mapping/001.png";
-import ExperienceMappingImage2 from "../../assets/Owned Research/1.Experience Mapping/008.png";
-import ExperienceMappingImage3 from "../../assets/Owned Research/1.Experience Mapping/009.png";
-import ExperienceMappingImage1 from "../../assets/Owned Research/1.Experience Mapping/010.png";
+import ExperienceMappingImage1 from "../../assets/Owned Research/1.Experience Mapping/001.png";
+import ExperienceMappingImage2 from "../../assets/Owned Research/1.Experience Mapping/002.png";
+import ExperienceMappingImage3 from "../../assets/Owned Research/1.Experience Mapping/003.png";
+import ExperienceMappingImage4 from "../../assets/Owned Research/1.Experience Mapping/004.png";
+import ExperienceMappingImage5 from "../../assets/Owned Research/1.Experience Mapping/005.png";
+import ExperienceMappingImage6 from "../../assets/Owned Research/1.Experience Mapping/006.png";
+import ExperienceMappingImage7 from "../../assets/Owned Research/1.Experience Mapping/007.png";
+import ExperienceMappingImage8 from "../../assets/Owned Research/1.Experience Mapping/008.png";
+import ExperienceMappingImage9 from "../../assets/Owned Research/1.Experience Mapping/009.png";
+import ExperienceMappingImage10 from "../../assets/Owned Research/1.Experience Mapping/010.png";
 
 // import DayInTheLifePanelImage1 from '../../assets/Owned Research/2.Day-in-the-life Panel/dummy.png'
 
@@ -15,6 +21,8 @@ import ConceptTestingImage1 from "../../assets/Owned Research/3.Concept Testing/
 import ConceptTestingImage2 from "../../assets/Owned Research/3.Concept Testing/002.png";
 import ConceptTestingImage3 from "../../assets/Owned Research/3.Concept Testing/003.png";
 import ConceptTestingImage4 from "../../assets/Owned Research/3.Concept Testing/004.png";
+import ConceptTestingImage5 from "../../assets/Owned Research/3.Concept Testing/005.png";
+import ConceptTestingImage6 from "../../assets/Owned Research/3.Concept Testing/006.png";
 
 import TrainingSurveysImage1 from "../../assets/Owned Research/5.Training Surveys/001.png";
 import TrainingSurveysImage2 from "../../assets/Owned Research/5.Training Surveys/002.png";
@@ -55,6 +63,33 @@ const SectionCardTwo = () => {
       id: 4,
       image: ExperienceMappingImage4,
       text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
+    },
+    {
+      id: 5,
+      image: ExperienceMappingImage5,
+      text: "Caption 5 Text Lorem ipsum dolor sit amet consectetur",
+    },{
+      
+      id: 6,
+      image: ExperienceMappingImage6,
+      text: "Caption 6 Text Lorem ipsum dolor sit amet consectetur",
+    },
+    {
+      id: 7,
+      image: ExperienceMappingImage7,
+      text: "Caption 7 Text Lorem ipsum dolor sit amet consectetur",
+    },{
+      id: 8,
+      image: ExperienceMappingImage8,
+      text: "Caption 8 Text Lorem ipsum dolor sit amet consectetur",
+    },{
+      id: 9,
+      image: ExperienceMappingImage9,
+      text: "Caption 8 Text Lorem ipsum dolor sit amet consectetur",
+    },{
+      id: 10,
+      image: ExperienceMappingImage10,
+      text: "Caption 8 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
 
@@ -107,6 +142,14 @@ const SectionCardTwo = () => {
       id: 4,
       image: ConceptTestingImage4,
       text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
+    }, {
+      id: 5,
+      image: ConceptTestingImage5,
+      text: "Caption 5 Text Lorem ipsum dolor sit amet consectetur",
+    }, {
+      id: 6,
+      image: ConceptTestingImage6,
+      text: "Caption 6 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
 
@@ -736,7 +779,7 @@ const SectionCardTwo = () => {
         </div>
       </div>
 
-      
+
 
       {/*  content 2 here */}
       <div

@@ -6,8 +6,6 @@ import {
   MdClose,
   MdOutlineArrowBackIos,
 } from "react-icons/md";
-import image1 from "../../assets/slide1.png";
-import image2 from "../../assets/slide2.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -76,7 +74,7 @@ const CustomSlider = ({ images }) => {
       {isModalOpen && (
         <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center  bg-[#323232] bg-opacity-95 ">
           
-          <div className="lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] h-[500px]  w-full md:px-4 lg:mx-0 mx-0 mt-4 ">
+          <div className="lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] h-[500px]  w-full mt-4 relative ">
            
             <div className=" lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] w-full h-[500px] border-[6px] border-white">
               <img
@@ -87,7 +85,7 @@ const CustomSlider = ({ images }) => {
             </div>
 
 
-            <div className=" flex  items-center justify-center gap-5 lg:mt-2 2xl:mt-4  px-4 md:px-8 lg:px-0">
+            <div className=" w-full absolute inset-0 flex  items-center justify-between px-6 ">
               <span
                 onClick={() => handleSlideButtonClick("prev")}
                 className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-10 2xl:h-10 flex justify-center items-center cursor-pointer"
