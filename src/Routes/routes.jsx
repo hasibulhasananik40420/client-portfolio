@@ -6,27 +6,28 @@ import DetailsTwo from "../Pages/DetailsTwo/DetailsTwo";
 import DetailsThree from "../Pages/DetailsThree/DetailsThree";
 import DetailsFour from "../Pages/DetailsFour/DetailsFour";
 import DetailsFive from "../Pages/DetailsFive/DetailsFive";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
-    // errorElement: <NotFoundPage/>,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
         element: <Home />,
       },
       {
-        path: "/details-1",
+        path: "/driver-app",
         element: <DetailsOne />,
       },
       {
-        path: "/details-2",
+        path: "/transportation-optimizer",
         element: <DetailsTwo />,
       },
       {
-        path: "/details-3",
+        path: "/fuel-stops",
         element: <DetailsThree />,
       },
 

@@ -29,7 +29,7 @@ const ScrollToTop = () => {
   return (
     <button
       onClick={handleScrollToTop}
-      className={`z-50 fixed bottom-6 float-right right-6  bg-[#15305c] ring-2 rounded-full w-[45px] h-[45px] flex justify-center items-center ${
+      className={`z-50 fixed bottom-6 float-right right-2  bg-[#15305c] ring-2 rounded-full w-[45px] h-[45px] flex justify-center items-center ${
         isVisible ? "visible" : "hidden"
       }`}
     >

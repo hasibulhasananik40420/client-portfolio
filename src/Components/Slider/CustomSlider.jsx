@@ -47,17 +47,20 @@ const CustomSlider = ({ images }) => {
 
   return (
     <div>
-      <div className="lg:w-[560px] w-full h-[416px] border-[1px] border-[#D9D9D9] relative mt-14 md:mt-14 lg:mt-0 ">
+      <div className="lg:w-[650px] w-full h-[416px] border-[1px] border-[#D9D9D9]  mt-14 md:mt-14 lg:mt-0">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="lg:w-[560px] w-full h-[425px]">
-              <img
-                className="object-contain lg:w-[560px] w-full h-[340px] p-4 flex justify-center items-center mx-auto outline-none border-none cursor-pointer"
+            <div key={index} className="mb-5">
+             <div className="h-[380px] w-full p-4">
+             <img
+                className=" object-contain w-full h-full cursor-pointer"
                 src={image.image}
                 alt=""
                 onClick={() => handleImageClick(index)}
               />
-              <h1 className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5 mt-4 text-center">
+             </div>
+            
+              <h1 className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5  text-center">
               {image.text}
               </h1>
             </div>
@@ -65,34 +68,43 @@ const CustomSlider = ({ images }) => {
         </Slider>
       </div>
 
+
+
+
+
+
       {isModalOpen && (
-        <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center items-center bg-[#323232] bg-opacity-95">
-          <div className="lg:w-[560px] w-full md:px-4 lg:mx-0 mx-0">
+        <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center  bg-[#323232] bg-opacity-95 ">
+          
+          <div className="lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] h-[500px]  w-full md:px-4 lg:mx-0 mx-0 mt-4 ">
            
-            <div className=" w-full border-[6px] border-white">
+            <div className=" lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] w-full h-[500px] border-[6px] border-white">
               <img
-                className=" w-full h-[416px] flex justify-center items-center mx-auto"
+                className="object-contain w-full h-full flex justify-center items-center mx-auto"
                 src={images[selectedImageIndex].image}
                 alt=""
               />
             </div>
 
-            <div className="absolute inset-0 flex  items-center justify-between mx-auto lg:w-[500px] w-full px-4 md:px-8 lg:px-0">
+
+            <div className=" flex  items-center justify-center gap-5 lg:mt-2 2xl:mt-4  px-4 md:px-8 lg:px-0">
               <span
                 onClick={() => handleSlideButtonClick("prev")}
-                className="bg-[#28163B] rounded-full w-10 h-10 flex justify-center items-center cursor-pointer"
+                className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-10 2xl:h-10 flex justify-center items-center cursor-pointer"
               >
-                <MdOutlineArrowBackIos className="text-white" />
+                <MdOutlineArrowBackIos className="text-white text-[14px] 2xl:text-[20px]" />
               </span>
 
               <span
                 onClick={() => handleSlideButtonClick("next")}
-                className="bg-[#28163B] rounded-full w-10 h-10 flex justify-center items-center cursor-pointer"
+                className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-10 2xl:h-10 flex justify-center items-center cursor-pointer"
               >
-                <MdArrowForwardIos className="text-white" />
+                <MdArrowForwardIos className="text-white text-[14px] 2xl:text-[20px]" />
               </span>
             </div>
-            <div className="flex justify-between items-center">
+
+           
+            <div className="flex justify-between items-center mt-1 2xl:mt-2">
             <div>
             <h1 className="text-white text-[16px] mt-2 font-Montserrat font-normal ">
             {images[selectedImageIndex].text}
@@ -102,13 +114,24 @@ const CustomSlider = ({ images }) => {
             </span>
             </div>
            <div>
-           <MdClose
-              onClick={handleModalClose}
-              className="text-white text-3xl font-bold cursor-pointer hover:text-red-500 duration-300"
+            <span onClick={handleModalClose} className="h-8 w-8 bg-red-500 cursor-pointer flex justify-center items-center rounded-full">
+            <MdClose
+              
+              className="text-white text-xl font-bold "
             />
+            </span>
            </div>
             </div>
+
+
+           
+
+
+
           </div>
+
+
+          
         </div>
       )}
     </div>

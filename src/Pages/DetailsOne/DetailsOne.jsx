@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -190,7 +191,7 @@ const DetailsOne = () => {
 
 
     <div>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
 
 

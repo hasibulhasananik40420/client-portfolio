@@ -1,12 +1,91 @@
-import { GoArrowRight } from "react-icons/go";
 import { Link } from "react-router-dom";
-import SliderOne from "../Slider/SliderOne";
-import SliderTwo from "../Slider/SliderTwo";
-import SliderThree from "../Slider/SliderThree";
-import SliderFour from "../Slider/SliderFour";
 import { useEffect, useState } from "react";
 import arrow from '../../assets/arrow.svg'
+import ResearchPrioritizationDataImage1 from "../../assets/slide1.png";
+import ResearchPrioritizationDataImage2 from "../../assets/slide2.png";
+
+import DiscoveryResearchImage1 from "../../assets/slide1.png";
+import DiscoveryResearchImage2 from "../../assets/slide2.png";
+
+import JourneyMappingImage1 from "../../assets/Slider4.png";
+import JourneyMappingImage2 from "../../assets/slide2.png";
+
+
+
+import CustomSlider from "../Slider/CustomSlider";
+import ResearchCardThree from "../ResearchCard/ResearchCardThree";
+
 const SectionCard = () => {
+
+
+  const ResearchPrioritizationData =[
+    {
+      id:1 ,
+      image:ResearchPrioritizationDataImage1,
+      text:'Caption Text Lorem ipsum dolor sit amet consectetur'
+    },{
+      id:2 ,
+      image:ResearchPrioritizationDataImage2,
+      text:'Caption 2 Text Lorem ipsum dolor sit amet consectetur'
+    },{
+      id:3 ,
+      image:ResearchPrioritizationDataImage1,
+      text:'Caption 3 Text Lorem ipsum dolor sit amet consectetur'
+    },
+    {
+      id:4 ,
+      image:ResearchPrioritizationDataImage2,
+      text:'Caption 4 Text Lorem ipsum dolor sit amet consectetur'
+    }
+  ]
+
+const DiscoveryResearchData =[
+    {
+      id:1 ,
+      image:DiscoveryResearchImage2,
+      text:'Caption Text Lorem ipsum dolor sit amet consectetur'
+    },{
+      id:2 ,
+      image:DiscoveryResearchImage1,
+      text:'Caption 2 Text Lorem ipsum dolor sit amet consectetur'
+    },{
+      id:3 ,
+      image:DiscoveryResearchImage2,
+      text:'Caption 3 Text Lorem ipsum dolor sit amet consectetur'
+    },
+    {
+      id:4 ,
+      image:DiscoveryResearchImage1,
+      text:'Caption 4 Text Lorem ipsum dolor sit amet consectetur'
+    }
+  ]
+
+const JourneyMappingData =[
+    {
+      id:1 ,
+      image:JourneyMappingImage1,
+      text:'Caption Text Lorem ipsum dolor sit amet consectetur'
+    },{
+      id:2 ,
+      image:JourneyMappingImage2,
+      text:'Caption 2 Text Lorem ipsum dolor sit amet consectetur'
+    },{
+      id:3 ,
+      image:JourneyMappingImage1,
+      text:'Caption 3 Text Lorem ipsum dolor sit amet consectetur'
+    },
+    {
+      id:4 ,
+      image:JourneyMappingImage2,
+      text:'Caption 4 Text Lorem ipsum dolor sit amet consectetur'
+    }
+  ]
+
+
+
+
+
+
   const [isSticky, setIsSticky] = useState(false);
   const [activeButton, setActiveButton] = useState("button1");
 
@@ -81,75 +160,8 @@ const SectionCard = () => {
   return (
     <div>
       <div className="bg-[#FBF7FF]">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-containerX mx-auto px-4 md:px-8 lg:px-4 py-[70px]">
-          {/* card1 */}
-          <div className="2xl:w-[424px] lg:w-[400px] w-full bg-white border-[1px] border-[#28163B] rounded-[4px] p-6 hover:bg-[#28163B] duration-300 cursor-pointer group">
-            <h1 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] group-hover:text-white">
-              Owned Research
-            </h1>
-            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur. Malesuada porttitor vitae
-              sit et aliquam purus velit sed. Scelerisque at eu ac lacus.Lorem
-              ipsum dolor sit amet consectetur. Malesuada porttitor vitae sit et
-              aliquam purus velit sed. Scelerisque at eu ac lacus{" "}
-            </p>
-
-            <span className="flex items-center gap-3 mt-4">
-              <Link to='#OwnedResearch' onClick={handleClick}
-                className="text-[#2B2B2B] text-[16px] font-Montserrat font-medium leading-4 group-hover:text-white"
-                
-              >
-                Learn More
-              </Link>
-              <GoArrowRight className="text-black group-hover:text-white" />
-            </span>
-          </div>
-
-          {/* card2 */}
-          <div className="2xl:w-[424px] lg:w-[400px] w-full bg-white border-[1px] border-[#28163B] rounded-[4px] p-6 hover:bg-[#28163B] duration-300 cursor-pointer group">
-            <h1 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] group-hover:text-white">
-            Supported Research
-            </h1>
-            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur. Malesuada porttitor vitae
-              sit et aliquam purus velit sed. Scelerisque at eu ac lacus.Lorem
-              ipsum dolor sit amet consectetur. Malesuada porttitor vitae sit et
-              aliquam purus velit sed. Scelerisque at eu ac lacus{" "}
-            </p>
-
-            <span className="flex items-center gap-3 mt-4">
-              <Link to='#SupportedResearch' onClick={handleClick}
-                className="text-[#2B2B2B] text-[16px] font-Montserrat font-medium leading-4 group-hover:text-white"
-           
-              >
-                Learn More
-              </Link>
-              <GoArrowRight className="text-black group-hover:text-white" />
-            </span>
-          </div>
-
-          {/* card3 */}
-          <div className="2xl:w-[424px] lg:w-[400px] w-full bg-white border-[1px] border-[#28163B] rounded-[4px] p-6 hover:bg-[#28163B] duration-300 cursor-pointer group">
-            <h1 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] group-hover:text-white">
-            Proposed Future Research
-            </h1>
-            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur. Malesuada porttitor vitae
-              sit et aliquam purus velit sed. Scelerisque at eu ac lacus.Lorem
-              ipsum dolor sit amet consectetur. Malesuada porttitor vitae sit et
-              aliquam purus velit sed. Scelerisque at eu ac lacus{" "}
-            </p>
-
-            <span className="flex items-center gap-3 mt-4">
-              <Link to='#ProposedResearch' onClick={handleClick}
-                className="text-[#2B2B2B] text-[16px] font-Montserrat font-medium leading-4 group-hover:text-white"
-               
-              >
-                Learn More
-              </Link>
-              <GoArrowRight className="text-black group-hover:text-white" />
-            </span>
-          </div>
+        <div>
+          <ResearchCardThree/>
         </div>
 
         {/* 3 item card here */}
@@ -160,7 +172,7 @@ const SectionCard = () => {
             isSticky
               ? "visible fixed bottom-0 left-0 right-0 w-full bg-[#FBF7FF]"
               : "hidden"
-          } z-50`}
+          } z-30`}
         >
           <div
             className={` grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-w-containerX mx-auto px-4 md:px-8 lg:px-4`}
@@ -272,8 +284,8 @@ const SectionCard = () => {
             </p>
           </div>
 
-          <div className="lg:w-[560px] w-full  h-[388px] ">
-            <SliderOne />
+          <div className="">
+           <CustomSlider images={ResearchPrioritizationData}/>
           </div>
         </div>
 
@@ -308,8 +320,8 @@ const SectionCard = () => {
             </p>
           </div>
 
-          <div className="lg:w-[560px] w-full  h-[388px] ">
-            <SliderTwo />
+          <div className="">
+            <CustomSlider images={DiscoveryResearchData} />
           </div>
         </div>
 
@@ -344,11 +356,15 @@ const SectionCard = () => {
             </p>
           </div>
 
-          <div className="lg:w-[560px] w-full  h-[388px] ">
-            <SliderThree />
+          <div className="">
+            <CustomSlider images={JourneyMappingData} />
           </div>
         </div>
       </div>
+
+
+
+
 
       {/*  content 2 here */}
       <div className="bg-white pt-[170px] max-w-containerX mx-auto px-4 md:px-8 lg:px-4"
@@ -385,8 +401,8 @@ const SectionCard = () => {
             </p>
           </div>
 
-          <div className="lg:w-[560px] w-full  h-[388px] ">
-            <SliderFour />
+          <div className=" ">
+          <CustomSlider images={JourneyMappingData} />
           </div>
         </div>
       </div>
@@ -427,8 +443,8 @@ const SectionCard = () => {
             </p>
           </div>
 
-          <div className="lg:w-[560px] w-full  h-[388px] ">
-            <SliderOne />
+          <div className="">
+          <CustomSlider images={JourneyMappingData} />
           </div>
         </div>
 
@@ -462,9 +478,9 @@ const SectionCard = () => {
             </p>
           </div>
 
-          <div className="lg:w-[560px] w-full  h-[388px] ">
-            <SliderOne />
-          </div>
+          <div className="">
+          <CustomSlider images={JourneyMappingData} />  
+            </div>
         </div>
 
 
