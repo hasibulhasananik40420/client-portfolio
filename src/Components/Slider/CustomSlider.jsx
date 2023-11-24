@@ -43,6 +43,14 @@ const CustomSlider = ({ images }) => {
     setSelectedImageIndex(newIndex);
   };
 
+
+  const handleOverlayClick = (e) => {
+    // Check if the click occurred outside the modal content
+    if (e.target.classList.contains('modal-overlay')) {
+      handleModalClose();
+    }
+  };
+
   return (
     <div>
       <div className="lg:w-[650px] w-full h-[416px] border-[1px] border-[#D9D9D9]  mt-14 md:mt-14 lg:mt-0">
@@ -72,7 +80,7 @@ const CustomSlider = ({ images }) => {
 
 
       {isModalOpen && (
-        <div className="fixed top-0 z-50 left-0 w-full h-full flex justify-center  bg-[#323232] bg-opacity-95 ">
+        <div  onClick={handleOverlayClick} className="fixed top-0 z-50 left-0 w-full h-full flex justify-center  bg-[#323232] bg-opacity-95 modal-overlay">
           
           <div className="lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] h-[500px]  w-full mt-4 relative ">
            
