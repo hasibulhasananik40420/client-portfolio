@@ -44,7 +44,7 @@ const DetailsOne = () => {
           <div className="lg:w-[448px] w-full mt-10 md:mt-10 lg:mt-0">
             <img
               className="lg:w-[448px] object-cover w-full h-[492px] rounded-lg"
-              src="https://img.freepik.com/free-photo/elegant-woman-standing-gas-station_1157-33894.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=sph"
+              src="https://img.freepik.com/free-photo/man-putting-gasoline-fuel-into-his-car-pump-gas-station_1150-6631.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais"
               alt=""
             />
           </div>
