@@ -20,7 +20,7 @@ const DetailsOne = () => {
 
        
 
-        <div className="lg:flex items-center gap-[120px]">
+        <div className="lg:flex items-center gap-[120px] mt-10 md:mt-10 lg:mt-0">
           <div className="lg:w-[740px] w-full">
             <h2 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px]">
             Hypothesis
@@ -41,7 +41,7 @@ const DetailsOne = () => {
             </p>
           </div>
 
-          <div className="lg:w-[448px] w-full mt-10 md:mt-10 lg:mt-0">
+          <div className="lg:w-[448px] w-full mt-14 md:mt-14 lg:mt-0">
             <img
               className="lg:w-[448px] object-cover w-full h-[492px] rounded-lg"
               src="https://img.freepik.com/free-photo/man-putting-gasoline-fuel-into-his-car-pump-gas-station_1150-6631.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais"

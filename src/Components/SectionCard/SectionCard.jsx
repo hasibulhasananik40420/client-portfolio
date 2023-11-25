@@ -88,19 +88,40 @@ const JourneyMappingData =[
 
   const [isSticky, setIsSticky] = useState(false);
   const [activeButton, setActiveButton] = useState("button1");
+  const [isMobile, setIsMobile] = useState(false);
+
+
+
+
+   
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust the screen width as needed
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Set initial value on mount
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      //  this positon for top side
-      // const button1Threshold = 0;
-      // const button2Threshold = 3250; // Adjust this value based on your specific requirements
-      // const button3Threshold = 4000; // Adjust this value based on your specific requirements 
-      
-      //  this positon for bottom side
-      const button1Threshold = 0;
-      const button2Threshold = 3050; // Adjust this value based on your specific requirements
-      const button3Threshold = 3700; // Adjust this value based on your specific requirements
+
+      // Large device threshold values
+      let button1Threshold = 0;
+      let button2Threshold = 3050;
+      let button3Threshold = 3700;
+
+      // Mobile device threshold values
+      if (isMobile) {
+        button1Threshold = 2900;
+        button2Threshold = 6300;
+        button3Threshold = 7800;
+      }
 
       if (
         scrollPosition >= button1Threshold &&
@@ -115,16 +136,11 @@ const JourneyMappingData =[
       } else if (scrollPosition >= button3Threshold) {
         setActiveButton("button3");
       } else {
-        setActiveButton(""); // You may want to set this to the default active button
+        setActiveButton("");
       }
-        // top side
-      // const scrollThreshold = 1650; // Adjust this value based on your specific requirements
-     
-     
-     
-      //  bottom side
-       const scrollThreshold = 1200; // Adjust this value based on your specific requirements
 
+      // Sticky navigation threshold based on the device type
+      const scrollThreshold = isMobile ? 3400 : 1200;
       setIsSticky(scrollPosition > scrollThreshold);
     };
 
@@ -133,7 +149,61 @@ const JourneyMappingData =[
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [isMobile]);
+
+
+
+
+
+
+
+
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollPosition = window.scrollY;
+  //     //  this positon for top side
+  //     // const button1Threshold = 0;
+  //     // const button2Threshold = 3250; // Adjust this value based on your specific requirements
+  //     // const button3Threshold = 4000; // Adjust this value based on your specific requirements 
+      
+  //     //  this positon for bottom side
+  //     const button1Threshold = 0;
+  //     const button2Threshold = 3050; // Adjust this value based on your specific requirements
+  //     const button3Threshold = 3700; // Adjust this value based on your specific requirements
+
+  //     if (
+  //       scrollPosition >= button1Threshold &&
+  //       scrollPosition < button2Threshold
+  //     ) {
+  //       setActiveButton("button1");
+  //     } else if (
+  //       scrollPosition >= button2Threshold &&
+  //       scrollPosition < button3Threshold
+  //     ) {
+  //       setActiveButton("button2");
+  //     } else if (scrollPosition >= button3Threshold) {
+  //       setActiveButton("button3");
+  //     } else {
+  //       setActiveButton(""); // You may want to set this to the default active button
+  //     }
+  //       // top side
+  //     // const scrollThreshold = 1650; // Adjust this value based on your specific requirements
+     
+     
+     
+  //     //  bottom side
+  //      const scrollThreshold = 1200; // Adjust this value based on your specific requirements
+
+  //     setIsSticky(scrollPosition > scrollThreshold);
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
 
 
