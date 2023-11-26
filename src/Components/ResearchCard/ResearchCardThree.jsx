@@ -32,10 +32,7 @@ const ResearchCardThree = () => {
               Owned Research
             </h1>
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur. Malesuada porttitor vitae
-              sit et aliquam purus velit sed. Scelerisque at eu ac lacus.Lorem
-              ipsum dolor sit amet consectetur. Malesuada porttitor vitae sit et
-              aliquam purus velit sed. Scelerisque at eu ac lacus{" "}
+            This stage focused on proitizing the needed research, understanding the current planning process for selecting a fuel stop, gathering feedback on the idea of a suggested fuel stop and presenting both the findings and a journey map - based on technical limitations - on where to display suggested fuel stops
             </p>
 
             <span className="flex items-center gap-3 mt-4">
@@ -55,10 +52,9 @@ const ResearchCardThree = () => {
             Supported Research
             </h1>
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur. Malesuada porttitor vitae
-              sit et aliquam purus velit sed. Scelerisque at eu ac lacus.Lorem
-              ipsum dolor sit amet consectetur. Malesuada porttitor vitae sit et
-              aliquam purus velit sed. Scelerisque at eu ac lacus{" "}
+            I served as a reviewer in a UMUX-Lite benchmarking effort to establish a baseline metric for user satisfaction with the existing product before releasing this new feature which could significantly impact end-users satisfaction.  
+
+
             </p>
 
             <span className="flex items-center gap-3 mt-4">
@@ -78,10 +74,8 @@ const ResearchCardThree = () => {
             Proposed Future Research
             </h1>
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur. Malesuada porttitor vitae
-              sit et aliquam purus velit sed. Scelerisque at eu ac lacus.Lorem
-              ipsum dolor sit amet consectetur. Malesuada porttitor vitae sit et
-              aliquam purus velit sed. Scelerisque at eu ac lacus{" "}
+            The process involved conducting concept and usability testing to gather feedback on the design direciton and assess its ease of use for completing tasks. Additionally, UMUX-Lite benchmarking was carried out post-release, where satisfaction with the product was benchmarked at specific intervals as the MVP features were incorporated into the product.
+
             </p>
 
             <span className="flex items-center gap-3 mt-4">

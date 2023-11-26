@@ -59,7 +59,7 @@ const DetailsThree = () => {
 
         <div className="mt-[90px] px-4 md:px-8 lg:px-4">
           <h1 className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3">
-            Impact
+          Respect Impact
           </h1>
 
           <ImpactCard />
