@@ -4,10 +4,14 @@ import arrow from "../../assets/arrow.svg";
 import CustomSlider from "../Slider/CustomSlider";
 import ResearchCardOne from "../ResearchCard/ResearchCardOne";
 
+import DeskResearchAssumptionMappingWorkshopImage1 from '../../assets/driving-app/Owned Research/1.Desk Research + Assumption Mapping Workshop/01.png'
+
+
 import ContextualInquiryImage1 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (1).png";
 import ContextualInquiryImage2 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (2).png";
 import ContextualInquiryImage3 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (3).png";
 import ContextualInquiryImage4 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image.png";
+import ContextualInquiryImage5 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image(5).png";
 
 import PrioritizationWorkshopImage1 from "../../assets/driving-app/Owned Research/3.Prioritization Workshop/image (1).png";
 import PrioritizationWorkshopImage2 from "../../assets/driving-app/Owned Research/3.Prioritization Workshop/image.png";
@@ -16,15 +20,17 @@ import JourneyMapImage1 from "../../assets/driving-app/Supported Research/1.Jour
 import JourneyMapImage2 from "../../assets/driving-app/Supported Research/1.Journey Map/image (2).png";
 import JourneyMapImage3 from "../../assets/driving-app/Supported Research/1.Journey Map/image.png";
 
-import CurrentStateFutureStateNarrativesImage1 from "../../assets/driving-app/Supported Research/2.Current State Narratives/image.png";
+import CurrentStateFutureStateNarrativesImage1 from "../../assets/driving-app/Supported Research/3.Future State Narrative/01.png";
 
 import PersonasImage1 from "../../assets/driving-app/Supported Research/4.Personas/image.png";
 
-import UMUXLiteBenchmarkingPreReleaseImage1 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/image (1).png";
-import UMUXLiteBenchmarkingPreReleaseImage2 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/image (2).png";
-import UMUXLiteBenchmarkingPreReleaseImage3 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/image.png";
+import UMUXLiteBenchmarkingPreReleaseImage1 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/01.png";
+import UMUXLiteBenchmarkingPreReleaseImage2 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/02.png";
+import UMUXLiteBenchmarkingPreReleaseImage3 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/03.png";
 
+import ConceptUsabilityTestingImage1 from '../../assets/Placeholder.png'
 
+import UMUXLiteBenchmarkingPostReleaseImage1 from '../../assets/Placeholder.png'
 
 
 const SectionCardOne = () => {
@@ -34,28 +40,10 @@ const SectionCardOne = () => {
   const DeskResearchAssumptionMappingWorkshopData = [
     {
       id: 1,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      image:DeskResearchAssumptionMappingWorkshopImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+   
   ];
 
   // number 2
@@ -79,6 +67,11 @@ const SectionCardOne = () => {
       id: 4,
       image: ContextualInquiryImage4,
       text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
+    }, 
+    {
+      id: 5,
+      image: ContextualInquiryImage5,
+      text: "Caption 5 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
 
@@ -101,17 +94,17 @@ const SectionCardOne = () => {
   const JourneyMapData = [
     {
       id: 1,
-      image: JourneyMapImage1,
+      image: JourneyMapImage2,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 2,
-      image: JourneyMapImage2,
+      image: JourneyMapImage3,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 3,
-      image: JourneyMapImage3,
+      image: JourneyMapImage1,
       text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
@@ -123,12 +116,7 @@ const SectionCardOne = () => {
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
 
-    {
-      id: 1,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
-    },
+   
   ];
 
   const PersonasData = [
@@ -138,12 +126,7 @@ const SectionCardOne = () => {
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
 
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
+    
   ];
 
   const UMUXLiteBenchmarkingPreReleaseData = [
@@ -171,25 +154,25 @@ const SectionCardOne = () => {
     {
       id: 1,
       image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      ConceptUsabilityTestingImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 2,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      ConceptUsabilityTestingImage1,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 3,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      ConceptUsabilityTestingImage1,
       text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 4,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      ConceptUsabilityTestingImage1,
       text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
@@ -198,25 +181,25 @@ const SectionCardOne = () => {
     {
       id: 1,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      UMUXLiteBenchmarkingPostReleaseImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 2,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      UMUXLiteBenchmarkingPostReleaseImage1,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 3,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      UMUXLiteBenchmarkingPostReleaseImage1,
       text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 4,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      UMUXLiteBenchmarkingPostReleaseImage1,
       text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];

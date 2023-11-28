@@ -15,7 +15,7 @@ import ExperienceMappingImage8 from "../../assets/Owned Research/1.Experience Ma
 import ExperienceMappingImage9 from "../../assets/Owned Research/1.Experience Mapping/009.png";
 import ExperienceMappingImage10 from "../../assets/Owned Research/1.Experience Mapping/010.png";
 
-// import DayInTheLifePanelImage1 from '../../assets/Owned Research/2.Day-in-the-life Panel/dummy.png'
+import DayInTheLifePanelImage1 from '../../assets/Owned Research/2.Day-in-the-life Panel/Screenshot 2023-11-27 at 7.12.38 PM (1).png'
 
 import ConceptTestingImage1 from "../../assets/Owned Research/3.Concept Testing/001.png";
 import ConceptTestingImage2 from "../../assets/Owned Research/3.Concept Testing/002.png";
@@ -38,6 +38,14 @@ import UMUXLiteBenchmarkingImage1 from "../../assets/Supported Research/3.UMUX-L
 import UMUXLiteBenchmarkingImage2 from "../../assets/Supported Research/3.UMUX-Lite Benchmarking (pre-release)/002.png";
 
 import AdoptionImage1 from "../../assets/Proposed Future Research/1.Adoption _ Retention Benchmarking/image.png";
+
+import ConceptCarTestingImage1 from '../../assets/Placeholder.png'
+
+import KanoModelImage1 from '../../assets/Placeholder.png'
+
+
+
+
 
 const SectionCardTwo = () => {
   // part 1
@@ -97,28 +105,10 @@ const SectionCardTwo = () => {
   const DayInTheLifePanelData = [
     {
       id: 1,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      image:DayInTheLifePanelImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+  
   ];
 
   // number 3
@@ -193,18 +183,7 @@ const SectionCardTwo = () => {
       image: TrainingSurveysImage2,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+   
   ];
 
   // number 6
@@ -232,61 +211,61 @@ const SectionCardTwo = () => {
   ];
 
   // number 7
-  const TestingBenchmarkingData = [
-    {
-      id: 1,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
-  ];
+  // const TestingBenchmarkingData = [
+  //   {
+  //     id: 1,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  //   {
+  //     id: 2,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  //   {
+  //     id: 3,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  //   {
+  //     id: 4,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  // ];
 
   //  part 2
 
-  const CurrentStateNarrativesData = [
-    {
-      id: 1,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
-  ];
+  // const CurrentStateNarrativesData = [
+  //   {
+  //     id: 1,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  //   {
+  //     id: 2,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  //   {
+  //     id: 3,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  //   {
+  //     id: 4,
+  //     image:
+  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+  //     text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
+  //   },
+  // ];
 
   const FutureStateNarrativeData = [
     {
@@ -294,24 +273,7 @@ const SectionCardTwo = () => {
       image: FutureStateNarrativeImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+    
   ];
 
   const UMUXLiteBenchmarkingData = [
@@ -325,18 +287,7 @@ const SectionCardTwo = () => {
       image: UMUXLiteBenchmarkingImage2,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+    
   ];
 
   //part 3
@@ -347,49 +298,32 @@ const SectionCardTwo = () => {
       image: AdoptionImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+    
   ];
 
   const ConceptCarTestingData = [
     {
       id: 1,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      image:ConceptCarTestingImage1,
+        
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 2,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      ConceptCarTestingImage1,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 3,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      ConceptCarTestingImage1,
       text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 4,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      ConceptCarTestingImage1,
       text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
@@ -398,25 +332,25 @@ const SectionCardTwo = () => {
     {
       id: 1,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      KanoModelImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 2,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      KanoModelImage1,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 3,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      KanoModelImage1,
       text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 4,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      KanoModelImage1,
       text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
@@ -800,7 +734,7 @@ const SectionCardTwo = () => {
               </p>
             </span>
             <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
-              UMUX-Lite Benchmarking (2-weeks of usage)
+            UMUX-Lite Benchmarking (Post-release)
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
@@ -817,7 +751,7 @@ const SectionCardTwo = () => {
         </div>
 
         {/* item 7 */}
-        <div className="lg:flex justify-between mt-[120px]" id="JourneyMapping">
+        {/* <div className="lg:flex justify-between mt-[120px]" id="JourneyMapping">
           <div className="lg:w-[560px] w-full">
             <span className="flex items-center gap-2">
               <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
@@ -840,7 +774,7 @@ const SectionCardTwo = () => {
           <div className="">
             <CustomSlider images={TestingBenchmarkingData} />
           </div>
-        </div>
+        </div> */}
       </div>
 
 
@@ -855,7 +789,7 @@ const SectionCardTwo = () => {
         </h1>
 
         {/* item 1 */}
-        <div className="lg:flex justify-between mt-[120px]">
+        {/* <div className="lg:flex justify-between mt-[120px]">
           <div className="lg:w-[620px] w-full">
             <span className="flex items-center gap-2">
               <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
@@ -877,37 +811,11 @@ const SectionCardTwo = () => {
           <div className="">
             <CustomSlider images={CurrentStateNarrativesData} />
           </div>
-        </div>
+        </div> */}
 
-        {/* item 2 */}
-        <div className="lg:flex justify-between mt-[120px]">
-          <div className="lg:w-[620px] w-full">
-            <span className="flex items-center gap-2">
-              <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">
-                Supported Research
-              </p>
-            </span>
-            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
-              Future State Narratives
-            </h1>
 
-            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research helped to articulate how planned upgrades to the new
-              product would fit into the target user base’s regular daily tasks.
-              My role was to review the material and spotlight where the planned
-              upgrades did not contain solutions addressing pain points
-              collected during Experience Mapping research.
-            </p>
-          </div>
-
-          <div className="">
-            <CustomSlider images={FutureStateNarrativeData} />
-          </div>
-        </div>
-
-        {/* item 3 */}
-        <div className="lg:flex justify-between mt-[120px]">
+         {/* item 3 */}
+         <div className="lg:flex justify-between mt-[120px]">
           <div className="lg:w-[620px] w-full">
             <span className="flex items-center gap-2">
               <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
@@ -933,6 +841,35 @@ const SectionCardTwo = () => {
             <CustomSlider images={UMUXLiteBenchmarkingData} />
           </div>
         </div>
+
+        {/* item 2 */}
+        <div className="lg:flex justify-between mt-[120px]">
+          <div className="lg:w-[620px] w-full">
+            <span className="flex items-center gap-2">
+              <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">
+                Supported Research
+              </p>
+            </span>
+            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
+            Current & Future State Narratives
+            </h1>
+
+            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
+              This research helped to articulate how planned upgrades to the new
+              product would fit into the target user base’s regular daily tasks.
+              My role was to review the material and spotlight where the planned
+              upgrades did not contain solutions addressing pain points
+              collected during Experience Mapping research.
+            </p>
+          </div>
+
+          <div className="">
+            <CustomSlider images={FutureStateNarrativeData} />
+          </div>
+        </div>
+
+       
       </div>
 
       {/*  content 3 here */}
