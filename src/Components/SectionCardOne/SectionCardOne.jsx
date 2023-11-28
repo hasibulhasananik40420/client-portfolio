@@ -200,7 +200,7 @@ const SectionCardOne = () => {
       id: 4,
       image:
       UMUXLiteBenchmarkingPostReleaseImage1,
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
+      text: "Caption 44 Text Lorem ipsum dolor sit amet consectetur",
     },
   ];
 
