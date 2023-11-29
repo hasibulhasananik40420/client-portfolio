@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
@@ -28,7 +29,7 @@ const DetailsTwo = () => {
             </h2>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-            Using a smart equipment dispatching system with real-time data, predictions, and clever allocation can make equipment sit idle at work sites for fewer days. This means it will cost less to run, the equipment will be used more, and resources will be managed better, making construction and equipment rental work more efficient
+            Using a smart dispatching system can reduce the number of days equipment sits idle at job sites. This will result in equipment being used more often.
             </p>
 
             <h2 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] mt-6">
@@ -36,7 +37,7 @@ const DetailsTwo = () => {
             </h2>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-            In our research approach, I initially conducted user interviews to understand user needs and challenges related to their existing dispatching system. I then compared these findings with our current product roadmap to assess alignment and potential gap. I then gathered user feedback on their expectations of the new product and the effectiveness of the provided training. I then measured the satisfaction with product at specific time intervals. In the proposed research, the focus is on monitoring adoption and retention rates, gathering feedback on the concept car version of the product, and identifying any unmet user needs for future product improvements.
+            In support of the team's hypothesis, I conducted discovery research to understand what existing pain points contributed to equipment sitting idle. This research also helped spotlight whether our product and product roadmap addressed the documented issues. I also conducted evaluating research, testing the product with potential end-users. These findings were created to help inform our training direction and material. As the product rolled out, I created surveys measuring user satisfaction at specific time intervals; as well as surveys measuring how confident users felt using the new product after completing training. For proposed future research, focus was monitoring adoption and retention rates, gathering feedback on the future version of the product, and quantifying future features likelihood to satisfy users .
 
             </p>
           </div>

@@ -630,7 +630,7 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research provided our teammates will a greater shared
+            These research provided our teammates will a greater shared
               understanding on how the target user base completed regularly
               daily tasks, while also provided a forum for them to ask
               questions.

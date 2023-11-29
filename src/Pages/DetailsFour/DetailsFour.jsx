@@ -4,7 +4,7 @@ const DetailsFour = () => {
   return (
     <div className="relative">
         <div className='flex justify-center items-center min-h-screen'>
-        <img className="" src='https://img.freepik.com/free-vector/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais' alt="" />
+        <img className="" src='https://img.freepik.com/premium-vector/flat-construction-template_23-2147741024.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais' alt="" />
 
        
     </div>
