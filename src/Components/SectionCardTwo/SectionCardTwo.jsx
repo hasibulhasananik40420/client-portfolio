@@ -148,27 +148,10 @@ const SectionCardTwo = () => {
     {
       id: 1,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
+      KanoModelImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 2,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+   
   ];
 
   // number 5
@@ -308,24 +291,7 @@ const SectionCardTwo = () => {
         
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 2,
-      image:
-      ConceptCarTestingImage1,
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-      ConceptCarTestingImage1,
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-      ConceptCarTestingImage1,
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+    
   ];
 
   const KanoModelData = [
@@ -335,24 +301,7 @@ const SectionCardTwo = () => {
       KanoModelImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
-    {
-      id: 2,
-      image:
-      KanoModelImage1,
-      text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 3,
-      image:
-      KanoModelImage1,
-      text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-    },
-    {
-      id: 4,
-      image:
-      KanoModelImage1,
-      text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-    },
+    
   ];
 
   const [isSticky, setIsSticky] = useState(false);
@@ -630,7 +579,7 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-            These research provided our teammates will a greater shared
+            These research provided our teammates with a greater shared
               understanding on how the target user base completed regularly
               daily tasks, while also provided a forum for them to ask
               questions.
@@ -685,8 +634,7 @@ const SectionCardTwo = () => {
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
               This research research helped test a live version of new the
               product. Since the new product was rolling out in markets in small
-              pilot groups, this testing helped provide Product Management begin
-              to understand how our non-pilot users, who would have less support
+              pilot groups, this testing helped provide Product Management understand how our non-pilot users, who would have less support
               than our pilot users, may experience the new product
             </p>
           </div>

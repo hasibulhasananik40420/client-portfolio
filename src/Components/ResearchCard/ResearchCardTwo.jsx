@@ -53,7 +53,7 @@ const ResearchCardTwo = () => {
             Supported Research
             </h1>
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-            This purpose of this research was to help simplify the day-in-the-life understanding of target user group before and after the product launched. This phase also created baseline satisfaction and ease-of-use metric of the existing product being used, to compare the new product being introduced to the target user group against.
+            This purpose of this research was to help simplify the day-in-the-life understanding of target user group before and after the product launched. This phase also created baseline satisfaction metric of the existing product being used, to compare the new product being introduced to the target user group against.
             </p>
 
             <span className="flex items-center gap-3 mt-4">
