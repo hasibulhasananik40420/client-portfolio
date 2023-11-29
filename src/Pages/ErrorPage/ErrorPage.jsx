@@ -11,7 +11,7 @@ const ErrorPage = () => {
         />
       </div>
       <Link to="/">
-        <button className="bg-secondaryColor text-white w-[200px] h-[56px] rounded-md font-Playfair font-medium text-[16px] absolute inset-0 left-5 top-5">
+        <button className="bg-secondaryColor text-white w-[200px] h-[56px] rounded-md font-Montserrat font-medium text-[16px] absolute inset-0 left-5 top-5">
           Back to home
         </button>
       </Link>
