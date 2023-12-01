@@ -2,12 +2,15 @@
 import React from 'react'
 import { RouterProvider } from 'react-router-dom'
 import routes from './Routes/routes'
-
+import { HelmetProvider } from 'react-helmet-async';
 const App = () => {
   return (
-    <div className='overflow-x-hidden'>
+    <HelmetProvider>
+      <div className='overflow-x-hidden'>
+      
       <RouterProvider router={routes}/>
     </div>
+    </HelmetProvider>
   )
 }
 

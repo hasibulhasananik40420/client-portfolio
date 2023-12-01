@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Footer from "../../Components/Footer/Footer";
 import ImpactCard from "../../Components/ImpactCard/ImpactCard";
 import Navbar from "../../Components/Navbar/Navbar";
@@ -6,6 +7,10 @@ import SectionCard from "../../Components/SectionCard/SectionCard";
 const DetailsThree = () => {
   return (
     <div className="bg-white">
+       <Helmet>
+        <title>Chad Smith | Suggested Fuel Stops</title>
+       
+      </Helmet>
       <Navbar/>
       <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[60px]">
         <p className="text-[#2B2B2B] text-[16px] font-Playfair font-normal leading-6">

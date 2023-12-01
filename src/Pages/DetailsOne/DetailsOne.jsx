@@ -4,10 +4,15 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import ResearchImpactCardOne from '../../Components/ResearchImpactCardOne/ResearchImpactCardOne'
 import SectionCardOne from '../../Components/SectionCardOne/SectionCardOne'
+import { Helmet } from 'react-helmet-async';
 
 const DetailsOne = () => {
   return (
     <div>
+       <Helmet>
+        <title>Chad Smith | Driver App</title>
+       
+      </Helmet>
       <div className="bg-white">
       <Navbar/>
       <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[60px]">
