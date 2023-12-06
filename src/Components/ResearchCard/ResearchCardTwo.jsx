@@ -31,7 +31,8 @@ const ResearchCardTwo = () => {
               Owned Research
             </h1>
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-            The purpose of this research was to help derisk the rollout of a new product through understanding the user bases most pressing needs, comparing those needs against the current product roadmap, collecting feedback on the upcoming product, collecting feedback on the trainings events and measuring satisfaction and ease-of-use of the new product when launched in pilot groups at specific intervals of time
+            Derisking rollout of new automation features, along with enhancing training and product roadmap 
+
 
 
             </p>
@@ -53,7 +54,7 @@ const ResearchCardTwo = () => {
             Supported Research
             </h1>
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-            This purpose of this research was to help simplify the day-in-the-life understanding of target user group before and after the product launched. This phase also created baseline satisfaction metric of the existing product being used, to compare the new product being introduced to the target user group against.
+            Buidling share understanding of standard day, along with establishing pre-launch metrics  
             </p>
 
             <span className="flex items-center gap-3 mt-4">
@@ -73,7 +74,8 @@ const ResearchCardTwo = () => {
             Proposed Future Research
             </h1>
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4 group-hover:text-white">
-            The purpose of this research is to measure adoption and retention of the new product, while collecting feedback on the product’s future state “concept car” and also quantifying unmet needs that the future state will need to address
+            Establishing post-lauch metrics and derisking future state features 
+
 
             </p>
 

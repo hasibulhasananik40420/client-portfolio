@@ -23,7 +23,7 @@ const routes = createBrowserRouter([
         element: <DetailsOne />,
       },
       {
-        path: "/transportation-optimizer",
+        path: "/automated-equipment-dispatching",
         element: <DetailsTwo />,
       },
       {

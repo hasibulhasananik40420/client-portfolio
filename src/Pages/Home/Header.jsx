@@ -96,11 +96,11 @@ const Header = () => {
             </Link>
 
             <Link
-              to={"/transportation-optimizer"}
+              to={"/automated-equipment-dispatching"}
               className="bg-[#F5BD4F] 2xl:w-[424px] lg:w-[400px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[380px] 2xl:h-[360px] h-[360px] px-2 flex flex-col justify-center items-center mt-5 md:mt-5 lg:mt-0 cursor-pointer rounded-lg hover:bg-secondaryColor duration-300"
             >
               <h1 className="text-white 2xl:text-[28px] lg:text-[28px] md:text-[36px] text-[22px] font-Montserrat font-extrabold text-center leading-[38px]">
-                Transportation Optimizer
+              Automated Equipment Dispatching
               </h1>
 
               <p className="text-white 2xl:text-[16px] lg:text-[16px] md:text-[22px] text-[14px] font-Montserrat font-medium text-center mt-6 leading-6">

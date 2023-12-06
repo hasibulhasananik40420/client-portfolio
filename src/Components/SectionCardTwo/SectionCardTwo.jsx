@@ -193,62 +193,20 @@ const SectionCardTwo = () => {
     },
   ];
 
-  // number 7
-  // const TestingBenchmarkingData = [
-  //   {
-  //     id: 1,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  //   {
-  //     id: 2,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  //   {
-  //     id: 3,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  //   {
-  //     id: 4,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  // ];
 
   //  part 2
 
-  // const CurrentStateNarrativesData = [
-  //   {
-  //     id: 1,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  //   {
-  //     id: 2,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  //   {
-  //     id: 3,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption 3 Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  //   {
-  //     id: 4,
-  //     image:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeQlsruJMdFTjMK9OkGZY527BXOvbGDWWHg&usqp=CAU",
-  //     text: "Caption 4 Text Lorem ipsum dolor sit amet consectetur",
-  //   },
-  // ];
+ 
+
+  const CurrentStateNarrativesData = [
+    {
+      id: 1,
+      image: KanoModelImage1,
+      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
+    },
+   
+    
+  ];
 
   const FutureStateNarrativeData = [
     {
@@ -259,19 +217,25 @@ const SectionCardTwo = () => {
     
   ];
 
-  const UMUXLiteBenchmarkingData = [
+   const UMUXLiteBenchmarkingpreReleaseData = [
     {
       id: 1,
-      image: UMUXLiteBenchmarkingImage1,
+      image:
+      UMUXLiteBenchmarkingImage1,
       text: "Caption Text Lorem ipsum dolor sit amet consectetur",
     },
     {
       id: 2,
-      image: UMUXLiteBenchmarkingImage2,
+      image:
+      UMUXLiteBenchmarkingImage2,
       text: "Caption 2 Text Lorem ipsum dolor sit amet consectetur",
     },
     
   ];
+
+
+
+
 
   //part 3
 
@@ -548,12 +512,7 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research focused on understanding how the target user base
-              completed regularly daily tasks to determine whether the existing
-              product roadmap addressed previously known and documented pain
-              points. The research’s findings helped reinforce the urgency of
-              one feature in the product roadmap, pulling it up into the next
-              sizeable feature being released into the product.
+            This research focused on understanding how the target user base completed their standard dispatching task and assessing whether the existing product roadmap addressed previously known and documented pain points. The findings further emphasized the urgency of one feature in the product roadmap, moving it up into the next significant automation feature to be released.
             </p>
           </div>
 
@@ -579,10 +538,8 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-            These research provided our teammates with a greater shared
-              understanding on how the target user base completed regularly
-              daily tasks, while also provided a forum for them to ask
-              questions.
+            This research created a greater shared understanding on how the target user base completed regularly daily tasks, while also provided a forum for them to ask questions 
+
             </p>
           </div>
 
@@ -605,11 +562,8 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research tested the new product with participants in our
-              target user base. This findings helped inform what additional
-              features should be added, along with providing insights to the
-              trainings teams on unclear concepts and opportunities to support
-              the launch of the new product
+            This research focused on understanding what additional features should be added into the new automation features, along with providing insights to the trainings teams on unclear concepts and opportunities to support the launch of the new features
+
             </p>
           </div>
 
@@ -632,10 +586,7 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research research helped test a live version of new the
-              product. Since the new product was rolling out in markets in small
-              pilot groups, this testing helped provide Product Management understand how our non-pilot users, who would have less support
-              than our pilot users, may experience the new product
+            This research focused on understanding how our non-pilot users, who would have receive less training than our pilot users, may experience the new automation features. This research is currently in-progress, and will help Product Management when rolling out the new features into small pilot groups. 
             </p>
           </div>
 
@@ -660,10 +611,7 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research helped provided training will feedback, after going
-              through training, on how confident our target user group felt
-              using the new changes and the overall learning objectives. Since
-              the
+            This research focused understanding on how confident pilot users felt using the new changes after completing training. This research is currently in-progress 
             </p>
           </div>
 
@@ -686,10 +634,8 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research helped benchmark satisfaction with new the product,
-              before moving into additional pilot groups, with also providing
-              sentiment analysis on why participants reported such satisfaction
-              sources
+            This research focused on benchmarking satisfaction with the new automation features, before moving into additional pilot groups, with also providing sentiment analysis on why participants reported such satisfaction sources
+
             </p>
           </div>
 
@@ -698,31 +644,7 @@ const SectionCardTwo = () => {
           </div>
         </div>
 
-        {/* item 7 */}
-        {/* <div className="lg:flex justify-between mt-[120px]" id="JourneyMapping">
-          <div className="lg:w-[560px] w-full">
-            <span className="flex items-center gap-2">
-              <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">
-                Owned Research
-              </p>
-            </span>
-            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
-              UMUX-Lite Benchmarking (8-weeks of usage)
-            </h1>
-
-            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research helped benchmark satisfaction with new the product,
-              before moving into additional pilot groups, with also providing
-              sentiment analysis on why participants reported such satisfaction
-              sources
-            </p>
-          </div>
-
-          <div className="">
-            <CustomSlider images={TestingBenchmarkingData} />
-          </div>
-        </div> */}
+      
       </div>
 
 
@@ -736,33 +658,9 @@ const SectionCardTwo = () => {
           Supported Research
         </h1>
 
-        {/* item 1 */}
-        {/* <div className="lg:flex justify-between mt-[120px]">
-          <div className="lg:w-[620px] w-full">
-            <span className="flex items-center gap-2">
-              <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">
-                Supported Research
-              </p>
-            </span>
-            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
-              Current State Narratives
-            </h1>
+       
 
-            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research contributed to a shared understanding of target user
-              base completed regularly daily tasks. My role was simply a
-              reviewer.
-            </p>
-          </div>
-
-          <div className="">
-            <CustomSlider images={CurrentStateNarrativesData} />
-          </div>
-        </div> */}
-
-
-         {/* item 3 */}
+         {/* item 1 */}
          <div className="lg:flex justify-between mt-[120px]">
           <div className="lg:w-[620px] w-full">
             <span className="flex items-center gap-2">
@@ -772,21 +670,17 @@ const SectionCardTwo = () => {
               </p>
             </span>
             <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
-              UMUX-Lite Benchmarking (pre-release)
+            Current State Narratives
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research helped benchmark the target user base’s satisfaction
-              with their existing product, to compare against the new product
-              being introduced. The sentiment responses also spotlighted pain
-              points to monitor for when the new product was released. My role
-              was a reviewer, specifically in the tagging of the sentiment
-              analysis
+            This research contributed to a shared understanding of target user base completed regularly daily tasks. My role was simply a reviewer.
+
             </p>
           </div>
 
           <div className=" ">
-            <CustomSlider images={UMUXLiteBenchmarkingData} />
+            <CustomSlider images={CurrentStateNarrativesData} />
           </div>
         </div>
 
@@ -800,20 +694,44 @@ const SectionCardTwo = () => {
               </p>
             </span>
             <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
-            Current & Future State Narratives
+            Future State Narratives 
+
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research helped to articulate how planned upgrades to the new
-              product would fit into the target user base’s regular daily tasks.
-              My role was to review the material and spotlight where the planned
-              upgrades did not contain solutions addressing pain points
-              collected during Experience Mapping research.
+            This research helped to articulate how the new automation features would fit into the target user base’s regular daily tasks. My role was to review the material and spotlight where the new automation features’ roadmap did not contain solutions addressing pain points collected during the Experience Mapping research.
+
             </p>
           </div>
 
           <div className="">
             <CustomSlider images={FutureStateNarrativeData} />
+          </div>
+        </div>
+
+        {/* item 3 */}
+        <div className="lg:flex justify-between mt-[120px]">
+          <div className="lg:w-[620px] w-full">
+            <span className="flex items-center gap-2">
+              <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">
+                Supported Research
+              </p>
+            </span>
+            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
+            UMUX-Lite Benchmarking (pre-release) 
+
+            </h1>
+
+            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
+            This research helped benchmark the target user base’s satisfaction with their existing features, to compare against the automation features being introduced. The sentiment responses also spotlighted pain points to monitor for when the new automation features were released. My role was a reviewer, specifically in the tagging of the sentiment analysis
+
+
+            </p>
+          </div>
+
+          <div className="">
+            <CustomSlider images={UMUXLiteBenchmarkingpreReleaseData} />
           </div>
         </div>
 
@@ -844,10 +762,7 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research would measure how often key features were being used
-              in the new product over a period of time. This insights would
-              provide help provide additional context into user satisfaction
-              scores (i.e., after 2 weeks of usage) for the new product
+            This research would measure how often the automation features were being used  over a period of time. This insights would also provide additional context into user satisfaction scores (i.e., after 2 weeks of usage)
             </p>
           </div>
 
@@ -870,12 +785,9 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research would begin collecting feedback on the future state
-              version of the new product. This product contained features not
-              slated for development, but were vetted for technical feasibility
-              and are reaching a prototype state. These features represent
-              business aspirations that would need to be aligned with target
-              user feedback to be molded into a realistic/viable solution.
+            This research would begin collecting feedback on the future state version of the automation features. This product contained automation features not slated for development, but were vetted for technical feasibility and are reaching a prototype state. These features represent business aspirations that would need to be aligned with target user feedback to be molded into a realistic/viable solution. 
+
+
             </p>
           </div>
 
@@ -898,12 +810,8 @@ const SectionCardTwo = () => {
             </h1>
 
             <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-              This research would begin collecting feedback on future state
-              version of the new product’s features, and identifying which are
-              most likely to satisfy the target user base. This research would
-              help our Product teams weigh a high-satisfaction feature against
-              its costs to implement to determine whether or not adding it to
-              the roadmap is a strategically sound decision
+            This research would begin collecting feedback on the future state version of the automation features, and identifying which are most likely to satisfy the target user base. This research would help our Product teams weigh a high-satisfaction feature against its costs to implement to determine whether or not adding it to the roadmap is a strategically sound decision.
+
             </p>
           </div>
 

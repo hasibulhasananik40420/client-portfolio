@@ -28,7 +28,7 @@ const Footer = () => {
             SEE MORE OF MY WORK:
           </h1>
 
-          {pathname === "/transportation-optimizer" ? (
+          {pathname === "/automated-equipment-dispatching" ? (
             <>
               <Link to={'/fuel-stops'} className="flex cursor-pointer mt-3">
                 <div className="w-16 h-14 bg-[#06D6A0]"></div>
@@ -41,24 +41,24 @@ const Footer = () => {
             </>
           ) : pathname === "/fuel-stops" ? (
             <>
-              <Link to={'/transportation-optimizer'} className="flex cursor-pointer mt-3">
+              <Link to={'/automated-equipment-dispatching'} className="flex cursor-pointer mt-3">
                 <div className="w-16 h-14 bg-[#06D6A0]"></div>
                 <div className="h-14 bg-white shadow w-[280px] px-6 py-[6px]">
-                  <h1 className="text-[16px] text-[#2B2B2B] font-Montserrat font-medium mt-2">
+                  <h1 className="text-[16px] text-[#2B2B2B] font-Montserrat font-medium flex justify-center items-center">
                     {" "}
-                    Transportation Optimizer
+                    Automated Equipment Dispatching 
                   </h1>
                 </div>
               </Link>
             </>
           ) : pathname === "/driver-app" ? (
             <>
-               <Link to={'/transportation-optimizer'} className="flex cursor-pointer mt-3">
+               <Link to={'/automated-equipment-dispatching'} className="flex cursor-pointer mt-3">
                 <div className="w-16 h-14 bg-[#06D6A0]"></div>
                 <div className="h-14 bg-white shadow w-[280px] px-6 py-[6px]">
-                  <h1 className="text-[16px] text-[#2B2B2B] font-Montserrat font-medium mt-2">
+                  <h1 className="text-[16px] text-[#2B2B2B] font-Montserrat font-medium flex justify-center items-center">
                     {" "}
-                    Transportation Optimizer
+                    Automated Equipment Dispatching 
                   </h1>
                 </div>
               </Link>
