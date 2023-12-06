@@ -202,7 +202,7 @@ const SectionCardTwo = () => {
     {
       id: 1,
       image: KanoModelImage1,
-      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
+      text: "",
     },
    
     
