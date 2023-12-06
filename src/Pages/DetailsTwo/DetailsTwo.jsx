@@ -24,7 +24,7 @@ const DetailsTwo = () => {
           </p>
 
           <div className="lg:flex items-center gap-[120px] mt-10 md:mt-10 lg:mt-0">
-            <div className="lg:w-[740px] w-full">
+            <div className="lg:w-[740px] w-full mt-[60px]">
               <h2 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px]">
                 Hypothesis
               </h2>
