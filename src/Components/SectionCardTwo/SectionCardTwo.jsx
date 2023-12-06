@@ -149,7 +149,7 @@ const SectionCardTwo = () => {
       id: 1,
       image:
       KanoModelImage1,
-      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
+      text: "",
     },
    
   ];
@@ -253,7 +253,7 @@ const SectionCardTwo = () => {
       id: 1,
       image:ConceptCarTestingImage1,
         
-      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
+      text: "",
     },
     
   ];
@@ -263,7 +263,7 @@ const SectionCardTwo = () => {
       id: 1,
       image:
       KanoModelImage1,
-      text: "Caption Text Lorem ipsum dolor sit amet consectetur",
+      text: "",
     },
     
   ];
@@ -271,7 +271,7 @@ const SectionCardTwo = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [activeButton, setActiveButton] = useState("button1");
   const [isMobile, setIsMobile] = useState(false);
-
+ 
 
   useEffect(() => {
     const handleResize = () => {
@@ -403,7 +403,7 @@ const SectionCardTwo = () => {
         </div>
 
         {/* 3 item card here */}
-        {/* visible fixed top-0 w-full bg-[#FBF7FF] */}
+       
 
         <div
           className={`py-6 ${
@@ -497,6 +497,8 @@ const SectionCardTwo = () => {
           Owned Research
         </h1>
 
+       
+
         {/* item 1 */}
         <div className="lg:flex justify-between mt-[48px]">
           <div className="lg:w-[560px] w-full">
@@ -517,7 +519,7 @@ const SectionCardTwo = () => {
           </div>
 
           <div className=" ">
-            <CustomSlider images={images} />
+            <CustomSlider images={images} initialActiveIndex={5} />
           </div>
         </div>
 
@@ -568,7 +570,7 @@ const SectionCardTwo = () => {
           </div>
 
           <div className=" ">
-            <CustomSlider images={ConceptTestingData} />
+            <CustomSlider images={ConceptTestingData} initialActiveIndex={4} />
           </div>
         </div>
 
@@ -640,7 +642,7 @@ const SectionCardTwo = () => {
           </div>
 
           <div className="">
-            <CustomSlider images={UMUXLiteBenchmarking2WeeksofUsage} />
+            <CustomSlider images={UMUXLiteBenchmarking2WeeksofUsage} initialActiveIndex={2}/>
           </div>
         </div>
 

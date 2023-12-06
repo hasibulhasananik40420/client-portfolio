@@ -42,36 +42,36 @@ const DetailsTwo = () => {
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
                 The research started with understanding how target users
                 dispatched equipment, along with top tasks connected to
-                equipment dispatching. Experience Mapping was used to visualize
+                equipment dispatching. <span className="font-bold">Experience Mapping</span> was used to visualize
                 how these tasks occur and to document existing pain points. The
                 insights helped Product Management determine whether the current
                 product roadmap addressed discovered issues.
               </p>
 
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                This research was also paired with both Day-in-the-Life
+                This research was also paired with both <span className="font-bold">Day-in-the-Life</span>
                 narrative documents and panel discussion to build a shared
-                understanding of the target users standard day. Concept Testing
+                understanding of the target users standard day. <span className="font-bold">Concept Testing</span>
                 of the automation features were then completed to help
                 understand the target users expectations, which informed
                 training needs & communication.
               </p>
 
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                In support of the features rolling out, feedback surveys were
+                In support of the features rolling out, <span className="font-bold">feedback surveys</span> were
                 distributed at specific checkpoints. Surves were distributed
-                post-completion of training, for example, to assess how
+                <span className="font-bold">post-completion of training</span>, for example, to assess how
                 confident pilot users felt using the upcoming features. Surveys
-                were also created for distribution at 2 weeks of usage of the
+                were also created for distribution at <span className="font-bold">2 weeks of usage</span> of the
                 new features to guage ease-of-use and satisfaction.
               </p>
 
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                Future proposed research focused on measuring engagement,
-                adoption and retention using the automation features; while also
+                Future proposed research focused on measuring <span className="font-bold">Engagement,
+                Adoption and Retention</span> using the automation features; while also
                 rechecking for ease-of-use and satisfaction at 8 weeks of usage.
                 Future state concept designs were also slated testing, in tandem
-                with a proposed Kano Model identifying unmet needs for future
+                with a proposed <span className="font-bold">Kano Model</span> identifying unmet needs for future
                 enhancements.
               </p>
             </div>
