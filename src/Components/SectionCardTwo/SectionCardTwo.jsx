@@ -660,7 +660,31 @@ const SectionCardTwo = () => {
           Supported Research
         </h1>
 
-       
+            {/* item 3 */}
+        <div className="lg:flex justify-between mt-[120px]">
+          <div className="lg:w-[620px] w-full">
+            <span className="flex items-center gap-2">
+              <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">
+                Supported Research
+              </p>
+            </span>
+            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
+            UMUX-Lite Benchmarking (pre-release) 
+
+            </h1>
+
+            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
+            This research helped benchmark the target user base’s satisfaction with their existing features, to compare against the automation features being introduced. The sentiment responses also spotlighted pain points to monitor for when the new automation features were released. My role was a reviewer, specifically in the tagging of the sentiment analysis
+
+
+            </p>
+          </div>
+
+          <div className="">
+            <CustomSlider images={UMUXLiteBenchmarkingpreReleaseData} />
+          </div>
+        </div>
 
          {/* item 1 */}
          <div className="lg:flex justify-between mt-[120px]">
@@ -711,31 +735,7 @@ const SectionCardTwo = () => {
           </div>
         </div>
 
-        {/* item 3 */}
-        <div className="lg:flex justify-between mt-[120px]">
-          <div className="lg:w-[620px] w-full">
-            <span className="flex items-center gap-2">
-              <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat leading-6 font-normal">
-                Supported Research
-              </p>
-            </span>
-            <h1 className="text-black text-[32px] font-semibold leading-[44px] font-Playfair">
-            UMUX-Lite Benchmarking (pre-release) 
-
-            </h1>
-
-            <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-6 mt-4">
-            This research helped benchmark the target user base’s satisfaction with their existing features, to compare against the automation features being introduced. The sentiment responses also spotlighted pain points to monitor for when the new automation features were released. My role was a reviewer, specifically in the tagging of the sentiment analysis
-
-
-            </p>
-          </div>
-
-          <div className="">
-            <CustomSlider images={UMUXLiteBenchmarkingpreReleaseData} />
-          </div>
-        </div>
+      
 
        
       </div>

@@ -17,9 +17,9 @@ const DetailsTwo = () => {
         <Navbar />
         <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[60px]">
           <p className="text-[#2B2B2B] text-[16px] font-Playfair font-normal leading-6">
-            New Product,
+            New Feature,
           </p>
-          <p className="text-[#2B2B2B] text-[24px] font-Playfair font-medium leading-[34px]">
+          <p className="text-[#2B2B2B] text-[24px] font-Playfair font-medium leading-[34px] mt-2">
             Automated Equipment Dispatching
           </p>
 
@@ -42,37 +42,63 @@ const DetailsTwo = () => {
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
                 The research started with understanding how target users
                 dispatched equipment, along with top tasks connected to
-                equipment dispatching. <span className="font-bold">Experience Mapping</span> was used to visualize
-                how these tasks occur and to document existing pain points. The
-                insights helped Product Management determine whether the current
-                product roadmap addressed discovered issues.
+                equipment dispatching.{" "}
+                <span className="underline underline-offset-[5px]">
+                  Experience Mapping
+                </span>{" "}
+                was used to visualize how these tasks occur and to document
+                existing pain points. The insights helped Product Management
+                determine whether the current product roadmap addressed
+                discovered issues.
               </p>
 
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                This research was also paired with both <span className="font-bold">Day-in-the-Life</span>
+                This research was also paired with both{" "}
+                <span className="underline underline-offset-[5px]">
+                  Day-in-the-Life
+                </span>{" "}
                 narrative documents and panel discussion to build a shared
-                understanding of the target users standard day. <span className="font-bold">Concept Testing</span>
+                understanding of the target users standard day.{" "}
+                <span className="underline underline-offset-[5px]">
+                  Concept Testing
+                </span>{" "}
                 of the automation features were then completed to help
                 understand the target users expectations, which informed
                 training needs & communication.
               </p>
 
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                In support of the features rolling out, <span className="font-bold">feedback surveys</span> were
-                distributed at specific checkpoints. Surves were distributed
-                <span className="font-bold">post-completion of training</span>, for example, to assess how
-                confident pilot users felt using the upcoming features. Surveys
-                were also created for distribution at <span className="font-bold">2 weeks of usage</span> of the
-                new features to guage ease-of-use and satisfaction.
+                In support of the features rolling out,{" "}
+                <span className="underline underline-offset-[5px]">
+                  feedback surveys
+                </span>{" "}
+                were distributed at specific checkpoints. Surves were
+                distributed{" "}
+                <span className="underline underline-offset-[5px]">
+                  post-completion of training
+                </span>{" "}
+                , for example, to assess how confident pilot users felt using
+                the upcoming features. Surveys were also created for
+                distribution at{" "}
+                <span className="underline underline-offset-[5px]">
+                  2 weeks of usage
+                </span>{" "}
+                of the new features to guage ease-of-use and satisfaction.
               </p>
 
               <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                Future proposed research focused on measuring <span className="font-bold">Engagement,
-                Adoption and Retention</span> using the automation features; while also
-                rechecking for ease-of-use and satisfaction at 8 weeks of usage.
-                Future state concept designs were also slated testing, in tandem
-                with a proposed <span className="font-bold">Kano Model</span> identifying unmet needs for future
-                enhancements.
+                Future proposed research focused on measuring{" "}
+                <span className="underline underline-offset-[5px]">
+                  Engagement, Adoption and Retention
+                </span>{" "}
+                using the automation features; while also rechecking for
+                ease-of-use and satisfaction at 8 weeks of usage. Future state
+                concept designs were also slated testing, in tandem with a
+                proposed{" "}
+                <span className="underline underline-offset-[5px]">
+                  Kano Model
+                </span>{" "}
+                identifying unmet needs for future enhancements.
               </p>
             </div>
 
