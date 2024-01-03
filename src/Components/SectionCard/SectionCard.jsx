@@ -202,7 +202,7 @@ const SectionCard = () => {
     };
   }, [isMobile]);
 
-  // useEffect(() => {
+ 
   //   const handleScroll = () => {
   //     const scrollPosition = window.scrollY;
   //     //  this positon for top side

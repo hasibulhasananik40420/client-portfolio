@@ -20,9 +20,7 @@ const DetailsThree = () => {
           Suggested Fuel Stops
         </p>
 
-        {/* <p className="text-[#2B2B2B] text-[20px] font-Montserrat font-semibold leading-[30px] mt-[60px]">
-          Executive Summary
-        </p> */}
+       
 
         <div className="lg:flex items-center gap-[120px]">
           <div className="lg:w-[740px] w-full">
