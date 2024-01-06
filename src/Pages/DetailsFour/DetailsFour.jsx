@@ -2,6 +2,7 @@
 import { Helmet } from "react-helmet-async"
 import Navbar from "../../Components/Navbar/Navbar"
 import FaqSlider from "../../Components/FaqSlider/FaqSlider"
+import Footer from "../../Components/Footer/Footer"
 
 
 
@@ -11,7 +12,7 @@ const DetailsFour = () => {
   
 
   return (
-    <div className="bg-white mb-20">
+    <div className="bg-white">
        <Helmet>
         <title>Chad Smith | Suggested Fuel Stops</title>
        
@@ -69,6 +70,9 @@ const DetailsFour = () => {
        
 
       </div>
+
+
+       <Footer/>
 
 
     </div>
