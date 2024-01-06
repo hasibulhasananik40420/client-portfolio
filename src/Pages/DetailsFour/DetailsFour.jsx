@@ -36,7 +36,7 @@ const DetailsFour = () => {
               <p className="text-black text-[18px] mt-[32px] font-Montserrat font-normal leading-7">My research's impact included helping raise the prioritization of future a roadmap item and identifying training needs. I also held a weekly interlock meeting keeping Research, Operations and Training aligned to identify research needs and stay aligned on findings.</p>
           </div>
 
-           <div className="mt-[120px]">
+           <div className="mt-[120px] mb-20">
 
            <h3 className="text-black text-[24px] font-Montserrat font-semibold leading-[34px]">Business Challenge</h3>
 
@@ -56,6 +56,14 @@ const DetailsFour = () => {
             {/*********** slider here ****************/}
              <div>
                  <FaqSlider/>
+             </div>
+
+             <div className="mt-[60px]">
+                <h1 className="text-black text-[24px] font-Montserrat font-semibold leading-[34px] ">Findings/Results</h1>
+            
+                <p className="text-black text-[18px] font-Montserrat font-normal leading-7 mt-4 ">1. Discovered ......</p>
+                <p className="text-black text-[18px] font-Montserrat font-normal leading-7 ">2. Found ......</p>
+                <p className="text-black text-[18px] font-Montserrat font-normal leading-7">3. Created ......</p>
              </div>
 
        

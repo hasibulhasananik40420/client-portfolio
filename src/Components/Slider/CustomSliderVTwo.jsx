@@ -12,7 +12,7 @@ import { BsArrowsFullscreen } from "react-icons/bs";
 
 
 
-const CustomSliderVTwo = ({ images,initialActiveIndex = 2 }) => {
+const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
 
     const sliderRef = useRef(null);
 
@@ -68,10 +68,7 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 2 }) => {
 
   return (
     <div>
-        <span className="flex items-center gap-2">
-        <p className="w-[24px] h-[1px] bg-[#2B2B2B]"></p>
-         <h4 className="text-black text-[18px] font-Montserrat font-semibold leading-7">Experience Mapping (Employee Workflows)</h4>
-        </span>
+        
       <div className="relative lg:w-[760px] w-full h-[416px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4">
    
       <Slider ref={sliderRef} {...settings}>
