@@ -43,7 +43,7 @@ const FaqSlider = () => {
         
         {
           id: 1,
-          text: 'Experience Mapping (Employee Workflows)',
+          text: 'Assumption Mapping',
           images: [
             { id: 1, image: DiscoveryResearchImage1, text: "Caption Text 1" },
             { id: 2, image: DiscoveryResearchImage2, text: "Caption Text 2" },
@@ -64,7 +64,7 @@ const FaqSlider = () => {
         },
         {
           id: 3,
-          text: 'Workshop Facilitation (Learnings Prioritization)',
+          text: 'Learnings Prioritization',
           images: [
             { id: 1, image: PrioritizationWorkshopImage1, text: "Caption Text 1" },
             { id: 2, image: PrioritizationWorkshopImage2, text: "Caption Text 2" },
@@ -73,7 +73,7 @@ const FaqSlider = () => {
         },
         {
           id: 4,
-          text: 'Current Day Narratives',
+          text: ' Current Day Narratives (Supported)',
           images: [
             { id: 1, image: CurrentStateFutureStateNarrativesImage1, text: "Caption Text 1" },
             { id: 2, image: placeholder, text: "Caption Text 2" },
@@ -82,7 +82,7 @@ const FaqSlider = () => {
         },
         {
           id: 5,
-          text: 'Journey Maps',
+          text: 'Journey Maps (Supported)',
           images: [
             { id: 1, image: JourneyMapImage1, text: "Caption Text 1" },
             { id: 2, image: JourneyMapImage2, text: "Caption Text 2" },
@@ -91,7 +91,7 @@ const FaqSlider = () => {
         },
         {
           id: 6,
-          text: 'Personas',
+          text: 'Personas (Supported)',
           images: [
             { id: 1, image: PersonasImage1, text: "Caption Text 1" },
             { id: 2, image: placeholder, text: "Caption Text 2" },
@@ -100,7 +100,7 @@ const FaqSlider = () => {
         },
         {
           id: 7,
-          text: 'Benchmarking (Existing State)',
+          text: 'Benchmarking (Supported)',
           images: [
             { id: 1, image: UMUXLiteBenchmarkingPreReleaseImage1, text: "Caption Text 1" },
             { id: 2, image: UMUXLiteBenchmarkingPreReleaseImage2, text: "Caption Text 2" },
@@ -112,36 +112,34 @@ const FaqSlider = () => {
 
 
       const initialSectionsState = Array(faqData.length).fill(false);
-  initialSectionsState[0] = true; // Initial state: 1st FAQ is open, others are closed
-  const [openSections, setOpenSections] = useState(initialSectionsState);
-
-  const toggleSection = (index) => {
-    const newOpenSections = Array(faqData.length).fill(false);
-    newOpenSections[index] = true;
-    setOpenSections(newOpenSections);
-  };
+      const [openSections, setOpenSections] = useState(initialSectionsState);
+    
+      const toggleSection = (index) => {
+        const newOpenSections = openSections.map((isOpen, i) => i === index ? !isOpen : false);
+        setOpenSections(newOpenSections);
+      };
 
   
 
 
   return (
    
-    <div className="">
+    <div className="flex flex-col gap-6">
       {faqData.map((section, index) => (
         <div key={section.id}>
-          <div className="flex gap-3 mt-16" onClick={() => toggleSection(index)}>
+          <div className="flex gap-2" onClick={() => toggleSection(index)}>
             {openSections[index] ? (
               <AiOutlineMinus className="text-[30px] cursor-pointer" />
             ) : (
               <CiSquarePlus className="text-[30px] cursor-pointer" />
             )}
-            <h3 className="text-black text-[18px] font-Montserrat leading-7 font-normal">
+            <h3 className="text-[#2B2B2B] text-[20px] font-Montserrat leading-8 font-medium">
               {section.text}
             </h3>
           </div>
 
           {openSections[index] && (
-            <div className="mt-4">
+            <div className="">
               {/* Pass the image paths to CustomSliderVTwo */}
               <CustomSliderVTwo images={section.images} />
             </div>

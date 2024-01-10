@@ -17,9 +17,9 @@ const Header = () => {
                 alt=""
               />
             </div>
-            {/* if need to scroll  h-[150px] overflow-y-scroll custom-scrollbar*/}
+         
             <div className=" ">
-              <h1 className="text-[28px] font-semibold text-[#282A2B] font-Montserrat leading-[38px] mt-7">
+              <h1 className="text-[28px] font-semibold text-[#2B2B2B] font-Montserrat leading-[38px] mt-7">
                 Chad Smith
               </h1>
               <p className="text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
@@ -77,52 +77,59 @@ const Header = () => {
         </div>
 
         <div>
-          <h1 className="text-[#2B2B2B] text-[24px] font-Playfair font-semibold leading-[34px] mt-10 md:mt-12 lg:mt-0">
-            Case Studies{" "}
-          </h1>
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-2 lg:gap-x-6 lg:gap-y-6 2xl:gap-x-6 2xl:gap-y-6 mt-[21px]">
+         
+
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-2 lg:gap-x-6 lg:gap-y-6 2xl:gap-x-6 2xl:gap-y-6 ml-6">
            
-            <Link
-              to={"/driver-app"}
-              className="bg-[#58A942] 2xl:w-[424px] lg:w-[400px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[380px] 2xl:h-[360px] h-[360px] px-2 flex flex-col justify-center items-center cursor-pointer rounded-lg hover:bg-secondaryColor duration-300"
-            >
-              <h1 className="text-white 2xl:text-[28px] lg:text-[28px] md:text-[36px] text-[22px] font-Montserrat font-extrabold text-center leading-[38px]">
-                Driver App
-              </h1>
 
-              <p className="text-white 2xl:text-[16px] lg:text-[16px] md:text-[22px] text-[14px] font-Montserrat font-medium text-center mt-6 leading-6">
-                Product Redesign
-              </p>
-            </Link>
 
-            <Link
-              to={"/automated-equipment-dispatching"}
-              className="bg-[#F5BD4F] 2xl:w-[424px] lg:w-[400px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[380px] 2xl:h-[360px] h-[360px] px-2 flex flex-col justify-center items-center mt-5 md:mt-5 lg:mt-0 cursor-pointer rounded-lg hover:bg-secondaryColor duration-300"
-            >
-              <h1 className="text-white 2xl:text-[28px] lg:text-[28px] md:text-[36px] text-[22px] font-Montserrat font-extrabold text-center leading-[38px]">
-              Automated Equipment Dispatching
-              </h1>
+              <div className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0]" style={{boxShadow:" 0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}}>
 
-              <p className="text-white 2xl:text-[16px] lg:text-[16px] md:text-[22px] text-[14px] font-Montserrat font-medium text-center mt-6 leading-6">
-                New Product
-              </p>
-            </Link>
+                <Link to={"/driver-app"} className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer">
+                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">Driver App </h1>
+                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">Product Redesign</p>
+                </Link>
 
-            <Link
-              to={"/fuel-stops"}
-              className="bg-[#87817E] 2xl:w-[424px] lg:w-[400px] md:w-[600px] md:mx-auto lg:mx-0 w-full md:h-[460px] lg:h-[380px] 2xl:h-[360px] h-[360px] px-2 flex flex-col justify-center items-center mt-5 md:mt-5 lg:mt-0 cursor-pointer rounded-lg hover:bg-secondaryColor duration-300"
-            >
-              <h1 className="text-white 2xl:text-[28px] lg:text-[28px] md:text-[36px] text-[22px] font-Montserrat font-extrabold text-center leading-[38px]">
-                Suggested Fuel Stops
-              </h1>
+                 <div className="px-6 py-[32px]">
+                 <h3 className="text-[#2B2B2B] text-[18px] font-Montserrat font-normal leading-7">Creating a repeatable process for redesigning products</h3>
 
-              <p className="text-white 2xl:text-[16px] lg:text-[16px] md:text-[22px] text-[14px] font-Montserrat font-medium text-center mt-6 leading-6">
-                New Feature
-              </p>
-            </Link>
+                 </div>
+              </div>
+
+
+
+                  <div className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0]" style={{boxShadow:" 0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}}>
+
+                <Link  to={"/fuel-stops"} className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer">
+                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">New ML/AI Feature </h1>
+                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">Suggested Fuel Stops</p>
+                </Link>
+
+                 <div className="px-6 py-[32px]">
+                 <h3 className="text-[#2B2B2B] text-[18px] font-Montserrat font-normal leading-7">Pinpointing opportunities to introduce an automation feature</h3>
+
+                 </div>
+              </div>
+
+
+
+                    <div className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0]" style={{boxShadow:" 0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}}>
+
+                <Link   to={"/automated-equipment-dispatching"} className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer">
+                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">New ML/AI Feature </h1>
+                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">Automated Dispatching</p>
+                </Link>
+
+                 <div className="px-6 py-[32px]">
+                 <h3 className="text-[#2B2B2B] text-[18px] font-Montserrat font-normal leading-7">Deploying features that automate critical workflows & tasks</h3>
+
+                 </div>
+              </div>
+
+           
           </div>
 
-          <div className="mt-[70px]">
+          {/* <div className="mt-[70px]">
             <h1 className="text-[#2B2B2B] text-[24px] font-Playfair font-semibold leading-[34px]">
               UXR Techniques
             </h1>
@@ -153,7 +160,7 @@ const Header = () => {
                 </p>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
