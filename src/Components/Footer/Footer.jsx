@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="bg-[#F2F2F2] h-full w-full">
       
 
-       <div className="max-w-containerX mx-auto flex justify-between h-[328px] py-[66px]">
+       <div className="max-w-containerX mx-auto flex justify-between h-[328px] py-[66px] px-4 md:px-8 lg:px-4 2xl:px-0">
 
         
        <Link to={"/"} className="flex items-center gap-4  h-[60px]">

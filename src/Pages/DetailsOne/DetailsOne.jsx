@@ -5,7 +5,6 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import { Helmet } from 'react-helmet-async';
 import FaqSlider from '../../Components/FaqSlider/FaqSlider';
-import { RxDotFilled } from "react-icons/rx";
 
 
 const DetailsOne = () => {
@@ -56,24 +55,24 @@ const DetailsOne = () => {
            <div className='flex flex-col gap-4 mt-[34px]'>
 
            <div className='flex gap-4'>
-              <span className='w-[20px] h-[32px]'>
-                <RxDotFilled className='text-xl'/>
+              <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
                <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Drivers are missing features when completing daily tasks, which opens the door for human error and reliance on third-party tools</p>
 
             </div>
 
              <div className='flex gap-4'>
-              <span className='w-[20px] h-[32px]'>
-                <RxDotFilled className='text-xl'/>
+             <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
                <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Product built a backlog of issues to address based on feasibility & urgency</p>
 
             </div> 
             
             <div className='flex gap-4'>
-              <span className='w-[20px] h-[32px]'>
-                <RxDotFilled className='text-xl'/>
+            <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
                <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>One major feature was immediately redesigned and currently undergoing implementation</p>
 
@@ -91,16 +90,16 @@ const DetailsOne = () => {
            <div className='flex flex-col gap-4 mt-[34px]'>
 
            <div className='flex gap-4'>
-              <span className='w-[20px] h-[32px]'>
-                <RxDotFilled className='text-xl'/>
+           <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
                <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Keeping Product aligned throughout the entire research process was key to Product supporting and adopting the findings. This spanned from remaining connected on what type of participants were needed to what type of employee tasks were of most interest.</p>
 
             </div>
 
              <div className='flex gap-4'>
-              <span className='w-[20px] h-[32px]'>
-                <RxDotFilled className='text-xl'/>
+             <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
                <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Creating readout documents for executive and delivery teams allowed each audience to take appropriate next steps. The executive team readout, for example, helped inform what immediate roadmap changes were needed. The delivery team readout, however, served as a point of reference for design when creating wireframes and other-related documents.</p>
 
