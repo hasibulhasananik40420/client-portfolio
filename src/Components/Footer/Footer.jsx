@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="bg-[#F2F2F2] h-full w-full">
       
 
-       <div className="max-w-containerX mx-auto flex justify-between h-[328px] py-[66px] px-4 md:px-8 lg:px-4 2xl:px-0">
+       <div className="max-w-containerX mx-auto lg:flex md:flex-wrap justify-between lg:h-[328px] h-full py-[66px] px-4 md:px-8 lg:px-4 2xl:px-0">
 
         
        <Link to={"/"} className="flex items-center gap-4  h-[60px]">
@@ -30,8 +30,9 @@ const Footer = () => {
           </div>
         </Link>
 
-           <div>
+           <div className="mt-10 md:mt-10 lg:mt-0">
              <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-medium leading-6">List</h1>
+
              <div className="flex items-center gap-3 mt-4">
 
                <img className="w-[92px] h-[60px]" src={image1} alt="" />
@@ -58,7 +59,7 @@ const Footer = () => {
            </div>
 
 
-              <div>
+              <div className="mt-10 md:mt-10 lg:mt-0">
               <div className="flex items-center gap-3">
 
                <img className="w-[92px] h-[60px]" src={image3} alt="" />

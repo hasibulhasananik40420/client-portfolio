@@ -86,8 +86,8 @@ const Header = () => {
               <div className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0]" style={{boxShadow:" 0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}}>
 
                 <Link to={"/driver-app"} className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer">
-                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">Driver App </h1>
-                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">Product Redesign</p>
+                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">Product Redesign </h1>
+                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">Driver App</p>
                 </Link>
 
                  <div className="px-6 py-[32px]">
@@ -101,8 +101,8 @@ const Header = () => {
                   <div className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0]" style={{boxShadow:" 0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}}>
 
                 <Link  to={"/fuel-stops"} className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer">
-                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">New ML/AI Feature </h1>
-                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">Suggested Fuel Stops</p>
+                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">Suggested Fuel Stops </h1>
+                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">New ML/AI Feature</p>
                 </Link>
 
                  <div className="px-6 py-[32px]">
@@ -116,8 +116,8 @@ const Header = () => {
                     <div className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0]" style={{boxShadow:" 0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}}>
 
                 <Link   to={"/automated-equipment-dispatching"} className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer">
-                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">New ML/AI Feature </h1>
-                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">Automated Dispatching</p>
+                  <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px]">Automated Dispatching </h1>
+                   <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px]">New ML/AI Feature</p>
                 </Link>
 
                  <div className="px-6 py-[32px]">

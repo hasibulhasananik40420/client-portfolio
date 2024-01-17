@@ -5,6 +5,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import { Helmet } from 'react-helmet-async';
 import FaqSlider from '../../Components/FaqSlider/FaqSlider';
+import ResearchCardOne from '../../Components/ResearchCard/ResearchCardOne';
 
 
 const DetailsOne = () => {
@@ -19,7 +20,7 @@ const DetailsOne = () => {
       <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[48px]">
        
        <div className='lg:w-[1056px] w-full'>
-       <h1 className="text-[#242424] text-[42px] font-Montserrat font-bold leading-[52px] tracking-[-0.5px]">Product Redesign: Driver Application</h1>
+       <h1 className="text-[#242424] md:text-[42px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">Product Redesign: Driver Application</h1>
      
      <p className='text-[#242424] text-[20px] mt-4 font-Montserrat font-semibold leading-[30px]'>Creating a repeatable process for redesigning products</p>
     
@@ -27,13 +28,23 @@ const DetailsOne = () => {
 
        <h3 className='text-[#242424] text-[24px] mt-[66px] font-Montserrat font-bold leading-[34px]'>Background</h3>
 
-        <p className='mt-[18px] text-[#242424] font-Montserrat font-medium leading-8 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
+        <p className='mt-[18px] text-[#242424] text-[20px] font-Montserrat font-medium leading-8 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
 
-         <p className='mt-[38px] text-[#242424] font-Montserrat font-normal leading-8 tracking-[-0.1px]'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
+         <p className='mt-[38px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
 
-        
-   
+
        </div>
+
+
+        <div>
+        <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px] mt-[66px]">
+              Research Impact
+            </h1>
+
+            <ResearchCardOne/>
+
+
+        </div>
 
 
         <div className='mt-[66px]'>
