@@ -1,9 +1,9 @@
 
 const DrivingImpactCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 justify-items-center mt-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6  mt-8">
    
-    <div className="lg:w-[424px] w-full h-auto p-4">
+    <div className="lg:w-[550px] w-full h-auto p-4">
       <h1 className="text-[#242424] text-[24px] font-Montserrat font-medium leading-[30px]">
         1. Establishing a repeatable process for future product redesigns 
       </h1>
@@ -13,7 +13,7 @@ const DrivingImpactCard = () => {
       </p>
     </div>
 
-    <div className="lg:w-[424px] w-full h-auto p-4">
+    <div className="lg:w-[550px] w-full h-auto p-4">
       <h1 className="text-[#242424] text-[24px] font-Montserrat font-medium leading-[30px]">
         2. Enhanced equipment tracking througout transportation 
       </h1>
