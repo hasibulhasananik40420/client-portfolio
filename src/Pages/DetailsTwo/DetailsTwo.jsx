@@ -2,10 +2,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
-import ResearchImpactCard from "../../Components/ResearchImpact/ResearchImpactCard";
-import SectionCardTwo from "../../Components/SectionCardTwo/SectionCardTwo";
 import Footer from "../../Components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
+import DispatchingImpactCard from "../../Components/DispatchingImpactCard/DispatchingImpactCard";
+import DispatchingFaqSlider from "../../Components/DispatchingFaqSlider/DispatchingFaqSlider";
 
 const DetailsTwo = () => {
   return (
@@ -13,118 +13,179 @@ const DetailsTwo = () => {
       <Helmet>
         <title>Chad Smith | Automated Equipment Dispatching </title>
       </Helmet>
+
       <div className="bg-white">
         <Navbar />
-        <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[60px]">
-          <p className="text-[#2B2B2B] text-[16px] font-Playfair font-normal leading-6">
-            New Feature,
-          </p>
-          <p className="text-[#2B2B2B] text-[24px] font-Playfair font-medium leading-[34px] mt-2">
-            Automated Equipment Dispatching
-          </p>
+        <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[48px]">
+          <div className="lg:w-[1056px] w-full">
+            <h1 className="text-[#242424] md:text-[42px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">
+              New ML/AI Feature: Automated Dispatching
+            </h1>
 
-          <div className="lg:flex items-center gap-[120px] mt-10 md:mt-10 lg:mt-0">
-            <div className="lg:w-[740px] w-full mt-[60px]">
-              <h2 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px]">
-                Hypothesis
-              </h2>
+            <p className="text-[#242424] text-[20px] mt-4 font-Montserrat font-semibold leading-[30px]">
+              Deploying features that automate critical workflows & tasks
+            </p>
 
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                Introducing features that automate equipment dispatching will
-                reduce employee workloads, while also decreasing the number of
-                days equipment sit idle at jobsites waiting to be picked up.
-              </p>
+            <h3 className="text-[#242424] text-[24px] mt-[66px] font-Montserrat font-bold leading-[34px]">
+              Background
+            </h3>
 
-              <h2 className="text-[#2B2B2B] text-[20px] font-Playfair font-semibold leading-[30px] mt-6">
-                Objective
-              </h2>
+            <p className="mt-[18px] text-[#242424] text-[20px] font-Montserrat font-medium leading-8 tracking-[-0.1px] italic">
+              Completed equipment rentals regularly sat on customer's job sites
+              several days before being picked-up and returned back to the
+              rental's branch.
+            </p>
 
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                The research started with understanding how target users
-                dispatched equipment, along with top tasks connected to
-                equipment dispatching.{" "}
-                <span className="underline underline-offset-[5px]">
-                  Experience Mapping
-                </span>{" "}
-                was used to visualize how these tasks occur and to document
-                existing pain points. The insights helped Product Management
-                determine whether the current product roadmap addressed
-                discovered issues.
-              </p>
+            <p className="mt-[36px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]">
+              My role was leading research in support of launching a new ML/AI
+              feature that would nudge employees to pick up equipment sooner. I
+              led Experience Mapping to spotlight where the new feature may not
+              address issues connected to returning equipment sooner. I also led
+              Concept Testing to identify employee concerns with the automation
+              feature, spotlight confusing and requested add-on features, and
+              highlight training preferences. I also held a weekly meeting
+              keeping Research, Operations and Training aligned on research
+              needs and, where appropriate, quickly aligning on findings.
+            </p>
 
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                This research was also paired with both{" "}
-                <span className="underline underline-offset-[5px]">
-                  Day-in-the-Life
-                </span>{" "}
-                narrative documents and panel discussion to build a shared
-                understanding of the target users standard day.{" "}
-                <span className="underline underline-offset-[5px]">
-                  Concept Testing
-                </span>{" "}
-                of the automation features were then completed to help
-                understand the target users expectations, which informed
-                training needs & communication.
-              </p>
+            <p className="mt-[36px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]">
+              To help build greater awareness of current day challenges in
+              picking up equipment, I also led a Day-in-Life panel discussion
+              with the employee group responsible for scheduling equipment
+              pickups. This touchpoint allowed Product Managers across the
+              company's product suite to understand where their products created
+              downstreams issues during pickups. I also served as a reviewer of
+              the narrative documented highlighting the employee group's
+              Day-in-the-Life (both pre-release and post-release of the new
+              feature) and experience benchmarking pre-release of the existing
+              application.
+            </p>
 
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                In support of the features rolling out,{" "}
-                <span className="underline underline-offset-[5px]">
-                  feedback surveys
-                </span>{" "}
-                were distributed at specific checkpoints. Surves were
-                distributed{" "}
-                <span className="underline underline-offset-[5px]">
-                  post-completion of training
-                </span>{" "}
-                , for example, to assess how confident pilot users felt using
-                the upcoming features. Surveys were also created for
-                distribution at{" "}
-                <span className="underline underline-offset-[5px]">
-                  2 weeks of usage
-                </span>{" "}
-                of the new features to guage ease-of-use and satisfaction.
-              </p>
-
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[24px] mt-4">
-                Future proposed research focused on measuring{" "}
-                <span className="underline underline-offset-[5px]">
-                  Engagement, Adoption and Retention
-                </span>{" "}
-                using the automation features; while also rechecking for
-                ease-of-use and satisfaction at 8 weeks of usage. Future state
-                concept designs were also slated testing, in tandem with a
-                proposed{" "}
-                <span className="underline underline-offset-[5px]">
-                  Kano Model
-                </span>{" "}
-                identifying unmet needs for future enhancements.
-              </p>
-            </div>
-
-            <div className="lg:w-[448px] w-full mt-14 md:mt-14 lg:mt-0">
-              <img
-                className="lg:w-[448px] object-cover w-full h-[492px] rounded-lg"
-                src="https://img.freepik.com/free-photo/elegant-woman-standing-gas-station_1157-33894.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=sph"
-                alt=""
-              />
-            </div>
+            <p className="mt-[36px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]">
+              My research's impact included elevating the urgency of delivering
+              an identified - but not yet scheduled - roadmap item connected to
+              addressing pickup delays. My findings also led to modified
+              training material and formats (e.g. including in-person hands on
+              training) in support of rolling out the feature.
+            </p>
           </div>
 
-          <div className="mt-[90px] px-4 md:px-8 lg:px-4">
-            <h1 className="text-[#2B2B2B] text-[32px] font-Playfair font-semibold leading-[44px] text-center border-b pb-3">
+          <div>
+            <h1 className="text-[#242424] text-[24px] font-semibold font-Montserrat leading-[34px] mt-[66px]">
               Research Impact
             </h1>
 
-            <ResearchImpactCard />
+            <DispatchingImpactCard />
+          </div>
+
+          <div className="mt-[66px]">
+            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+              Work Samples
+            </h1>
+
+            {/*********** slider here ****************/}
+            <div className="mt-[18px]">
+              <DispatchingFaqSlider />
+            </div>
+          </div>
+
+          <div className="mt-[66px]">
+            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+              Research Findings
+            </h1>
+
+            <div className="flex flex-col gap-4 mt-[34px]">
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                Pickups delays are sometimes occurring due to miscommunication in type of truck needed to pickup equipment and equipment being moved to jobsites that are much further away from the original renting branch
+                </p>
+              </div>
+
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                Training must extend to back-fills and include "hands-on" walkthroughs to build familiarity and to identify possible unmet needs
+                </p>
+              </div>
+
+             
+
+             
+            </div>
+          </div>
+
+
+
+  <div className="mt-[66px]">
+            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+            Research Results
+            </h1>
+
+            <div className="flex flex-col gap-4 mt-[34px]">
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                Additional functionality was prioritized and implemented to the nudge branch closest to the equipment, instead of the original renting branch, to pickup equipment
+                </p>
+              </div>
+
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                In-person training sessions were introduced roll-out planning, instead of solely e-learning training, with pilot group users who would also serve as change manage leaders
+                </p>
+              </div>
+
+             
+
+             
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <div className="mt-[66px]">
+            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+              Personal Learnings
+            </h1>
+
+            <div className="flex flex-col gap-4 mt-[34px]">
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                The future state version of this application, which would eventually contain more employee nudging features, had regular co-design sessions with Experience Design and Technology.
+                </p>
+              </div>
+
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                Once tech feasibility stages have been completed, I would recommend using the Kano Model to assess desirability of the vetted features to influence the order of slated roadmap items
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="">
-          <SectionCardTwo />
-        </div>
-
-        <div className="pb-20">
+        <div className="mt-[92px]">
           <Footer />
         </div>
       </div>

@@ -4,8 +4,6 @@ import Home from "../Pages/Home/Home";
 import DetailsOne from "../Pages/DetailsOne/DetailsOne";
 import DetailsTwo from "../Pages/DetailsTwo/DetailsTwo";
 import DetailsThree from "../Pages/DetailsThree/DetailsThree";
-import DetailsFour from "../Pages/DetailsFour/DetailsFour";
-import DetailsFive from "../Pages/DetailsFive/DetailsFive";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const routes = createBrowserRouter([
@@ -31,13 +29,7 @@ const routes = createBrowserRouter([
         element: <DetailsThree />,
       },
 
-      {
-        path: "/details-4",
-        element: <DetailsFour />,
-      }, {
-        path: "/details-5",
-        element: <DetailsFive />,
-      },
+     
     ],
   },
 ]);

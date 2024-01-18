@@ -6,6 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 import { Helmet } from 'react-helmet-async';
 import FaqSlider from '../../Components/FaqSlider/FaqSlider';
 import ResearchCardOne from '../../Components/ResearchCard/ResearchCardOne';
+import DrivingImpactCard from '../../Components/DrivingImpactCard/DrivingImpactCard';
 
 
 const DetailsOne = () => {
@@ -41,7 +42,7 @@ const DetailsOne = () => {
               Research Impact
             </h1>
 
-            <ResearchCardOne/>
+            <DrivingImpactCard/>
 
 
         </div>
