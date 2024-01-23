@@ -37,7 +37,7 @@ const DetailsOne = () => {
        </div>
 
 
-        <div>
+        {/* <div>
         <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px] mt-[66px]">
               Research Impact
             </h1>
@@ -45,7 +45,7 @@ const DetailsOne = () => {
             <DrivingImpactCard/>
 
 
-        </div>
+        </div> */}
 
 
         <div className='mt-[66px]'>
@@ -56,7 +56,7 @@ const DetailsOne = () => {
             <div className='mt-[18px]'>
                  <FaqSlider/>
              </div>
-        </div>
+           </div>
 
 
 
@@ -71,6 +71,39 @@ const DetailsOne = () => {
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
                <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Drivers are missing features when completing daily tasks, which opens the door for human error and reliance on third-party tools</p>
+
+            </div>
+
+             <div className='flex gap-4'>
+             <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
+              </span>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Drives are impacted by inaccurate or incomplete customer data entered by employees</p>
+
+            </div> 
+            
+            <div className='flex gap-4'>
+            <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
+              </span>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Driver need customers to follow company policies to reduce wasted employee hours</p>
+
+            </div>
+
+           </div>
+         </div>
+
+              <div className='mt-[66px]'>
+           <h1 className='text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]'>Impact</h1>
+
+
+           <div className='flex flex-col gap-4 mt-[34px]'>
+
+           <div className='flex gap-4'>
+              <span className='w-[20px] h-[27px] flex justify-center items-center'>
+                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
+              </span>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Product aligned on what issues were addressable through user experience changes versus operational & multi-system changes</p>
 
             </div>
 

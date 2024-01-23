@@ -2,7 +2,6 @@
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import FuelImpactCard from "../../Components/FuelImpactCard/FuelImpactCard";
 import FuelStopsFaqSlider from "../../Components/FuelStopsFaqSlider/FuelStopsFaqSlider";
 
 const DetailsThree = () => {
@@ -44,13 +43,13 @@ const DetailsThree = () => {
             </p>
           </div>
 
-          <div>
+          {/* <div>
             <h1 className="text-[#242424] text-[24px] font-semibold font-Montserrat leading-[34px] mt-[66px]">
               Research Impact
             </h1>
 
             <FuelImpactCard />
-          </div>
+          </div> */}
 
           <div className="mt-[66px]">
             <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
@@ -74,8 +73,7 @@ const DetailsThree = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
-                  Fueling behavior is driven by whether Drivers are taking
-                  short-distance or long-distance trips
+                Fueling behavior is driven by whether Drivers are taking short-distance or long-distance trips
                 </p>
               </div>
 
@@ -84,9 +82,7 @@ const DetailsThree = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
-                  Staying away from highest price gas & fuel stations without
-                  certain accommodations is most important when selecting fuel
-                  stations
+                Staying away from highest price gas & fuel stations without certain accommodations is most important when selecting fuel stations
                 </p>
               </div>
 
@@ -95,8 +91,7 @@ const DetailsThree = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
-                  Long-distance and short-distance Drivers will likely use
-                  suggested fuel stops differently
+                Long-distance and short-distance Drivers will likely use suggested fuel stops differently
                 </p>
               </div>
 
@@ -105,13 +100,46 @@ const DetailsThree = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
-                  Knowing savings-to-company will likely impact whether
-                  short-distance Drivers add more time to route to travel to
-                  suggest stop
+                Knowing savings-to-company will likely impact whether short-distance Drivers add more time to route to travel to suggest stop
                 </p>
               </div>
             </div>
           </div>
+
+
+            <div className="mt-[66px]">
+            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+            Impact
+            </h1>
+
+            <div className="flex flex-col gap-4 mt-[34px]">
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                Feasibility to build ideal feature, based on discovery research, was discussed
+                </p>
+              </div>
+
+              <div className="flex gap-4">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                Limitations identified were co-designed into an MVP-direction and also vetted with a larger technical audience.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+
+
 
           <div className="mt-[66px]">
             <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
@@ -124,10 +152,7 @@ const DetailsThree = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
-                  When conducting discovery research for a new feature, the
-                  research readout meeting should both explain the users
-                  perspective and create space for innovation discussion &
-                  identifying additional research needs.
+                When conducting discovery research for a new feature, the research readout meeting should both explain the users perspective and create space for innovation discussion & identifying additional research needs.
                 </p>
               </div>
 
@@ -136,10 +161,7 @@ const DetailsThree = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
-                  I would also recommend going into a tech feasibility
-                  discussion, and possibly doing some early concept designing,
-                  before doing discovery research. This can help bring teams
-                  together in co-designing solutions
+                I would also recommend going into a tech feasibility discussion, and possibly doing some early concept designing, before doing discovery research. This can help bring teams together in co-designing solutions
                 </p>
               </div>
             </div>

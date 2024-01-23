@@ -70,13 +70,13 @@ const DetailsTwo = () => {
             </p>
           </div>
 
-          <div>
+          {/* <div>
             <h1 className="text-[#242424] text-[24px] font-semibold font-Montserrat leading-[34px] mt-[66px]">
               Research Impact
             </h1>
 
             <DispatchingImpactCard />
-          </div>
+          </div> */}
 
           <div className="mt-[66px]">
             <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
@@ -120,10 +120,9 @@ const DetailsTwo = () => {
           </div>
 
 
-
-  <div className="mt-[66px]">
+           <div className="mt-[66px]">
             <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
-            Research Results
+            Impact
             </h1>
 
             <div className="flex flex-col gap-4 mt-[34px]">
@@ -150,10 +149,6 @@ const DetailsTwo = () => {
              
             </div>
           </div>
-
-
-
-
 
 
 
