@@ -3,21 +3,25 @@ import CustomSliderVTwo from "../Slider/CustomSliderVTwo"
 import { AiOutlineMinus } from "react-icons/ai"
 import { useState } from "react";
 
-import DiscoveryResearchImage1 from "../../assets/Suggested-fuel-Stops/Owned Research/2.Discovery Research/01.png";
-import DiscoveryResearchImage2 from "../../assets/Suggested-fuel-Stops/Owned Research/2.Discovery Research/02.png";
-import DiscoveryResearchImage3 from "../../assets/Suggested-fuel-Stops/Owned Research/2.Discovery Research/03.png";
+
+import DeskResearchImage1 from "../../assets/Placeholder.png"
+
+import SemiStructuredInterviewsImage1 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/01.png"
+import SemiStructuredInterviewsImage2 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/04 (1).png"
+import SemiStructuredInterviewsImage3 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.05 AM.png"
+import SemiStructuredInterviewsImage4 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.17 AM.png"
+import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.28 AM.png"
 
 
 
-import ContextualInquiryImage1 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (1).png";
-import ContextualInquiryImage2 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (2).png";
-import ContextualInquiryImage3 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (3).png";
-import ContextualInquiryImage4 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image.png";
-import ContextualInquiryImage5 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image(5).png";
+import ExperienceMappingImage1 from "../../assets/Suggested-fuel-Stops/Experience Mapping/02 (1).png"
+import ExperienceMappingImage2 from "../../assets/Suggested-fuel-Stops/Experience Mapping/image.png"
 
 
-import PrioritizationWorkshopImage1 from "../../assets/driving-app/Owned Research/3.Prioritization Workshop/image (1).png";
-import PrioritizationWorkshopImage2 from "../../assets/driving-app/Owned Research/3.Prioritization Workshop/image.png";
+
+
+
+
 
 
 const FuelStopsFaqSlider = () => {
@@ -29,9 +33,8 @@ const FuelStopsFaqSlider = () => {
           id: 1,
           text: 'Desk Research',
           images: [
-            { id: 1, image: DiscoveryResearchImage1, text: "Caption Text 1" },
-            { id: 2, image: DiscoveryResearchImage2, text: "Caption Text 2" },
-            { id: 3, image: DiscoveryResearchImage3, text: "Caption Text 3" },
+            { id: 1, image: DeskResearchImage1, text: "Caption Text 1" },
+           
             // ... add more images as needed
           ],
         }, 
@@ -39,19 +42,19 @@ const FuelStopsFaqSlider = () => {
           id: 2,
           text: 'Semi-structured Interviews',
           images: [
-            { id: 1, image: ContextualInquiryImage1, text: "Caption Text 1" },
-            { id: 2, image: ContextualInquiryImage2, text: "Caption Text 2" },
-            { id: 3, image: ContextualInquiryImage3, text: "Caption Text 3" },
-            { id: 4, image: ContextualInquiryImage4, text: "Caption Text 3" },
-            { id: 5, image: ContextualInquiryImage5, text: "Caption Text 3" },
+            { id: 1, image: SemiStructuredInterviewsImage1, text: "Caption Text 1" },
+            { id: 2, image: SemiStructuredInterviewsImage2, text: "Caption Text 2" },
+            { id: 3, image: SemiStructuredInterviewsImage3, text: "Caption Text 3" },
+            { id: 4, image: SemiStructuredInterviewsImage4, text: "Caption Text 3" },
+            { id: 5, image: SemiStructuredInterviewsImage5, text: "Caption Text 3" },
           ],
         },
         {
           id: 3,
           text: 'Experience Mapping',
           images: [
-            { id: 1, image: PrioritizationWorkshopImage1, text: "Caption Text 1" },
-            { id: 2, image: PrioritizationWorkshopImage2, text: "Caption Text 2" },
+            { id: 1, image: ExperienceMappingImage1, text: "Caption Text 1" },
+            { id: 2, image: ExperienceMappingImage2, text: "Caption Text 2" },
            
           ],
         },

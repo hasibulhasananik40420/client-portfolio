@@ -66,6 +66,10 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
     }
   };
 
+
+
+
+
   return (
     <div>
         
@@ -73,7 +77,7 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
    
       <Slider ref={sliderRef} {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="mb-[-10px]">
+          <div key={index} className="mb-[40px]">
             <div className="h-[380px] w-full p-4">
               <img
                 className="object-contain w-full h-full cursor-pointer"
@@ -82,15 +86,6 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
                 onClick={() => handleImageClick(index)}
               />
             </div>
-
-
-            <span className="bg-white w-20 h-[70px] flex justify-center items-center ml-5 mt-[-0px]">
-          <BsArrowsFullscreen
-            onClick={() => handleImageClick(index)}
-            style={{ zIndex: 2 }}
-            className="text-[24px]  cursor-pointer"
-          />
-        </span>
 
           
 
@@ -115,6 +110,15 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
           <MdArrowForwardIos className="text-white text-[14px] 2xl:text-[20px]" />
         </span>
       </div>
+
+
+      <span  className="bg-white absolute bottom-[20px] flex justify-center items-center ml-5" style={{ zIndex: 50 }}>
+  <BsArrowsFullscreen
+    onClick={() => handleImageClick(selectedImageIndex)}
+    className="text-[24px] cursor-pointer"
+  />
+</span>
+      
 
              
     </div>

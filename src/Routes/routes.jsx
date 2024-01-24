@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main/Main";
 import Home from "../Pages/Home/Home";
-import DetailsOne from "../Pages/DetailsOne/DetailsOne";
-import DetailsTwo from "../Pages/DetailsTwo/DetailsTwo";
-import DetailsThree from "../Pages/DetailsThree/DetailsThree";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import SuggestedFuelStops from "../Pages/SuggestedFuelStops/SuggestedFuelStops";
+import DriverApp from "../Pages/DriverApp/DriverApp";
+import AutomatedEquipmentDispatching from "../Pages/AutomatedEquipmentDispatching/AutomatedEquipmentDispatching";
 
 const routes = createBrowserRouter([
   {
@@ -18,15 +18,15 @@ const routes = createBrowserRouter([
       },
       {
         path: "/driver-app",
-        element: <DetailsOne />,
+        element: <DriverApp />,
       },
       {
         path: "/automated-equipment-dispatching",
-        element: <DetailsTwo />,
+        element: <AutomatedEquipmentDispatching />,
       },
       {
         path: "/fuel-stops",
-        element: <DetailsThree />,
+        element: <SuggestedFuelStops />,
       },
 
      

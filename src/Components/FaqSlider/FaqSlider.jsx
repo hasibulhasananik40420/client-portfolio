@@ -1,34 +1,34 @@
 import { CiSquarePlus } from "react-icons/ci";
 import { AiOutlineMinus } from "react-icons/ai";
 
-import DiscoveryResearchImage1 from "../../assets/Suggested-fuel-Stops/Owned Research/2.Discovery Research/01.png";
-import DiscoveryResearchImage2 from "../../assets/Suggested-fuel-Stops/Owned Research/2.Discovery Research/02.png";
-import DiscoveryResearchImage3 from "../../assets/Suggested-fuel-Stops/Owned Research/2.Discovery Research/03.png";
+import AssumptionMappingImage1 from "../../assets/driving-app/Assumption Mapping/image1.png"
 
 
-import JourneyMapImage1 from "../../assets/driving-app/Supported Research/1.Journey Map/image (1).png";
-import JourneyMapImage2 from "../../assets/driving-app/Supported Research/1.Journey Map/image (2).png";
-import JourneyMapImage3 from "../../assets/driving-app/Supported Research/1.Journey Map/image.png";
+import ContextualInquiryImage1 from "../../assets/driving-app/Contextual Inquiry/01.png"
+import ContextualInquiryImage2 from "../../assets/driving-app/Contextual Inquiry/02 (1).png"
+import ContextualInquiryImage3 from "../../assets/driving-app/Contextual Inquiry/03 (1).png"
+import ContextualInquiryImage4 from "../../assets/driving-app/Contextual Inquiry/04 (1).png"
 
 
-import ContextualInquiryImage1 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (1).png";
-import ContextualInquiryImage2 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (2).png";
-import ContextualInquiryImage3 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image (3).png";
-import ContextualInquiryImage4 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image.png";
-import ContextualInquiryImage5 from "../../assets/driving-app/Owned Research/2.Contextual Inquiry/image(5).png";
 
-import PrioritizationWorkshopImage1 from "../../assets/driving-app/Owned Research/3.Prioritization Workshop/image (1).png";
-import PrioritizationWorkshopImage2 from "../../assets/driving-app/Owned Research/3.Prioritization Workshop/image.png";
-
-import CurrentStateFutureStateNarrativesImage1 from "../../assets/driving-app/Supported Research/3.Future State Narrative/01.png";
-
-import PersonasImage1 from "../../assets/driving-app/Supported Research/4.Personas/image.png";
-import placeholder from '../../assets/Placeholder.png'
+import PrioritizationWorkshopImage1 from "../../assets/driving-app/Learnings Prioritization/image.png"
+import PrioritizationWorkshopImage2 from "../../assets/driving-app/Learnings Prioritization/image (1).png"
 
 
-import UMUXLiteBenchmarkingPreReleaseImage1 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/01.png";
-import UMUXLiteBenchmarkingPreReleaseImage2 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/02.png";
-import UMUXLiteBenchmarkingPreReleaseImage3 from "../../assets/driving-app/Supported Research/5.UMUX-Lite Benchmarking (Pre-Release)/03.png";
+
+import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/Current Day Narratives (Supported)/01.png"
+
+
+
+import JourneyMapImage1 from "../../assets/driving-app/Journey Maps (Supported)/image.png";
+import JourneyMapImage2 from "../../assets/driving-app/Journey Maps (Supported)/image (1).png";
+import JourneyMapImage3 from "../../assets/driving-app/Journey Maps (Supported)/image (2).png";
+
+
+
+import PersonasImage1 from "../../assets/driving-app/Personas (Supported)/image.png";
+
+import BenchmarkingImage1 from "../../assets/driving-app/Benchmarking (Supported)/01.png"
 
 
 import CustomSliderVTwo from "../Slider/CustomSliderVTwo";
@@ -43,9 +43,8 @@ const FaqSlider = () => {
           id: 1,
           text: 'Assumption Mapping',
           images: [
-            { id: 1, image: DiscoveryResearchImage1, text: "Caption Text 1" },
-            { id: 2, image: DiscoveryResearchImage2, text: "Caption Text 2" },
-            { id: 3, image: DiscoveryResearchImage3, text: "Caption Text 3" },
+            { id: 1, image: AssumptionMappingImage1, text: "Caption Text 1" },
+           
             // ... add more images as needed
           ],
         }, 
@@ -56,8 +55,8 @@ const FaqSlider = () => {
             { id: 1, image: ContextualInquiryImage1, text: "Caption Text 1" },
             { id: 2, image: ContextualInquiryImage2, text: "Caption Text 2" },
             { id: 3, image: ContextualInquiryImage3, text: "Caption Text 3" },
-            { id: 3, image: ContextualInquiryImage4, text: "Caption Text 3" },
-            { id: 3, image: ContextualInquiryImage5, text: "Caption Text 3" },
+            { id: 4, image: ContextualInquiryImage4, text: "Caption Text 3" },
+            
           ],
         },
         {
@@ -73,8 +72,7 @@ const FaqSlider = () => {
           id: 4,
           text: ' Current Day Narratives (Supported)',
           images: [
-            { id: 1, image: CurrentStateFutureStateNarrativesImage1, text: "Caption Text 1" },
-            { id: 2, image: placeholder, text: "Caption Text 2" },
+            { id: 1, image: CurrentDayNarrativesSupportedImage1, text: "Caption Text 1" },
             // ... add more images as needed
           ],
         },
@@ -92,7 +90,7 @@ const FaqSlider = () => {
           text: 'Personas (Supported)',
           images: [
             { id: 1, image: PersonasImage1, text: "Caption Text 1" },
-            { id: 2, image: placeholder, text: "Caption Text 2" },
+           
             // ... add more images as needed
           ],
         },
@@ -100,9 +98,8 @@ const FaqSlider = () => {
           id: 7,
           text: 'Benchmarking (Supported)',
           images: [
-            { id: 1, image: UMUXLiteBenchmarkingPreReleaseImage1, text: "Caption Text 1" },
-            { id: 2, image: UMUXLiteBenchmarkingPreReleaseImage2, text: "Caption Text 2" },
-            { id: 3, image: UMUXLiteBenchmarkingPreReleaseImage3, text: "Caption Text 3" },
+            { id: 1, image: BenchmarkingImage1, text: "Caption Text 1" },
+            
             // ... add more images as needed
           ],
         },
