@@ -1,13 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import chad from "../../assets/chad.png";
 import image1 from '../../assets/footer/Rectangle 9 (1).png'
 import image2 from '../../assets/footer/Rectangle 9 (2).png'
 import image3 from '../../assets/footer/Rectangle 10 (1).png'
 
 const Footer = () => {
-  const { pathname } = useLocation();
+  
 
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
@@ -33,7 +33,7 @@ const Footer = () => {
            <div className="mt-10 md:mt-10 lg:mt-0">
              <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-medium leading-6">List</h1>
 
-             <div className="flex items-center gap-3 mt-4">
+             <Link to={'/driver-app'} className="flex items-center gap-3 mt-4">
 
                <img className="w-[92px] h-[60px]" src={image1} alt="" />
 
@@ -43,9 +43,9 @@ const Footer = () => {
                   <p className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5">Product Redesign</p>
                 </div>
 
-             </div> 
+             </Link> 
              
-             <div className="flex items-center gap-3 mt-10">
+             <Link to={'/automated-equipment-dispatching'} className="flex items-center gap-3 mt-10">
 
                <img className="w-[92px] h-[60px]" src={image2} alt="" />
 
@@ -55,12 +55,12 @@ const Footer = () => {
                   <p className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5">New Product </p>
                 </div>
 
-             </div>
+             </Link>
            </div>
 
 
               <div className="mt-10 md:mt-10 lg:mt-0">
-              <div className="flex items-center gap-3">
+              <Link to={'/fuel-stops'} className="flex items-center gap-3">
 
                <img className="w-[92px] h-[60px]" src={image3} alt="" />
 
@@ -70,7 +70,7 @@ const Footer = () => {
                   <p className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5">New Feature  </p>
                 </div>
 
-                </div>
+                </Link>
               </div>
 
 

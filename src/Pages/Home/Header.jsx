@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
 import { Link } from "react-router-dom";
 import linkedin from "../../assets/linkedin.svg";
@@ -25,17 +26,16 @@ const Header = () => {
               <p className="text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                 Senior UX Researcher
               </p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[350px] 2xl:w-[424px] text-justify leading-6">
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[420px] 2xl:w-[424px] text-justify leading-6">
                 UX Research with focus area in advancing internal and enterprise
-                systems
+                systems for B2BA and B2C audiences.
               </p>
 
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[350px] 2xl:w-[424px] text-justify leading-6">
-                Outside of UX Research, I’m interested in web design,
-                skills-based training in basketball, reading & math tutoring for
-                elementary students and growing as a visual artist. Currently
-                collaborating with 3D Modelers and apparel designers to build
-                moderately-cost products
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[420px] 2xl:w-[424px] text-justify leading-6">
+                I'm currently searching for roles focused on growing a user base and measuring & improving user behavior against defined business goals.
+              </p>
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[420px] 2xl:w-[424px] text-justify leading-6">
+                I also enjoy designing wireframes, and I'm currently enrolled in certification trainings in statistics and date science.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ const Header = () => {
 
               <div className="px-6 py-[32px]">
                 <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
-                  Creating a repeatable process for redesigning products
+                 Redesigning an internal application
                 </h3>
               </div>
             </div>
@@ -111,16 +111,16 @@ const Header = () => {
                 className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#9fa1a3] hover:rounded-t-[12px]"
               >
                 <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
-                  Suggested Fuel Stops{" "}
+                  New Feature
                 </h1>
                 <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px] text-center">
-                  New ML/AI Feature
+                  Suggested Fuel Stops
                 </p>
               </Link>
 
               <div className="px-6 py-[32px]">
                 <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
-                  Pinpointing opportunities to introduce an automation feature
+                  Pinpointing opportunities to recommend fueling stations
                 </h3>
               </div>
             </div>
@@ -134,16 +134,16 @@ const Header = () => {
                 className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#9fa1a3] hover:rounded-t-[12px]"
               >
                 <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
-                  Automated Dispatching{" "}
+                  New Feature
                 </h1>
                 <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px] text-center">
-                  New ML/AI Feature
+                Automated Dispatching
                 </p>
               </Link>
 
               <div className="px-6 py-[32px]">
                 <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
-                  Deploying features that automate critical workflows & tasks
+                  Helping Launch a new major feature
                 </h3>
               </div>
             </div>
