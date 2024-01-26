@@ -85,7 +85,7 @@ const Header = () => {
             >
               <Link
                 to={"/driver-app"}
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#c7e1fc] hover:rounded-t-[12px] duration-300"
+                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#9fa1a3] hover:rounded-t-[12px] duration-300"
               >
                 <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
                   Product Redesign{" "}
@@ -96,7 +96,7 @@ const Header = () => {
               </Link>
 
               <div className="px-6 py-[32px]">
-                <h3 className="text-[#2B2B2B] text-[18px] font-Montserrat font-normal leading-7">
+                <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
                   Creating a repeatable process for redesigning products
                 </h3>
               </div>
@@ -108,7 +108,7 @@ const Header = () => {
             >
               <Link
                 to={"/fuel-stops"}
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#c7e1fc] hover:rounded-t-[12px]"
+                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#9fa1a3] hover:rounded-t-[12px]"
               >
                 <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
                   Suggested Fuel Stops{" "}
@@ -119,7 +119,7 @@ const Header = () => {
               </Link>
 
               <div className="px-6 py-[32px]">
-                <h3 className="text-[#2B2B2B] text-[18px] font-Montserrat font-normal leading-7">
+                <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
                   Pinpointing opportunities to introduce an automation feature
                 </h3>
               </div>
@@ -131,7 +131,7 @@ const Header = () => {
             >
               <Link
                 to={"/automated-equipment-dispatching"}
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#c7e1fc] hover:rounded-t-[12px]"
+                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#9fa1a3] hover:rounded-t-[12px]"
               >
                 <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
                   Automated Dispatching{" "}
@@ -142,7 +142,7 @@ const Header = () => {
               </Link>
 
               <div className="px-6 py-[32px]">
-                <h3 className="text-[#2B2B2B] text-[18px] font-Montserrat font-normal leading-7">
+                <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
                   Deploying features that automate critical workflows & tasks
                 </h3>
               </div>

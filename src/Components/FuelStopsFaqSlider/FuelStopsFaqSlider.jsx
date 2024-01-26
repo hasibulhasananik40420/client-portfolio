@@ -7,15 +7,17 @@ import { useState } from "react";
 import DeskResearchImage1 from "../../assets/Placeholder.png"
 
 import SemiStructuredInterviewsImage1 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/01.png"
-import SemiStructuredInterviewsImage2 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/04 (1).png"
-import SemiStructuredInterviewsImage3 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.05 AM.png"
-import SemiStructuredInterviewsImage4 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.17 AM.png"
-import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.28 AM.png"
+import SemiStructuredInterviewsImage2 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2024-01-24 6.10.00 PM.png"
+import SemiStructuredInterviewsImage3 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/04 (1).png"
+import SemiStructuredInterviewsImage4 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.05 AM.png"
+import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.17 AM.png"
+import SemiStructuredInterviewsImage6 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.28 AM.png"
 
 
 
 import ExperienceMappingImage1 from "../../assets/Suggested-fuel-Stops/Experience Mapping/02 (1).png"
-import ExperienceMappingImage2 from "../../assets/Suggested-fuel-Stops/Experience Mapping/image.png"
+import ExperienceMappingImage2 from "../../assets/Suggested-fuel-Stops/Experience Mapping/Screenshot 2024-01-24 6.20.12 PM.png"
+import ExperienceMappingImage3 from "../../assets/Suggested-fuel-Stops/Experience Mapping/image.png"
 
 
 
@@ -42,19 +44,21 @@ const FuelStopsFaqSlider = () => {
           id: 2,
           text: 'Semi-structured Interviews',
           images: [
-            { id: 1, image: SemiStructuredInterviewsImage1, text: "Caption Text 1" },
-            { id: 2, image: SemiStructuredInterviewsImage2, text: "Caption Text 2" },
-            { id: 3, image: SemiStructuredInterviewsImage3, text: "Caption Text 3" },
-            { id: 4, image: SemiStructuredInterviewsImage4, text: "Caption Text 3" },
-            { id: 5, image: SemiStructuredInterviewsImage5, text: "Caption Text 3" },
+            { id: 1, image: SemiStructuredInterviewsImage1, text: "Semi-structured Interviews: Research Plan" },
+            { id: 2, image: SemiStructuredInterviewsImage2, text: "Semi-structured Interviews: Desk/Past Research to Inform Questions" },
+            { id: 3, image: SemiStructuredInterviewsImage3, text: "Semi-structured Interviews: Interview Guide" },
+            { id: 4, image: SemiStructuredInterviewsImage4, text: "Semi-structured Interviews: Report Readout (1 of 3)" },
+            { id: 5, image: SemiStructuredInterviewsImage5, text: "Semi-structured Interviews: Report Readout (2 of 3)" },
+            { id: 6, image: SemiStructuredInterviewsImage6, text: "Semi-structured Interviews: Report Readout (3 of 3)" },
           ],
         },
         {
           id: 3,
-          text: 'Experience Mapping',
+          text: 'Journey Mapping',
           images: [
-            { id: 1, image: ExperienceMappingImage1, text: "Caption Text 1" },
-            { id: 2, image: ExperienceMappingImage2, text: "Caption Text 2" },
+            { id: 1, image: ExperienceMappingImage1, text: "Journey Mapping: Research Plan" },
+            { id: 2, image: ExperienceMappingImage2, text: "Journey Mapping: Working File to Pinpoint Entry Points for Feature(1 of 2)" },
+            { id: 3, image: ExperienceMappingImage3, text: "Journey Mapping: Working File to Pinpoint Entry Points for Feature(2 of 2)" },
            
           ],
         },
@@ -75,29 +79,64 @@ const FuelStopsFaqSlider = () => {
 
 
   return (
-    <div className="flex flex-col gap-6">
-      {faqData.map((section, index) => (
-        <div key={section.id}>
-          <div className="flex gap-2" onClick={() => toggleSection(index)}>
-            {openSections[index] ? (
-              <AiOutlineMinus className="text-[30px] cursor-pointer" />
-            ) : (
-              <CiSquarePlus className="text-[30px] cursor-pointer" />
-            )}
-            <h3 className="text-[#2B2B2B] text-[20px] font-Montserrat leading-8 font-medium">
-              {section.text}
-            </h3>
-          </div>
+    // <div className="flex flex-col gap-6">
+    //   {faqData.map((section, index) => (
+    //     <div key={section.id}>
+    //       <div className="flex gap-2" onClick={() => toggleSection(index)}>
+    //         {openSections[index] ? (
+    //           <AiOutlineMinus className="text-[30px] cursor-pointer" />
+    //         ) : (
+    //           <CiSquarePlus className="text-[30px] cursor-pointer" />
+    //         )}
+    //         <h3 className="text-[#2B2B2B] text-[20px] font-Montserrat leading-8 font-medium">
+    //           {section.text}
+    //         </h3>
+    //       </div>
 
-          {openSections[index] && (
-            <div className="">
-              {/* Pass the image paths to CustomSliderVTwo */}
-              <CustomSliderVTwo images={section.images} />
-            </div>
+    //       {openSections[index] && (
+    //         <div className="">
+    //           <CustomSliderVTwo images={section.images} />
+    //         </div>
+    //       )}
+    //     </div>
+    //   ))}
+    // </div>
+
+
+    <div className="flex flex-col gap-6">
+    {faqData.map((section, index) => (
+      <div key={section.id}>
+        <div className="flex gap-2" onClick={() => toggleSection(index)}>
+          {openSections[index] ? (
+            <AiOutlineMinus className="text-[30px] cursor-pointer" />
+          ) : (
+            <CiSquarePlus className="text-[30px] cursor-pointer" />
           )}
+          <h3 className="text-[#2B2B2B] text-[20px] font-Montserrat leading-8 font-medium">
+            {section.text}
+          </h3>
         </div>
-      ))}
-    </div>
+
+        {openSections[index] && (
+          <div className="">
+            {section.images.length > 1 && ( // Only render slider if there is more than 1 image
+              <CustomSliderVTwo images={section.images} />
+            )}
+            {section.images.length === 1 && ( // Render single image without slider
+              <div className="h-[380px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[1100px] mt-3">
+                <img
+                  className="object-contain w-full h-full"
+                  src={section.images[0].image}
+                  alt=""
+                />
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+
   )
 }
 

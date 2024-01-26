@@ -27,7 +27,7 @@ const DriverApp = () => {
 
        <h3 className='text-[#242424] text-[24px] mt-[66px] font-Montserrat font-bold leading-[34px]'>Background</h3>
 
-        <p className='mt-[18px] text-[#242424] text-[20px] font-Montserrat font-medium leading-8 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
+        <p className='mt-[18px] text-[#242424] text-[20px] font-Montserrat font-medium leading-8 tracking-[-0.1px] italic'>Leadership wanted to redesign an internal application, used by branch drivers,with processes that could be reused on other internal applications.</p>
 
          <p className='mt-[38px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
 
