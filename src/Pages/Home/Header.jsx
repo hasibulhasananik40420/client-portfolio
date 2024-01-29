@@ -80,7 +80,7 @@ const Header = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 lg:ml-6 ml-0 lg:mt-0 md:mt-10 mt-10">
 
             <div
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] hover:border-[#88bff7] duration-300"
+              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <Link
@@ -103,12 +103,12 @@ const Header = () => {
             </div>
 
             <div
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] hover:border-[#88bff7] duration-300"
+              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <Link
                 to={"/fuel-stops"}
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#88bff7] hover:rounded-t-[12px]"
+                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#88bff7] duration-300 hover:rounded-t-[12px]"
               >
                 <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
                   New Feature
@@ -126,12 +126,12 @@ const Header = () => {
             </div>
 
             <div
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] hover:border-[#88bff7] duration-300"
+              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <Link
                 to={"/automated-equipment-dispatching"}
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#88bff7] hover:rounded-t-[12px]"
+                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center cursor-pointer hover:bg-[#88bff7] duration-300 hover:rounded-t-[12px]"
               >
                 <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
                   New Feature
