@@ -80,7 +80,7 @@ const Header = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 lg:ml-6 ml-0 lg:mt-0 md:mt-10 mt-10">
 
             <Link to={"/driver-app"}
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:bg-[#88bff7] hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
@@ -105,7 +105,7 @@ const Header = () => {
 
 
             <Link  to={"/fuel-stops"}
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:bg-[#88bff7] hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
@@ -128,7 +128,7 @@ const Header = () => {
             </Link>
 
             <Link to={"/automated-equipment-dispatching"}
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:bg-[#88bff7] hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
