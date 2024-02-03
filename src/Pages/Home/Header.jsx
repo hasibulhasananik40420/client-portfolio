@@ -7,7 +7,7 @@ import doc from "../../assets/Frame 66.svg";
 
 const Header = () => {
   return (
-    <div className="max-w-container mx-auto lg:px-4 2xl:px-0  px-4 md:px-8 py-6 ">
+    <div className="max-w-container mx-auto lg:px-4 xl:px-0 2xl:px-0  px-4 md:px-8 py-6 ">
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
@@ -72,6 +72,7 @@ const Header = () => {
             </a>
           </div>
 
+         
           {/********************** socal media icon end here *************************/}
         </div>
 
@@ -80,7 +81,7 @@ const Header = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 lg:ml-6 ml-0 lg:mt-0 md:mt-10 mt-10">
 
             <Link to={"/driver-app"}
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="xl:w-[400px] lg:w-[360px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
@@ -105,7 +106,7 @@ const Header = () => {
 
 
             <Link  to={"/fuel-stops"}
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="xl:w-[400px] lg:w-[360px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
@@ -128,7 +129,7 @@ const Header = () => {
             </Link>
 
             <Link to={"/automated-equipment-dispatching"}
-              className="lg:w-[400px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="xl:w-[400px] lg:w-[360px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div

@@ -6,12 +6,16 @@ import SuggestedFuelStops from "../Pages/SuggestedFuelStops/SuggestedFuelStops";
 import DriverApp from "../Pages/DriverApp/DriverApp";
 import AutomatedEquipmentDispatching from "../Pages/AutomatedEquipmentDispatching/AutomatedEquipmentDispatching";
 
+
+
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
     errorElement: <ErrorPage/>,
     children: [
+
+
       {
         path: "/",
         element: <Home />,
@@ -27,11 +31,16 @@ const routes = createBrowserRouter([
       {
         path: "/fuel-stops",
         element: <SuggestedFuelStops />,
-      },
+      }, 
+      
 
      
     ],
+   
   },
+
+
+ 
 ]);
 
 export default routes;
