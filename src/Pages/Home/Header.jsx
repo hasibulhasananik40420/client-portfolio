@@ -134,7 +134,7 @@ const Header = () => {
                 </p>
               </div>
 
-              <div className="px-6 2xl:py-[32px] xl:py-[32px] lg:py-[24px]">
+              <div className="px-6 2xl:py-[32px] xl:py-[32px] lg:py-[24px] md:py-[32px] py-[32px]">
                 <h3 className="text-[#2B2B2B] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] md:text-[18px] text-[18px] text-center font-Montserrat font-normal leading-7">
                  {product?.para}
                 </h3>
