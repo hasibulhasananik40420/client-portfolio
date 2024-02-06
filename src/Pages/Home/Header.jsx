@@ -5,6 +5,8 @@ import linkedin from "../../assets/linkedin.svg";
 import email from "../../assets/email.svg";
 import doc from "../../assets/Frame 66.svg";
 import React from "react";
+import chad2 from '../../assets/chad2.png'
+
 
 const Header = () => {
 
@@ -48,7 +50,7 @@ const Header = () => {
             <div className="w-full overflow-hidden">
               <img
                 className="w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px]  md:mx-auto lg:mx-0 2xl:h-[362px] lg:h-[362px] xl:h-[362px] md:h-[600px] h-[350px] bg-contain rounded-lg "
-                src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/collections/a14009ec-3cfd-4ee1-bda6-acbd78e90f0f/t6ZGYj060JbLeYt1.png"
+                src={chad2}
                 alt=""
               />
             </div>
