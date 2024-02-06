@@ -41,13 +41,13 @@ const Header = () => {
 
 
   return (
-    <div className="max-w-container mx-auto lg:px-[120px] xl:px-[130px] 2xl:px-0  px-4 md:px-8 py-6 ">
+    <div className="max-w-container mx-auto lg:px-[120px] xl:px-[120px] 2xl:px-0  px-4 md:px-8 py-6 ">
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
             <div className="w-full overflow-hidden">
               <img
-                className="w-full md:w-full lg:w-[330px] xl:w-[350px] 2xl:w-[424px]  md:mx-auto lg:mx-0 2xl:h-[420px] lg:h-[380px] xl:h-[410px] md:h-[600px] h-[350px] rounded-lg object-cover object-center transition-all duration-700 hover:scale-110"
+                className="w-full md:w-full lg:w-[330px] xl:w-[340px] 2xl:w-[424px]  md:mx-auto lg:mx-0 2xl:h-[420px] lg:h-[380px] xl:h-[410px] md:h-[600px] h-[350px] rounded-lg object-cover object-center transition-all duration-700 hover:scale-110"
                 src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/collections/a14009ec-3cfd-4ee1-bda6-acbd78e90f0f/t6ZGYj060JbLeYt1.png"
                 alt=""
               />
@@ -60,15 +60,15 @@ const Header = () => {
               <p className="text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                 Senior UX Researcher
               </p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[370px] 2xl:w-[424px] text-justify leading-6">
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[340px] 2xl:w-[424px] text-justify leading-6">
               UX Researcher with focus area in advancing internal and enterprise
                 systems for B2BA and B2C audiences.
               </p>
 
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[370px] 2xl:w-[424px] text-justify leading-6">
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[340px] 2xl:w-[424px] text-justify leading-6">
                 I'm currently searching for roles focused on growing a user base and measuring & improving user behavior against defined business goals.
               </p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[370px] 2xl:w-[424px] text-justify leading-6">
+              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[340px] 2xl:w-[424px] text-justify leading-6">
                 I also enjoy designing wireframes, and I'm currently enrolled in certification trainings in statistics and date science.
               </p>
             </div>
@@ -112,7 +112,7 @@ const Header = () => {
 
 
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 2xl:ml-6 xl:ml-3 lg:ml-3 ml-0 lg:mt-0 md:mt-10 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 2xl:ml-6 xl:ml-5 lg:ml-3 ml-0 lg:mt-0 md:mt-10 mt-10">
 
 
             {

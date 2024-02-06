@@ -15,6 +15,10 @@ export default {
         containerxs: '768px'
       },
 
+      screens:{
+        '2Issue': {'min': '1300px', 'max': '1400px'},
+      },
+
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif'],
         Playfair: ['Playfair Display', ' serif'],
