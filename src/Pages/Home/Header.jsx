@@ -139,7 +139,7 @@ const Header = () => {
               </div>
 
               <div className="px-6 2xl:py-[20px] xl:py-[20px] lg:py-[20px] md:py-[32px] py-[32px]">
-                <h3 className="text-[#2B2B2B] 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[18px] text-[18px] text-center font-Montserrat font-normal xl:leading-5 lg:leading-5 md:leading-7 leading-7 2xl:leading-5">
+                <h3 className="text-[#2B2B2B] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[18px] text-[18px] text-center font-Montserrat font-normal">
                  {product?.para}
                 </h3>
               </div>
