@@ -47,7 +47,7 @@ const Header = () => {
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
-            <div className="lg:w-[335px] xl:w-[335px] 2xl:w-[335px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[345px] lg:h-[345px] xl:h-[345px] md:h-[600px] h-[350px]">
+            <div className="lg:w-[335px] xl:w-[335px] 2xl:w-[335px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[335px] lg:h-[335px] xl:h-[335px] md:h-[600px] h-[350px]">
               <img
                 className="w-full h-full  object-cover rounded-lg"
                 src={chad2}
@@ -59,20 +59,22 @@ const Header = () => {
               <h1 className="2xl:text-[24px] lg:text-[24px] xl:text-[24px] text-[28px] md:text-[28px]  font-semibold text-[#2B2B2B] font-Montserrat leading-[38px] mt-7">
                 Chad Smith
               </h1>
+              <div className="">
               <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] text-[20px] md:text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                 Senior UX Researcher
               </p>
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px] leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[12px] text-[12px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px]">
               UX Researcher with focus area in advancing internal and enterprise
                 systems for B2BA and B2C audiences.
               </p>
 
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px] leading-6">
+              <p className="text-[#2B2B2B] 22xl:text-[12px] text-[12px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px]">
                 I'm currently searching for roles focused on growing a user base and measuring & improving user behavior against defined business goals.
               </p>
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px] leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[12px] text-[12px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px] ">
                 I also enjoy designing wireframes, and I'm currently enrolled in certification trainings in statistics and date science.
               </p>
+              </div>
             </div>
           </div>
 
