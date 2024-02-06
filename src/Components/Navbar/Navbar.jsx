@@ -4,7 +4,7 @@ import chad from '../../assets/chad.png'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
-    <div className='bg-white h-[92px] max-w-container mx-auto lg:px-[140px] xl:px-[140px] 2xl:px-0  px-4 md:px-8 py-4 '>
+    <div className='bg-white h-[92px] max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:px-0  px-4 md:px-8 py-4 '>
         <Link to={'/'} className='flex items-center gap-4 w-[260px] h-[60px]'>
         <div >
             <img className='w-[60px] h-[60px] rounded-full' src={chad} alt="" />

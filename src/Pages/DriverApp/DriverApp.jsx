@@ -16,7 +16,7 @@ const DriverApp = () => {
       </Helmet>
       <div className="bg-white">
       <Navbar/>
-      <div className="max-w-container mx-auto lg:px-[140px] xl:px-[140px] 2xl:px-0  px-4 md:px-8 mt-[48px]">
+      <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:px-0  px-4 md:px-8 mt-[48px]">
        
        <div className=' w-full'>
        <h1 className="text-[#242424] md:text-[42px] text-[30px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">Product Redesign: Driver Application</h1>
@@ -52,13 +52,13 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]'>Research Findings</h1>
 
 
-           <div className='flex flex-col gap-4 mt-[34px]'>
+           <div className='flex flex-col gap-4 mt-[34px] lg:w-[800px] w-full'>
 
            <div className='flex gap-4'>
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Drivers are missing features when completing daily tasks, which opens the door for human error and reliance on third-party tools</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 '>Drivers are missing features when completing daily tasks, which opens the door for human error and reliance on third-party tools</p>
 
             </div>
 
@@ -66,7 +66,7 @@ const DriverApp = () => {
              <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Drives are impacted by inaccurate or incomplete customer data entered by employees</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 '>Drives are impacted by inaccurate or incomplete customer data entered by employees</p>
 
             </div> 
             
@@ -74,7 +74,7 @@ const DriverApp = () => {
             <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Driver need customers to follow company policies to reduce wasted employee hours</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 '>Driver need customers to follow company policies to reduce wasted employee hours</p>
 
             </div>
 
@@ -85,13 +85,13 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]'>Impact</h1>
 
 
-           <div className='flex flex-col gap-4 mt-[34px]'>
+           <div className='flex flex-col gap-4 mt-[34px] lg:w-[800px] w-full'>
 
            <div className='flex gap-4'>
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Product aligned on what issues were addressable through user experience changes versus operational & multi-system changes</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 '>Product aligned on what issues were addressable through user experience changes versus operational & multi-system changes</p>
 
             </div>
 
@@ -99,7 +99,7 @@ const DriverApp = () => {
              <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Product built a backlog of issues to address based on feasibility & urgency</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 '>Product built a backlog of issues to address based on feasibility & urgency</p>
 
             </div> 
             
@@ -107,7 +107,7 @@ const DriverApp = () => {
             <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>One major feature was immediately redesigned and currently undergoing implementation</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 '>One major feature was immediately redesigned and currently undergoing implementation</p>
 
             </div>
 
@@ -126,7 +126,7 @@ const DriverApp = () => {
            <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Keeping Product aligned throughout the entire research process was key to Product supporting and adopting the findings. This spanned from remaining connected on what type of participants were needed to what type of employee tasks were of most interest.</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 llg:w-[800px] w-full'>Keeping Product aligned throughout the entire research process was key to Product supporting and adopting the findings. This spanned from remaining connected on what type of participants were needed to what type of employee tasks were of most interest.</p>
 
             </div>
 
@@ -134,7 +134,7 @@ const DriverApp = () => {
              <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full'>Creating readout documents for executive and delivery teams allowed each audience to take appropriate next steps. The executive team readout, for example, helped inform what immediate roadmap changes were needed. The delivery team readout, however, served as a point of reference for design when creating wireframes and other-related documents.</p>
+               <p className='text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[800px] w-full'>Creating readout documents for executive and delivery teams allowed each audience to take appropriate next steps. The executive team readout, for example, helped inform what immediate roadmap changes were needed. The delivery team readout, however, served as a point of reference for design when creating wireframes and other-related documents.</p>
 
             </div> 
             

@@ -145,7 +145,7 @@ const FaqSlider = () => {
               <CustomSliderVTwo images={section.images} />
             )}
             {section.images.length === 1 && ( // Render single image without slider
-              <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[1000px] mt-3">
+              <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[800px] mt-3">
                 <img
                   className="object-contain w-full h-full"
                   src={section.images[0].image}
