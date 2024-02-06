@@ -41,13 +41,13 @@ const Header = () => {
 
 
   return (
-    <div className="max-w-container mx-auto lg:px-[200px] xl:px-[200px] 2xl:px-0  px-4 md:px-8 py-6 ">
+    <div className="max-w-container mx-auto lg:px-[180px] xl:px-[180px] 2xl:px-0  px-4 md:px-8 py-6 ">
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
             <div className="w-full overflow-hidden">
               <img
-                className="w-full md:w-full lg:w-[292px] xl:w-[292px] 2xl:w-[292px]  md:mx-auto lg:mx-0 2xl:h-[372px] lg:h-[372px] xl:h-[372px] md:h-[600px] h-[350px] bg-contain rounded-lg "
+                className="w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px]  md:mx-auto lg:mx-0 2xl:h-[372px] lg:h-[372px] xl:h-[372px] md:h-[600px] h-[350px] bg-contain rounded-lg "
                 src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/collections/a14009ec-3cfd-4ee1-bda6-acbd78e90f0f/t6ZGYj060JbLeYt1.png"
                 alt=""
               />
@@ -60,15 +60,15 @@ const Header = () => {
               <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] text-[20px] md:text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                 Senior UX Researcher
               </p>
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[276px] xl:w-[276px] 2xl:w-[276px] leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px] leading-6">
               UX Researcher with focus area in advancing internal and enterprise
                 systems for B2BA and B2C audiences.
               </p>
 
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[276px] xl:w-[276px] 2xl:w-[276px] leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px] leading-6">
                 I'm currently searching for roles focused on growing a user base and measuring & improving user behavior against defined business goals.
               </p>
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[276px] xl:w-[276px] 2xl:w-[276px]leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px]leading-6">
                 I also enjoy designing wireframes, and I'm currently enrolled in certification trainings in statistics and date science.
               </p>
             </div>
@@ -119,7 +119,7 @@ const Header = () => {
               products?.map(product=> <React.Fragment key={product._id}>
               
               <Link to={product?.link}
-              className="2xl:w-[272px] xl:w-[272px] lg:w-[272px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="2xl:w-[282px] xl:w-[282px] lg:w-[282px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
