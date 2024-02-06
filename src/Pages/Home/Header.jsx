@@ -65,7 +65,7 @@ const Header = () => {
               </p>
               <p className="text-[#2B2B2B] 2xl:text-[12px] text-[12px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px]">
               UX Researcher with focus area in advancing internal and enterprise
-                systems for B2BA and B2C audiences.
+                systems for B2B and B2C audiences.
               </p>
 
               <p className="text-[#2B2B2B] 22xl:text-[12px] text-[12px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px]">
