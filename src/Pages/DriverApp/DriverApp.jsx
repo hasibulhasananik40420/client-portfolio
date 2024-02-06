@@ -16,10 +16,10 @@ const DriverApp = () => {
       </Helmet>
       <div className="bg-white">
       <Navbar/>
-      <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[48px]">
+      <div className="max-w-container mx-auto lg:px-[140px] xl:px-[140px] 2xl:px-0  px-4 md:px-8 mt-[48px]">
        
-       <div className='lg:w-[1056px] w-full'>
-       <h1 className="text-[#242424] md:text-[42px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">Product Redesign: Driver Application</h1>
+       <div className=' w-full'>
+       <h1 className="text-[#242424] md:text-[42px] text-[30px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">Product Redesign: Driver Application</h1>
      
      <p className='text-[#242424] text-[20px] mt-4 font-Montserrat font-semibold leading-[30px]'>Creating a repeatable process for redesigning products</p>
     

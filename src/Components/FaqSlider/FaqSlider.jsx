@@ -122,28 +122,7 @@ const FaqSlider = () => {
 
   return (
    
-    // <div className="flex flex-col gap-6">
-    //   {faqData.map((section, index) => (
-    //     <div key={section.id}>
-    //       <div className="flex gap-2" onClick={() => toggleSection(index)}>
-    //         {openSections[index] ? (
-    //           <AiOutlineMinus className="text-[30px] cursor-pointer" />
-    //         ) : (
-    //           <CiSquarePlus className="text-[30px] cursor-pointer" />
-    //         )}
-    //         <h3 className="text-[#2B2B2B] text-[20px] font-Montserrat leading-8 font-medium">
-    //           {section.text}
-    //         </h3>
-    //       </div>
-
-    //       {openSections[index] && (
-    //         <div className="">
-    //           <CustomSliderVTwo images={section.images} />
-    //         </div>
-    //       )}
-    //     </div>
-    //   ))}
-    // </div>
+   
 
      
     <div className="flex flex-col gap-6">
@@ -166,7 +145,7 @@ const FaqSlider = () => {
               <CustomSliderVTwo images={section.images} />
             )}
             {section.images.length === 1 && ( // Render single image without slider
-              <div className="h-[380px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[1100px] mt-3">
+              <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[1000px] mt-3">
                 <img
                   className="object-contain w-full h-full"
                   src={section.images[0].image}

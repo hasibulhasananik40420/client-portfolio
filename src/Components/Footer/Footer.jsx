@@ -2,85 +2,77 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import chad from "../../assets/chad.png";
-import image1 from '../../assets/footer/Rectangle 9 (1).png'
-import image2 from '../../assets/footer/Rectangle 9 (2).png'
-import image3 from '../../assets/footer/Rectangle 10 (1).png'
 
 const Footer = () => {
-  
-
   return (
-    <div className="bg-[#F2F2F2] h-full w-full">
-      
+    <div className="bg-white h-full w-full">
+      <div className="max-w-container mx-auto lg:flex md:flex-wrap justify-between h-full py-[66px] lg:px-[140px] xl:px-[140px] 2xl:px-0  px-4 md:px-8">
+        <div>
+          <Link to={"/"} className="flex items-center gap-4  h-[60px]">
+            <div>
+              <img
+                className="w-[60px] h-[60px] rounded-full"
+                src={chad}
+                alt=""
+              />
+            </div>
+            <div>
+              <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-bold leading-[34px]">
+                Chad
+              </h1>
+              <p className="text-[#2B2B2B] text-[20px] font-Montserrat font-normal leading-[30px]">
+                Senior UX Researcher
+              </p>
+            </div>
+          </Link>
+        </div>
 
-       <div className="max-w-containerX mx-auto lg:flex md:flex-wrap justify-between lg:h-[328px] h-full py-[66px] px-4 md:px-8 lg:px-4 2xl:px-0">
+        <div>
+          <p className="text-[16px] text-[#2B2B2B] font-Montserrat font-medium leading-6 underline underline-offset-4">
+            Case Studies
+          </p>
 
-        
-       <Link to={"/"} className="flex items-center gap-4  h-[60px]">
-          <div>
-            <img className="w-[60px] h-[60px] rounded-full" src={chad} alt="" />
+          <div className="mt-4">
+            <Link to={"/driver-app"} className=" cursor-pointer">
+              <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-semibold leading-[30px]">
+                Product Design
+              </h1>
+
+              <p className="text-[#2B2B2B] text-[14px] mt-[2px] font-Montserrat font-normal leading-[20px]">
+                Driver Application
+              </p>
+            </Link>
           </div>
-          <div>
-            <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-bold leading-[34px]">
-              Chad
-            </h1>
-            <p className="text-[#2B2B2B] text-[20px] font-Montserrat font-normal leading-[30px]">
-            Senior UX Researcher
-            </p>
+
+
+        </div>
+
+        <div className="mt-10">
+            <Link to={"/fuel-stops"} className=" cursor-pointer">
+              <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-semibold leading-[30px]">
+              New Feature
+              </h1>
+
+              <p className="text-[#2B2B2B] text-[14px] mt-[2px] font-Montserrat font-normal leading-[20px]">
+              Suggested Fuel Stops
+              </p>
+            </Link>
           </div>
-        </Link>
 
-           <div className="mt-10 md:mt-10 lg:mt-0">
-             <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-medium leading-6">List</h1>
+            <div className="mt-10">
+            <Link to={"/automated-equipment-dispatching"} className=" cursor-pointer">
+              <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-semibold leading-[30px]">
+              New Feature
+              </h1>
 
-             <Link to={'/driver-app'} className="flex items-center gap-3 mt-4">
-
-               <img className="w-[92px] h-[60px]" src={image1} alt="" />
-
-                <div>
-                
-                  <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-semibold leading-[30px]">Driver App</h1>
-                  <p className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5">Product Redesign</p>
-                </div>
-
-             </Link> 
-             
-             <Link to={'/automated-equipment-dispatching'} className="flex items-center gap-3 mt-10">
-
-               <img className="w-[92px] h-[60px]" src={image2} alt="" />
-
-                <div>
-                
-                <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-semibold leading-[30px]">Automated Equipment Dispatching</h1>
-                  <p className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5">New Product </p>
-                </div>
-
-             </Link>
-           </div>
+              <p className="text-[#2B2B2B] text-[14px] mt-[2px] font-Montserrat font-normal leading-[20px]">
+              Automated Dispatching
+              </p>
+            </Link>
+          </div>
 
 
-              <div className="mt-10 md:mt-10 lg:mt-0">
-              <Link to={'/fuel-stops'} className="flex items-center gap-3">
-
-               <img className="w-[92px] h-[60px]" src={image3} alt="" />
-
-               <div>
-                
-                <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-semibold leading-[30px]">Suggested Fuel Stops</h1>
-                  <p className="text-[#2B2B2B] text-[14px] font-Montserrat font-normal leading-5">New Feature  </p>
-                </div>
-
-                </Link>
-              </div>
-
-
-       </div>
-
-        
-
-
-
-       
+      </div>
     </div>
   );
 };
