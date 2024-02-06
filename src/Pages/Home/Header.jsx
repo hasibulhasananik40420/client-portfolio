@@ -47,7 +47,7 @@ const Header = () => {
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
-            <div className="lg:w-[325px] xl:w-[325px] 2xl:w-[325px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[325px] lg:h-[325px] xl:h-[325px] md:h-[600px] h-[350px]">
+            <div className="lg:w-[329px] xl:w-[329px] 2xl:w-[329px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[325px] lg:h-[325px] xl:h-[325px] md:h-[600px] h-[350px]">
               <img
                 className="w-full h-full  object-cover rounded-lg"
                 src={chad2}
@@ -116,7 +116,7 @@ const Header = () => {
 
 
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-[22px] xl:gap-[22px] lg:gap-[24px] 2xl:ml-3 xl:ml-3 lg:ml-3 ml-0 lg:mt-0 md:mt-10 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-[22px] xl:gap-[22px] lg:gap-[24px] 2xl:ml-3 xl:ml-0 lg:ml-0 ml-0 lg:mt-0 md:mt-10 mt-10">
 
 
             {
