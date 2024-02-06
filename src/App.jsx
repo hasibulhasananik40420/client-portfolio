@@ -63,10 +63,10 @@ const App = () => {
           <div className="flex flex-col justify-center items-center h-[100vh] ">
           <h1 className="text-[44px] text-[#242424] font-Playfair font-bold">Please login</h1>
   
-           <form className="w-[500px] mt-10">
+           <form className="lg:w-[500px] w-full lg:px-0 px-2 mt-10">
                <div>
                   <label className="text-[18px] text-[#242424] font-Montserrat font-normal leading-6" htmlFor="password">Enter Password</label>
-                   <input className="w-[500px] h-[48px] border-[1px] border-[#242424] rounded pl-5 outline-0 focus:ring-[0.6px] focus:ring-[#0f0f0f] block mt-2 text-[16px] font-Montserrat font-normal text-[#242424] duration-500" type="password" name="passowrd" id="" placeholder="Enter Your Password"  value={password}
+                   <input className="lg:w-[500px] w-full h-[48px] border-[1px] border-[#242424] rounded pl-5 outline-0 focus:ring-[0.6px] focus:ring-[#0f0f0f] block mt-2 text-[16px] font-Montserrat font-normal text-[#242424] duration-500" type="password" name="passowrd" id="" placeholder="Enter Your Password"  value={password}
                      onChange={(e) => setPassword(e.target.value)}/>
              
                </div>
