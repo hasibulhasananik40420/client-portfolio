@@ -43,13 +43,13 @@ const Header = () => {
 
 
   return (
-    <div className="max-w-container mx-auto lg:px-[180px] xl:px-[180px] 2xl:px-0  px-4 md:px-8 py-6 ">
+    <div className="max-w-container mx-auto lg:px-[140px] xl:px-[140px] 2xl:px-0  px-4 md:px-8 py-6 ">
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
             <div className="w-full overflow-hidden">
               <img
-                className="w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px]  md:mx-auto lg:mx-0 2xl:h-[362px] lg:h-[362px] xl:h-[362px] md:h-[600px] h-[350px] bg-contain rounded-lg "
+                className="w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px]  md:mx-auto lg:mx-0 2xl:h-[362px] lg:h-[362px] xl:h-[362px] md:h-[600px] h-[350px] bg-contain rounded-lg "
                 src={chad2}
                 alt=""
               />
@@ -62,15 +62,15 @@ const Header = () => {
               <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] text-[20px] md:text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                 Senior UX Researcher
               </p>
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px] leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px] leading-6">
               UX Researcher with focus area in advancing internal and enterprise
                 systems for B2BA and B2C audiences.
               </p>
 
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px] leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px] leading-6">
                 I'm currently searching for roles focused on growing a user base and measuring & improving user behavior against defined business goals.
               </p>
-              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[310px] xl:w-[310px] 2xl:w-[310px]leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[14px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[340px] leading-6">
                 I also enjoy designing wireframes, and I'm currently enrolled in certification trainings in statistics and date science.
               </p>
             </div>
@@ -121,7 +121,7 @@ const Header = () => {
               products?.map(product=> <React.Fragment key={product._id}>
               
               <Link to={product?.link}
-              className="2xl:w-[282px] xl:w-[282px] lg:w-[282px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="2xl:w-[300px] xl:w-[300px] lg:w-[300px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
