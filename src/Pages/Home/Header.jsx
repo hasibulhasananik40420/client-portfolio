@@ -41,7 +41,7 @@ const Header = () => {
 
 
   return (
-    <div className="max-w-container mx-auto lg:px-[232px] xl:px-[232px] 2xl:px-0  px-4 md:px-8 py-6 ">
+    <div className="max-w-container mx-auto lg:px-[216px] xl:px-[216px] 2xl:px-0  px-4 md:px-8 py-6 ">
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
