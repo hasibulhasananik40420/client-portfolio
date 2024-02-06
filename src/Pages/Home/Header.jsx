@@ -47,7 +47,7 @@ const Header = () => {
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
-            <div className="lg:w-[335px] xl:w-[335px] 2xl:w-[335px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[335px] lg:h-[335px] xl:h-[335px] md:h-[600px] h-[350px]">
+            <div className="lg:w-[325px] xl:w-[325px] 2xl:w-[325px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[325px] lg:h-[325px] xl:h-[325px] md:h-[600px] h-[350px]">
               <img
                 className="w-full h-full  object-cover rounded-lg"
                 src={chad2}
