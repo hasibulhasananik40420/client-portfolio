@@ -31,7 +31,7 @@ const Header = () => {
         _id:3,
          title:' New Feature',
          subTitle:'Automated Dispatching',
-         para:'Helping Launch a new major feature',
+         para:'Helping launch a new major feature',
          link:'/automated-equipment-dispatching'
       },
 
