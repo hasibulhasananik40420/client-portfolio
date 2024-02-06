@@ -41,34 +41,34 @@ const Header = () => {
 
 
   return (
-    <div className="max-w-container mx-auto lg:px-[130px] xl:px-[170px] 2xl:px-0  px-4 md:px-8 py-6 ">
+    <div className="max-w-container mx-auto lg:px-[232px] xl:px-[232px] 2xl:px-0  px-4 md:px-8 py-6 ">
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
             <div className="w-full overflow-hidden">
               <img
-                className="w-full md:w-full lg:w-[330px] xl:w-[330px] 2xl:w-[424px]  md:mx-auto lg:mx-0 2xl:h-[420px] lg:h-[340px] xl:h-[340px] md:h-[600px] h-[350px] rounded-lg "
+                className="w-full md:w-full lg:w-[276px] xl:w-[276px] 2xl:w-[424px]  md:mx-auto lg:mx-0 2xl:h-[420px] lg:h-[372px] xl:h-[372px] md:h-[600px] h-[350px] bg-contain rounded-lg "
                 src="https://storage.googleapis.com/uxfolio/607dc3b2df0244000305af9b/collections/a14009ec-3cfd-4ee1-bda6-acbd78e90f0f/t6ZGYj060JbLeYt1.png"
                 alt=""
               />
             </div>
 
             <div className=" ">
-              <h1 className="text-[28px] font-semibold text-[#2B2B2B] font-Montserrat leading-[38px] mt-7">
+              <h1 className="2xl:text-[28px] lg:text-[24px] xl:text-[24px] text-[28px] md:text-[28px]  font-semibold text-[#2B2B2B] font-Montserrat leading-[38px] mt-7">
                 Chad Smith
               </h1>
-              <p className="text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
+              <p className="2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[20px] md:text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                 Senior UX Researcher
               </p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[330px] 2xl:w-[424px] text-justify leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[16px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[276px] xl:w-[276px] 2xl:w-[424px] leading-6">
               UX Researcher with focus area in advancing internal and enterprise
                 systems for B2BA and B2C audiences.
               </p>
 
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[330px] 2xl:w-[424px] text-justify leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[16px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[276px] xl:w-[276px] 2xl:w-[424px] leading-6">
                 I'm currently searching for roles focused on growing a user base and measuring & improving user behavior against defined business goals.
               </p>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[330px] xl:w-[330px] 2xl:w-[424px] text-justify leading-6">
+              <p className="text-[#2B2B2B] 2xl:text-[16px] text-[14px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[276px] xl:w-[276px] 2xl:w-[424px]leading-6">
                 I also enjoy designing wireframes, and I'm currently enrolled in certification trainings in statistics and date science.
               </p>
             </div>
@@ -112,14 +112,14 @@ const Header = () => {
 
 
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 2xl:ml-6 xl:ml-5 lg:ml-5 ml-0 lg:mt-0 md:mt-10 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-y-6 xl:gap-[22px] 2xl:ml-6 xl:ml-3 lg:ml-3 ml-0 lg:mt-0 md:mt-10 mt-10">
 
 
             {
               products?.map(product=> <React.Fragment key={product._id}>
               
               <Link to={product?.link}
-              className="2xl:w-[400px] xl:w-[290px] lg:w-[290px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
+              className="2xl:w-[400px] xl:w-[280px] lg:w-[280px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
               style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
             >
               <div
