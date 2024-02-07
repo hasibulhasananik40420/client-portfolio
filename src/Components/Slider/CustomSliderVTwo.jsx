@@ -73,7 +73,7 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
   return (
     <div>
         
-      <div className="relative lg:w-[800px] w-full h-[416px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10">
+      <div className="relative lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full h-[416px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10">
    
       <Slider ref={sliderRef} {...settings}>
         {images.map((image, index) => (

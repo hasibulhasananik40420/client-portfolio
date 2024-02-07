@@ -15,9 +15,9 @@ const AutomatedEquipmentDispatching = () => {
 
       <div className="bg-white">
         <Navbar />
-        <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[48px]">
-          <div className="lg:w-[1056px] w-full">
-            <h1 className="text-[#242424] md:text-[42px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">
+        <div className="max-w-containerX mx-auto lg:px-[230px] xl:px-[230px] 2xl:px-16  px-4 md:px-8 mt-[48px]">
+          <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
+            <h1 className="text-[#242424] 2xl:text-[42px] xl:text-[34px] lg:text-[34px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">
               New ML/AI Feature: Automated Dispatching
             </h1>
 
@@ -87,12 +87,12 @@ const AutomatedEquipmentDispatching = () => {
               Research Findings
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px]">
+            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 ">
                 Pickups delays are sometimes occurring due to miscommunication in type of truck needed to pickup equipment and equipment being moved to jobsites that are much further away from the original renting branch
                 </p>
               </div>
@@ -101,7 +101,7 @@ const AutomatedEquipmentDispatching = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Training must extend to back-fills and include "hands-on" walkthroughs to build familiarity and to identify possible unmet needs
                 </p>
               </div>
@@ -118,12 +118,12 @@ const AutomatedEquipmentDispatching = () => {
             Impact
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px]">
+            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Additional functionality was prioritized and implemented to the nudge branch closest to the equipment, instead of the original renting branch, to pickup equipment
                 </p>
               </div>
@@ -132,7 +132,7 @@ const AutomatedEquipmentDispatching = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 ">
                 In-person training sessions were introduced roll-out planning, instead of solely e-learning training, with pilot group users who would also serve as change manage leaders
                 </p>
               </div>
@@ -151,12 +151,12 @@ const AutomatedEquipmentDispatching = () => {
               Personal Learnings
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px]">
+            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 ">
                 The future state version of this application, which would eventually contain more employee nudging features, had regular co-design sessions with Experience Design and Technology.
                 </p>
               </div>
@@ -165,7 +165,7 @@ const AutomatedEquipmentDispatching = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Once tech feasibility stages have been completed, I would recommend using the Kano Model to assess desirability of the vetted features to influence the order of slated roadmap items
                 </p>
               </div>

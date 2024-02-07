@@ -13,9 +13,9 @@ const SuggestedFuelStops = () => {
 
       <div className="bg-white">
         <Navbar />
-        <div className="max-w-containerX mx-auto px-4 md:px-8 lg:px-4 mt-[48px]">
-          <div className="lg:w-[1056px] w-full">
-            <h1 className="text-[#242424] md:text-[42px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">
+        <div className="max-w-containerX mx-auto lg:px-[230px] xl:px-[230px] 2xl:px-16  px-4 md:px-8 mt-[48px]">
+          <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
+            <h1 className="text-[#242424] 2xl:text-[42px] xl:text-[34px] lg:text-[34px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">
               New ML/AI Feature: Suggested Fuel Stops
             </h1>
 
@@ -61,12 +61,12 @@ const SuggestedFuelStops = () => {
               Research Findings
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px]">
+            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Fueling behavior is driven by whether Drivers are taking short-distance or long-distance trips
                 </p>
               </div>
@@ -75,7 +75,7 @@ const SuggestedFuelStops = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Staying away from highest price gas & fuel stations without certain accommodations is most important when selecting fuel stations
                 </p>
               </div>
@@ -84,7 +84,7 @@ const SuggestedFuelStops = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 ">
                 Long-distance and short-distance Drivers will likely use suggested fuel stops differently
                 </p>
               </div>
@@ -93,7 +93,7 @@ const SuggestedFuelStops = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Knowing savings-to-company will likely impact whether short-distance Drivers add more time to route to travel to suggest stop
                 </p>
               </div>
@@ -106,12 +106,12 @@ const SuggestedFuelStops = () => {
             Impact
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px]">
+            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Feasibility to build ideal feature, based on discovery research, was discussed
                 </p>
               </div>
@@ -120,7 +120,7 @@ const SuggestedFuelStops = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 Limitations identified were co-designed into an MVP-direction and also vetted with a larger technical audience.
                 </p>
               </div>
@@ -140,12 +140,12 @@ const SuggestedFuelStops = () => {
               Personal Learnings
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px]">
+            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 When conducting discovery research for a new feature, the research readout meeting should both explain the users perspective and create space for innovation discussion & identifying additional research needs.
                 </p>
               </div>
@@ -154,7 +154,7 @@ const SuggestedFuelStops = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 lg:w-[1100px] w-full">
+                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
                 I would also recommend going into a tech feasibility discussion, and possibly doing some early concept designing, before doing discovery research. This can help bring teams together in co-designing solutions
                 </p>
               </div>

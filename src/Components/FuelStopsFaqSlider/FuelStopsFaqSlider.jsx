@@ -123,7 +123,7 @@ const FuelStopsFaqSlider = () => {
               <CustomSliderVTwo images={section.images} />
             )}
             {section.images.length === 1 && ( // Render single image without slider
-              <div className="h-[380px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[1100px] mt-3">
+              <div className="h-[380px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] mt-3">
                 <img
                   className="object-contain w-full h-full"
                   src={section.images[0].image}
