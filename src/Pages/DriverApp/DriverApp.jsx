@@ -16,39 +16,39 @@ const DriverApp = () => {
       </Helmet>
       <div className="bg-white">
       <Navbar/>
-      <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[48px]">
+      <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[8px]">
        
        <div className=' lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
        <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[34px] font-Montserrat font-bold tracking-[-0.5px]">Product Redesign: Driver Application</h1>
      
-     <p className='text-[#242424] text-[16px] mt-4 font-Montserrat font-semibold leading-[30px]'>Creating a repeatable process for redesigning products</p>
+     <p className='text-[#242424] text-[16px] mt-2 font-Montserrat font-semibold leading-[30px]'>Creating a repeatable process for redesigning products</p>
     
        
 
-       <h3 className='text-[#242424] text-[20px] mt-[66px] font-Montserrat font-bold leading-[34px]'>Background</h3>
+       <h3 className='text-[#242424] text-[20px] mt-[48px] font-Montserrat font-bold leading-[34px]'>Background</h3>
 
-        <p className='mt-[18px] text-[#242424] text-[16px] font-Montserrat font-medium leading-6 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
+        <p className='mt-[14px] text-[#242424] text-[16px] font-Montserrat font-medium leading-6 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
 
-         <p className='mt-[38px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px]'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
+         <p className='mt-[30px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px]'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
 
 
        </div>
 
 
 
-        <div className='mt-[66px]'>
+        <div className='mt-[48px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Work Samples</h1>
 
 
             {/*********** slider here ****************/}
-            <div className='mt-[18px]'>
+            <div className='mt-[16px]'>
                  <FaqSlider/>
              </div>
            </div>
 
 
 
-         <div className='mt-[66px]'>
+         <div className='mt-[48px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Research Findings</h1>
 
 
@@ -81,7 +81,7 @@ const DriverApp = () => {
            </div>
          </div>
 
-            <div className='mt-[66px]'>
+            <div className='mt-[48px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Impact</h1>
 
 
@@ -116,7 +116,7 @@ const DriverApp = () => {
 
 
 
-        <div className='mt-[66px]'>
+        <div className='mt-[48px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Personal Learnings</h1>
 
 
@@ -149,7 +149,7 @@ const DriverApp = () => {
      
 
 
-      <div className="mt-[92px]">
+      <div className="mt-[52px]">
      <Footer/>
      </div>
     </div>
