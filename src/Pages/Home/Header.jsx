@@ -55,17 +55,17 @@ const Header = () => {
                 <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] text-[16px] md:text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                   Senior UX Researcher
                 </p>
-                <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
+                <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
                   UX Researcher with focus area in advancing internal and
                   enterprise systems for B2B and B2C audiences.
                 </p>
 
-                <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
+                <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
                   I'm currently searching for roles focused on growing a user
                   base and measuring & improving user behavior against defined
                   business goals.
                 </p>
-                <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px] ">
+                <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px] ">
                   I also enjoy designing wireframes, and I'm currently enrolled
                   in certification trainings in statistics and data science.
                 </p>
