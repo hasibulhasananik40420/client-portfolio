@@ -14,7 +14,7 @@ const Header = () => {
       title: "Product Redesign",
       subTitle: "Driver App",
       para: "Redesigning an internal application",
-      link: "/driver-application",
+      link: "/product-redesign",
     },
 
     {

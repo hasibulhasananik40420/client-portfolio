@@ -5,7 +5,8 @@ import chad from "../../assets/chad.png";
 
 const Footer = () => {
 
-   const pathname = useLocation()
+   const {pathname} = useLocation()
+
 
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
@@ -37,45 +38,45 @@ const Footer = () => {
          
           
 
-          <div className="mt-4 bg-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
-            <Link to={"/driver-application"} className=" cursor-pointer">
+          <Link to={"/product-redesign"} className={`${pathname ==='/product-redesign' ? 'bg-[#88BFF7]':''}   mt-4 bg-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg`}>
+            <div  className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               Product Redesign
               </h1>
 
-              <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px]">
+              <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px] text-center">
               Driver Application
               </p>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
 
-        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:border-[#88BFF7] duration-300">
-          <Link to={"/fuel-stops"} className=" cursor-pointer">
+        <Link to={"/fuel-stops"} className={` bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:border-[#88BFF7] duration-300`}>
+          <div  className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
             </h1>
 
-            <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px]">
+            <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px] text-center">
               Suggested Fuel Stops
             </p>
-          </Link>
-        </div>
+          </div>
+        </Link>
 
-        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:border-[#88BFF7] duration-300">
-          <Link
-            to={"/automated-equipment-dispatching"}
+        <Link   to={"/automated-equipment-dispatching"} className="bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:border-[#88BFF7] duration-300">
+          <div
+          
             className=" cursor-pointer"
           >
             <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
             </h1>
 
-            <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px]">
+            <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px] text-center">
               Automated Dispatching
             </p>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
