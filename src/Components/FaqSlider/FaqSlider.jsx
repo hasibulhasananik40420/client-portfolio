@@ -134,7 +134,7 @@ const FaqSlider = () => {
           ) : (
             <CiSquarePlus className="md:text-[30px] text-[25px] cursor-pointer" />
           )}
-          <h3 className="text-[#2B2B2B] md:text-[16px] text-[12px] font-Montserrat md:leading-8 leading-7 font-medium">
+          <h3 className="text-[#2B2B2B] md:text-[16px] text-[14px] font-Montserrat md:leading-8 leading-6 font-medium">
             {section.text}
           </h3>
         </div>
