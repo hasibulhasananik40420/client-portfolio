@@ -25,9 +25,9 @@ const DriverApp = () => {
     
        
 
-       <h3 className='text-[#242424] text-[20px] mt-[48px] font-Montserrat font-bold leading-[34px]'>Background</h3>
+       <h3 className='text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]'>Background</h3>
 
-        <p className='mt-[14px] text-[#242424] text-[16px] font-Montserrat font-medium leading-6 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
+        <p className='mt-[16px] text-[#242424] text-[16px] font-Montserrat font-medium leading-6 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
 
          <p className='mt-[30px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px]'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
 
@@ -41,7 +41,7 @@ const DriverApp = () => {
 
 
             {/*********** slider here ****************/}
-            <div className='mt-[16px]'>
+            <div className='mt-[34px]'>
                  <FaqSlider/>
              </div>
            </div>
