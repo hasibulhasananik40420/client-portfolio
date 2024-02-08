@@ -130,11 +130,11 @@ const FaqSlider = () => {
       <div key={section.id}>
         <div className="flex gap-2" onClick={() => toggleSection(index)}>
           {openSections[index] ? (
-            <AiOutlineMinus className="text-[30px] cursor-pointer" />
+            <AiOutlineMinus className="md:text-[30px] text-[25px] cursor-pointer" />
           ) : (
-            <CiSquarePlus className="text-[30px] cursor-pointer" />
+            <CiSquarePlus className="md:text-[30px] text-[25px] cursor-pointer" />
           )}
-          <h3 className="text-[#2B2B2B] text-[16px] font-Montserrat leading-8 font-medium">
+          <h3 className="text-[#2B2B2B] md:text-[16px] text-[12px] font-Montserrat md:leading-8 leading-7 font-medium">
             {section.text}
           </h3>
         </div>

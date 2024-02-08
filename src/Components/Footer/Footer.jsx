@@ -10,8 +10,8 @@ const Footer = () => {
 
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
-      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[30px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-4 md:px-8">
-        <div>
+      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-4 md:px-8">
+        <div className="md:block hidden">
           <Link to={"/"} className="flex items-center gap-4  h-[60px]">
             <div>
               <img
@@ -77,6 +77,28 @@ const Footer = () => {
             </p>
           </div>
         </Link>
+
+        <div className="md:hidden block mt-10">
+          <Link to={"/"} className="flex items-center gap-4  h-[60px]">
+            <div>
+              <img
+                className="w-[50px] h-[50px] rounded-full"
+                src={chad}
+                alt=""
+              />
+            </div>
+            <div>
+              <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-bold leading-[34px]">
+                Chad
+              </h1>
+              <p className="text-[#2B2B2B] text-[12px] font-Montserrat font-normal leading-[16px]">
+                Senior UX Researcher
+              </p>
+            </div>
+          </Link>
+        </div>
+
+
       </div>
     </div>
   );
