@@ -18,11 +18,11 @@ const AutomatedEquipmentDispatching = () => {
         <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[12px]">
           <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
             <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[24px] font-Montserrat font-bold tracking-[-0.5px]">
-              New ML/AI Feature: Automated Dispatching
+            New Feature: Automated Dispatching
             </h1>
 
             <p className="text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-semibold mt-2 md:mt-4 lg:mt-0 xl:mt-0 2xl:mt-0 ">
-              Deploying features that automate critical workflows & tasks
+            Helping launch a new major feature
             </p>
 
             <h3 className="text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]">
