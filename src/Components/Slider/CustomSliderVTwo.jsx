@@ -73,7 +73,7 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
   return (
     <div>
         
-      <div className="relative lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full h-[416px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10">
+      <div className="relative lg:w-[800px] xl:w-[800px] 2xl:w-[800px] w-full h-[416px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10">
    
       <Slider ref={sliderRef} {...settings}>
         {images.map((image, index) => (
@@ -98,16 +98,16 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
       <div className="w-full absolute inset-0 flex items-center justify-between px-6">
         <span
           onClick={handleSlideLeft}
-          className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-10 2xl:h-10 flex justify-center items-center cursor-pointer"
+          className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-7 2xl:h-7 flex justify-center items-center cursor-pointer"
         >
-          <MdOutlineArrowBackIos className="text-white text-[14px] 2xl:text-[20px]" />
+          <MdOutlineArrowBackIos className="text-white text-[14px] 2xl:text-[14px]" />
         </span>
 
         <span
           onClick={handleSlideRight}
-          className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-10 2xl:h-10 flex justify-center items-center cursor-pointer"
+          className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-7 2xl:h-7 flex justify-center items-center cursor-pointer"
         >
-          <MdArrowForwardIos className="text-white text-[14px] 2xl:text-[20px]" />
+          <MdArrowForwardIos className="text-white text-[14px] 2xl:text-[14px]" />
         </span>
       </div>
 
@@ -131,9 +131,9 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
     {isModalOpen && (
       <div  onClick={handleOverlayClick} className="fixed top-0 z-50 left-0 w-full h-full flex justify-center  bg-[#323232] bg-opacity-95 modal-overlay">
         
-        <div className="lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] h-[500px]  w-full mt-4 relative ">
+        <div className="lg:w-[900px] 2xl:w-[900px] 2xl:h-[500px] h-[500px]  w-full mt-4 relative ">
          
-          <div className=" lg:w-[900px] 2xl:w-[1200px] 2xl:h-[650px] w-full h-[500px] border-[6px] border-white">
+          <div className=" lg:w-[900px] 2xl:w-[900px] 2xl:h-[500px] w-full h-[500px] border-[6px] border-white">
             <img
               className="object-contain w-full h-full flex justify-center items-center mx-auto"
               src={images[selectedImageIndex].image}
