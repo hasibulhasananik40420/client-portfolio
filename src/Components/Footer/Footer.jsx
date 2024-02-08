@@ -34,7 +34,7 @@ const Footer = () => {
 
           <div className="mt-4">
             <Link to={"/driver-app"} className=" cursor-pointer">
-              <h1 className="text-[#2B2B2B] text-[17px] font-Montserrat font-semibold leading-[30px]">
+              <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
                 Product Design
               </h1>
 
@@ -49,7 +49,7 @@ const Footer = () => {
 
         <div className="mt-10">
             <Link to={"/fuel-stops"} className=" cursor-pointer">
-              <h1 className="text-[#2B2B2B] text-[17px] font-Montserrat font-semibold leading-[30px]">
+              <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
               </h1>
 
@@ -61,7 +61,7 @@ const Footer = () => {
 
             <div className="mt-10">
             <Link to={"/automated-equipment-dispatching"} className=" cursor-pointer">
-              <h1 className="text-[#2B2B2B] text-[17px] font-Montserrat font-semibold leading-[30px]">
+              <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
               </h1>
 
