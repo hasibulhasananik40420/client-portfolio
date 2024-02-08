@@ -36,19 +36,19 @@ const DriverApp = () => {
 
 
 
-        <div className='mt-[48px]'>
+        <div className='mt-[40px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Work Samples</h1>
 
 
             {/*********** slider here ****************/}
-            <div className='mt-[34px]'>
+            <div className='mt-[30px]'>
                  <FaqSlider/>
              </div>
            </div>
 
 
 
-         <div className='mt-[48px]'>
+         <div className='mt-[40px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Research Findings</h1>
 
 
@@ -81,7 +81,7 @@ const DriverApp = () => {
            </div>
          </div>
 
-            <div className='mt-[48px]'>
+            <div className='mt-[40px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Impact</h1>
 
 
@@ -116,7 +116,7 @@ const DriverApp = () => {
 
 
 
-        <div className='mt-[48px]'>
+        <div className='mt-[40px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Personal Learnings</h1>
 
 
@@ -149,7 +149,7 @@ const DriverApp = () => {
      
 
 
-      <div className="mt-[52px]">
+      <div className="mt-[40px]">
      <Footer/>
      </div>
     </div>
