@@ -15,11 +15,11 @@ const SuggestedFuelStops = () => {
         <Navbar />
         <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[12px]">
           <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
-            <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[34px] font-Montserrat font-bold tracking-[-0.5px]">
+            <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[24px] font-Montserrat font-bold tracking-[-0.5px]">
               New ML/AI Feature: Suggested Fuel Stops
             </h1>
 
-            <p className="text-[#242424] text-[16px] mt-2 font-Montserrat font-semibold leading-[30px]">
+            <p className="text-[#242424] text-[16px] mt-2 font-Montserrat font-semibold ">
               Pinpointing opportunities to introduce an automation feature
             </p>
 

@@ -16,26 +16,26 @@ const AutomatedEquipmentDispatching = () => {
       <div className="bg-white">
         <Navbar />
         <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[12px]">
-          <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
-            <h1 className="text-[#242424] 2xl:text-[42px] xl:text-[34px] lg:text-[34px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">
+          <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
+            <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[24px] font-Montserrat font-bold tracking-[-0.5px]">
               New ML/AI Feature: Automated Dispatching
             </h1>
 
-            <p className="text-[#242424] text-[20px] mt-4 font-Montserrat font-semibold leading-[30px]">
+            <p className="text-[#242424] text-[16px] mt-2 font-Montserrat font-semibold ">
               Deploying features that automate critical workflows & tasks
             </p>
 
-            <h3 className="text-[#242424] text-[24px] mt-[66px] font-Montserrat font-bold leading-[34px]">
+            <h3 className="text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]">
               Background
             </h3>
 
-            <p className="mt-[18px] text-[#242424] text-[20px] font-Montserrat font-medium leading-8 tracking-[-0.1px] italic">
+            <p className="mt-[16px] text-[#242424] text-[16px] font-Montserrat font-medium leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full">
               Completed equipment rentals regularly sat on customer's job sites
               several days before being picked-up and returned back to the
               rental's branch.
             </p>
 
-            <p className="mt-[36px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]">
+            <p className="mt-[30px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
               My role was leading research in support of launching a new ML/AI
               feature that would nudge employees to pick up equipment sooner. I
               led Experience Mapping to spotlight where the new feature may not
@@ -47,7 +47,7 @@ const AutomatedEquipmentDispatching = () => {
               needs and, where appropriate, quickly aligning on findings.
             </p>
 
-            <p className="mt-[36px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]">
+            <p className="mt-[30px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
               To help build greater awareness of current day challenges in
               picking up equipment, I also led a Day-in-Life panel discussion
               with the employee group responsible for scheduling equipment
@@ -60,7 +60,7 @@ const AutomatedEquipmentDispatching = () => {
               application.
             </p>
 
-            <p className="mt-[36px] text-[#242424] text-[20px] font-Montserrat font-normal leading-8 tracking-[-0.1px]">
+            <p className="mt-[30px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
               My research's impact included elevating the urgency of delivering
               an identified - but not yet scheduled - roadmap item connected to
               addressing pickup delays. My findings also led to modified
@@ -71,28 +71,28 @@ const AutomatedEquipmentDispatching = () => {
 
         
 
-          <div className="mt-[66px]">
-            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+          <div className="mt-[40px]">
+            <h1 className="text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]">
               Work Samples
             </h1>
 
             {/*********** slider here ****************/}
-            <div className="mt-[18px]">
+            <div className="mt-[30px]">
               <DispatchingFaqSlider />
             </div>
           </div>
 
-          <div className="mt-[66px]">
-            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+          <div className="mt-[40px]">
+            <h1 className="text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]">
               Research Findings
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
+            <div className="flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[930px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 ">
+                <p className="text-[#2B2B2B] text-[16px] font-normal font-Montserrat leading-6  ">
                 Pickups delays are sometimes occurring due to miscommunication in type of truck needed to pickup equipment and equipment being moved to jobsites that are much further away from the original renting branch
                 </p>
               </div>
@@ -101,7 +101,7 @@ const AutomatedEquipmentDispatching = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
+                <p className="text-[#2B2B2B] text-[16px] font-normal font-Montserrat leading-6 ">
                 Training must extend to back-fills and include "hands-on" walkthroughs to build familiarity and to identify possible unmet needs
                 </p>
               </div>
@@ -113,17 +113,17 @@ const AutomatedEquipmentDispatching = () => {
           </div>
 
 
-           <div className="mt-[66px]">
-            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+           <div className="mt-[40px]">
+            <h1 className="text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]">
             Impact
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
+            <div className="flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px]w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
+                <p className="text-[#2B2B2B] text-[16px] font-normal font-Montserrat leading-6">
                 Additional functionality was prioritized and implemented to the nudge branch closest to the equipment, instead of the original renting branch, to pickup equipment
                 </p>
               </div>
@@ -132,7 +132,7 @@ const AutomatedEquipmentDispatching = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 ">
+                <p className="text-[#2B2B2B] text-[16px] font-normal font-Montserrat leading-6 ">
                 In-person training sessions were introduced roll-out planning, instead of solely e-learning training, with pilot group users who would also serve as change manage leaders
                 </p>
               </div>
@@ -146,17 +146,17 @@ const AutomatedEquipmentDispatching = () => {
 
 
 
-          <div className="mt-[66px]">
-            <h1 className="text-[#242424] text-[24px] font-bold font-Montserrat leading-[34px]">
+          <div className="mt-[40px]">
+            <h1 className="text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]">
               Personal Learnings
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
+            <div className="flex flex-col gap-4 mt-[30px] lg:w-[790px] xl:w-[790px] 2xl:w-[930px] w-full">
               <div className="flex gap-4">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8 ">
+                <p className="text-[#2B2B2B] text-[16px] font-normal font-Montserrat leading-6 ">
                 The future state version of this application, which would eventually contain more employee nudging features, had regular co-design sessions with Experience Design and Technology.
                 </p>
               </div>
@@ -165,7 +165,7 @@ const AutomatedEquipmentDispatching = () => {
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
-                <p className="text-[#2B2B2B] text-[20px] font-normal font-Montserrat leading-8">
+                <p className="text-[#2B2B2B] text-[16px] font-normal font-Montserrat leading-6">
                 Once tech feasibility stages have been completed, I would recommend using the Kano Model to assess desirability of the vetted features to influence the order of slated roadmap items
                 </p>
               </div>
@@ -173,7 +173,7 @@ const AutomatedEquipmentDispatching = () => {
           </div>
         </div>
 
-        <div className="mt-[92px]">
+        <div className="mt-[40px]">
           <Footer />
         </div>
       </div>

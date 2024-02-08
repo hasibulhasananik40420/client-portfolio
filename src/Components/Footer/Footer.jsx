@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
-      <div className="max-w-container mx-auto lg:flex gap-3 md:flex-wrap justify-between h-full py-[66px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-4 md:px-8">
+      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full py-[66px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-8 md:px-8">
         <div>
           <Link to={"/"} className="flex items-center gap-4  h-[60px]">
             <div>
@@ -38,7 +38,7 @@ const Footer = () => {
          
           
 
-          <Link to={"/product-redesign"} className={`bg-[#88BFF7] mt-4 border-[1px]  w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+          <Link to={"/product-redesign"} className={`bg-[#88BFF7] mt-4 border-[1px]  lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
             <div  className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               Product Redesign
@@ -51,7 +51,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <Link to={"/fuel-stops"} className={` bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+        <Link to={"/fuel-stops"} className={` bg-white mt-10 border-[1px] border-[#828282] lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
           <div  className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </Link>
 
-        <Link   to={"/automated-equipment-dispatching"} className="bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300">
+        <Link   to={"/automated-equipment-dispatching"} className="bg-white mt-10 border-[1px] border-[#828282] lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300">
           <div
           
             className=" cursor-pointer"
