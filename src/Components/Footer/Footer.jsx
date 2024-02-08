@@ -11,16 +11,16 @@ const Footer = () => {
           <Link to={"/"} className="flex items-center gap-4  h-[60px]">
             <div>
               <img
-                className="w-[60px] h-[60px] rounded-full"
+                className="w-[50px] h-[50px] rounded-full"
                 src={chad}
                 alt=""
               />
             </div>
             <div>
-              <h1 className="text-[#2B2B2B] text-[20px] font-Montserrat font-bold leading-[34px]">
+              <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-bold leading-[34px]">
                 Chad
               </h1>
-              <p className="text-[#2B2B2B] text-[16px] font-Montserrat font-normal leading-[30px]">
+              <p className="text-[#2B2B2B] text-[12px] font-Montserrat font-normal leading-[16px]">
                 Senior UX Researcher
               </p>
             </div>
