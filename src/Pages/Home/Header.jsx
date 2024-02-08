@@ -112,6 +112,9 @@ const Header = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-[22px] xl:gap-[22px] lg:gap-[24px] gap-10 2xl:ml-0 xl:ml-0 lg:ml-0 ml-0 lg:mt-0 md:mt-10 mt-10">
             {products?.map((product) => (
               <React.Fragment key={product._id}>
+              
+              
+              
                 <Link
                   to={product?.link}
                   className="2xl:w-[300px] xl:w-[300px] lg:w-[280px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
@@ -134,77 +137,13 @@ const Header = () => {
                     </h3>
                   </div>
                 </Link>
+
+
+                
               </React.Fragment>
             ))}
 
-            {/* <Link to={"/driver-app"}
-              className="2xl:w-[400px] xl:w-[330px] lg:w-[290px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
-              style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
-            >
-              <div
-                
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] group-hover:rounded-t-[12px] duration-300"
-              >
-                <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[24px] md:text-[28px] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
-                  Product Redesign{" "}
-                </h1>
-                <p className="text-[#242424] 2xl:text-[20px] xl:text-[20px] lg:text-[16px] md:text-[20px] text-[20px] font-Montserrat font-medium leading-[30px] text-center">
-                  Driver App
-                </p>
-              </div>
-
-              <div className="px-6 2xl:py-[32px] xl:py-[32px] lg:py-[24px]">
-                <h3 className="text-[#2B2B2B] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] md:text-[18px] text-[18px] text-center font-Montserrat font-normal leading-7">
-                 Redesigning an internal application
-                </h3>
-              </div>
-            </Link> */}
-
-            {/* <Link  to={"/fuel-stops"}
-              className="2xl:w-[400px] xl:w-[330px] lg:w-[290px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
-              style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
-            >
-              <div
-               
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] group-hover:rounded-t-[12px] duration-300"
-              >
-                <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
-                  New Feature
-                </h1>
-                <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px] text-center">
-                  Suggested Fuel Stops
-                </p>
-              </div>
-
-              <div className="px-6 py-[32px]">
-                <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
-                  Pinpointing opportunities to recommend fueling stations
-                </h3>
-              </div>
-            </Link> */}
-            {/* 
-            <Link to={"/automated-equipment-dispatching"}
-              className="2xl:w-[400px] xl:w-[330px] lg:w-[290px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
-              style={{ boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)" }}
-            >
-              <div
-                
-                className="bg-[#F9FAFB] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] group-hover:rounded-t-[12px] duration-300"
-              >
-                <h1 className="text-[#242424] text-[28px] font-Montserrat font-semibold leading-[38px] text-center">
-                  New Feature
-                </h1>
-                <p className="text-[#242424] text-[20px] font-Montserrat font-medium leading-[30px] text-center">
-                Automated Dispatching
-                </p>
-              </div>
-
-              <div className="px-6 py-[32px]">
-                <h3 className="text-[#2B2B2B] text-[18px] text-center font-Montserrat font-normal leading-7">
-                  Helping Launch a new major feature
-                </h3>
-              </div>
-            </Link> */}
+           
           </div>
         </div>
       </div>
