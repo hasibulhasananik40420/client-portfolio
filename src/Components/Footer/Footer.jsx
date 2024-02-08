@@ -38,7 +38,7 @@ const Footer = () => {
          
           
 
-          <Link to={"/product-redesign"} className={`${pathname ==='/product-redesign' ? 'bg-[#88BFF7]':''}   mt-4 bg-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg`}>
+          <Link to={"/product-redesign"} className={`bg-[#88BFF7] mt-4 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
             <div  className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               Product Redesign

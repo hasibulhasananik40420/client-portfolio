@@ -15,7 +15,7 @@ const AutomatedEquipmentDispatching = () => {
 
       <div className="bg-white">
         <Navbar />
-        <div className="max-w-containerX mx-auto lg:px-[230px] xl:px-[230px] 2xl:px-16  px-4 md:px-8 mt-[48px]">
+        <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[12px]">
           <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[1100px] w-full">
             <h1 className="text-[#242424] 2xl:text-[42px] xl:text-[34px] lg:text-[34px] text-[34px] font-Montserrat font-bold md:leading-[52px] leading-[50px] tracking-[-0.5px]">
               New ML/AI Feature: Automated Dispatching
