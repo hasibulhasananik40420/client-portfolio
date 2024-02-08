@@ -119,7 +119,7 @@ const Header = () => {
                     boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
                 >
-                  <div className="bg-[#F9FAFB] 2xl:h-[260px] xl:h-[260px] lg:h-[260px] md:h-[320px] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] group-hover:rounded-t-[12px] duration-300">
+                  <div className="bg-[#E7E8EA] 2xl:h-[260px] xl:h-[260px] lg:h-[260px] md:h-[320px] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] group-hover:rounded-t-[12px] duration-300">
                     <h1 className="text-[#242424] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[28px] text-[28px] font-Montserrat font-semibold 2xl:leading-5 xl:leading-5 text-center">
                       {product?.title}
                     </h1>
