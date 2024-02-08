@@ -36,7 +36,7 @@ const DriverApp = () => {
 
 
 
-        <div className='mt-[40px]'>
+          <div className='mt-[40px]'>
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Work Samples</h1>
 
 
@@ -52,7 +52,7 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Research Findings</h1>
 
 
-           <div className='flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
+           <div className='flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
 
            <div className='flex gap-4'>
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
@@ -85,7 +85,7 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Impact</h1>
 
 
-           <div className='flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px]w-full'>
+           <div className='flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px]w-full'>
 
            <div className='flex gap-4'>
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
@@ -120,7 +120,7 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Personal Learnings</h1>
 
 
-           <div className='flex flex-col gap-4 mt-[34px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
+           <div className='flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
 
            <div className='flex gap-4'>
            <span className='w-[20px] h-[27px] flex justify-center items-center'>
