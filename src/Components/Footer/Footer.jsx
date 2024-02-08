@@ -33,19 +33,19 @@ const Footer = () => {
           </p>
 
           <div className="mt-4 bg-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
-            <Link to={"/driver-app"} className=" cursor-pointer">
+            <Link to={"/product-redesign-driver-application"} className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
-                Product Design
+              Product Redesign
               </h1>
 
               <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px]">
-                Driver Application
+              Driver Application
               </p>
             </Link>
           </div>
         </div>
 
-        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
+        <div className="mt-10 border-[1px] border-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
           <Link to={"/fuel-stops"} className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
@@ -57,7 +57,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
+        <div className="mt-10 border-[1px] border-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
           <Link
             to={"/automated-equipment-dispatching"}
             className=" cursor-pointer"

@@ -21,7 +21,7 @@ const routes = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/driver-app",
+        path: "/product-redesign-driver-application",
         element: <DriverApp />,
       },
       {
