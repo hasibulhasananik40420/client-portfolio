@@ -6,7 +6,7 @@ import chad from "../../assets/chad.png";
 const Footer = () => {
   return (
     <div className="bg-white h-full w-full">
-      <div className="max-w-container 2xl:max-w-[1220px] mx-auto lg:flex gap-6 md:flex-wrap justify-between h-full py-[66px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-4 md:px-8">
+      <div className="max-w-container 2xl:max-w-[1340px] mx-auto lg:flex gap-6 md:flex-wrap justify-between h-full py-[66px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-4 md:px-8">
         <div>
           <Link to={"/"} className="flex items-center gap-4  h-[60px]">
             <div>
