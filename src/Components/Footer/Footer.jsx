@@ -28,12 +28,14 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 md:mt-8 lg:mt-0">
-          <p className="text-[14px] text-[#2B2B2B] font-Montserrat font-medium leading-6 underline underline-offset-4">
+          <p className="text-[14px] text-[#2B2B2B] font-Montserrat font-medium leading-6 border-b-[1px] border-black w-[100px] hover:border-[#88BFF7] hover:cursor-pointer duration-200">
             Case Studies
           </p>
+         
+          
 
           <div className="mt-4 bg-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
-            <Link to={"/product-redesign-driver-application"} className=" cursor-pointer">
+            <Link to={"/driver-application"} className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               Product Redesign
               </h1>
@@ -45,7 +47,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 border-[1px] border-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
+        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
           <Link to={"/fuel-stops"} className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
@@ -57,7 +59,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="mt-10 border-[1px] border-[#88BFF7] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
+        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
           <Link
             to={"/automated-equipment-dispatching"}
             className=" cursor-pointer"
