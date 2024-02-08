@@ -16,7 +16,7 @@ const DriverApp = () => {
       </Helmet>
       <div className="bg-white">
       <Navbar/>
-      <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[8px]">
+      <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[12px]">
        
        <div className=' lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
        <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[34px] font-Montserrat font-bold tracking-[-0.5px]">Product Redesign: Driver Application</h1>
