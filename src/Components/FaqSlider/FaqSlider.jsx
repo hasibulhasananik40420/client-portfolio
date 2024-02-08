@@ -125,7 +125,7 @@ const FaqSlider = () => {
    
 
      
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-[10px]">
     {faqData.map((section, index) => (
       <div key={section.id}>
         <div className="flex gap-2" onClick={() => toggleSection(index)}>
