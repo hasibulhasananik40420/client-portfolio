@@ -118,7 +118,7 @@ const AutomatedEquipmentDispatching = () => {
             Impact
             </h1>
 
-            <div className="flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px]w-full">
+            <div className="flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px]w-full">
               <div className="flex gap-4 mt-5">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
