@@ -39,7 +39,7 @@ const Header = () => {
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
-            <div className="lg:w-[339px] xl:w-[339px] 2xl:w-[448px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[430px] lg:h-[330px] xl:h-[330px] md:h-[600px] h-[350px]">
+            <div className="lg:w-[339px] xl:w-[339px] 2xl:w-[339px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[330px] lg:h-[330px] xl:h-[330px] md:h-[600px] h-[350px]">
               <img
                 className="w-full h-full  object-cover rounded-lg"
                 src={chad2}
@@ -55,17 +55,17 @@ const Header = () => {
                 <p className="2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] md:text-[20px] font-Montserrat font-medium leading-[30px] text-[#2B2B2B] mt-1">
                   Senior UX Researcher
                 </p>
-                <p className="text-[#2B2B2B] 2xl:text-[16px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[448px]">
+                <p className="text-[#2B2B2B] 2xl:text-[16px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[339px]">
                   UX Researcher with focus area in advancing internal and
                   enterprise systems for B2B and B2C audiences.
                 </p>
 
-                <p className="text-[#2B2B2B] 2xl:text-[16px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[448px]">
+                <p className="text-[#2B2B2B] 2xl:text-[16px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[339px]">
                   I'm currently searching for roles focused on growing a user
                   base and measuring & improving user behavior against defined
                   business goals.
                 </p>
-                <p className="text-[#2B2B2B] 2xl:text-[16px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[448px] ">
+                <p className="text-[#2B2B2B] 2xl:text-[16px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[340px] xl:w-[340px] 2xl:w-[339px] ">
                   I also enjoy designing wireframes, and I'm currently enrolled
                   in certification trainings in statistics and date science.
                 </p>
@@ -109,27 +109,27 @@ const Header = () => {
         </div>
 
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-[24px] xl:gap-[22px] lg:gap-[24px] gap-6 2xl:ml-5 xl:ml-0 lg:ml-0 ml-0 lg:mt-0 md:mt-10 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-[22px] xl:gap-[22px] lg:gap-[24px] gap-6 2xl:ml-0 xl:ml-0 lg:ml-0 ml-0 lg:mt-0 md:mt-10 mt-10">
             {products?.map((product) => (
               <React.Fragment key={product._id}>
                 <Link
                   to={product?.link}
-                  className="2xl:w-[400px] xl:w-[300px] lg:w-[300px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
+                  className="2xl:w-[300px] xl:w-[300px] lg:w-[300px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group  hover:border-[#88bff7] hover:cursor-pointer duration-300"
                   style={{
                     boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
                 >
-                  <div className="bg-[#F9FAFB] 2xl:h-[320px] xl:h-[260px] lg:h-[260px] md:h-[320px] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] group-hover:rounded-t-[12px] duration-300">
-                    <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[20px] lg:text-[20px] md:text-[28px] text-[28px] font-Montserrat font-semibold 2xl:leading-[38px] xl:leading-5 text-center">
+                  <div className="bg-[#F9FAFB] 2xl:h-[260px] xl:h-[260px] lg:h-[260px] md:h-[320px] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] group-hover:rounded-t-[12px] duration-300">
+                    <h1 className="text-[#242424] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[28px] text-[28px] font-Montserrat font-semibold 2xl:leading-5 xl:leading-5 text-center">
                       {product?.title}
                     </h1>
-                    <p className="text-[#242424] 2xl:text-[20px] xl:text-[13px] lg:text-[13px] md:text-[20px] text-[20px] font-Montserrat font-medium leading-[30px] text-center">
+                    <p className="text-[#242424] 2xl:text-[13px] xl:text-[13px] lg:text-[13px] md:text-[20px] text-[20px] font-Montserrat font-medium leading-[30px] text-center">
                       {product?.subTitle}
                     </p>
                   </div>
 
-                  <div className="px-6 2xl:py-[32px] xl:py-[20px] lg:py-[20px] md:py-[32px] py-[32px]">
-                    <h3 className="text-[#2B2B2B] 2xl:text-[18px] xl:text-[12px] lg:text-[12px] md:text-[18px] text-[18px] text-center font-Montserrat font-normal 2xl:leading-7">
+                  <div className="px-6 2xl:py-[20px] xl:py-[20px] lg:py-[20px] md:py-[32px] py-[32px]">
+                    <h3 className="text-[#2B2B2B] 2xl:text-[12px] xl:text-[12px] lg:text-[12px] md:text-[18px] text-[18px] text-center font-Montserrat font-normal">
                       {product?.para}
                     </h3>
                   </div>
