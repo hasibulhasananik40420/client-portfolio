@@ -21,7 +21,7 @@ const routes = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/product-redesign",
+        path: "/driver-application",
         element: <DriverApp />,
       },
       {
@@ -29,7 +29,7 @@ const routes = createBrowserRouter([
         element: <AutomatedEquipmentDispatching />,
       },
       {
-        path: "/fuel-stops",
+        path: "/suggested-fuel-stops",
         element: <SuggestedFuelStops />,
       }, 
       

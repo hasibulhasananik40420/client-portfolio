@@ -16,11 +16,11 @@ const SuggestedFuelStops = () => {
         <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8 mt-[12px]">
           <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
             <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[24px] font-Montserrat font-bold tracking-[-0.5px]">
-              New ML/AI Feature: Suggested Fuel Stops
+            New Feature: Suggested Fuel Stops
             </h1>
 
             <p className="text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-semibold mt-2 md:mt-4 lg:mt-0 xl:mt-0 2xl:mt-0">
-              Pinpointing opportunities to introduce an automation feature
+            Pinpointing opportunities to recommend fueling stations
             </p>
 
             <h3 className="text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]">
@@ -35,8 +35,7 @@ const SuggestedFuelStops = () => {
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
               My role was to understand how Drivers currently stop for fuel, to
               inform a feature that suggested fuel stops containg negotiated
-              pricing. I used Desk Research, Critical Incident Technique and
-              Experience Mapping to visualize how length of trip impacted when
+              pricing. I used Semi-structured interview and Experience Mapping to visualize how length of trip impacted when
               fuel stop suggestions should appear. These findings informed the
               MVP direction of integrating fuel stop suggestions into our Driver
               application.

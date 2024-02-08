@@ -38,7 +38,7 @@ const Footer = () => {
          
           
 
-          <Link to={"/product-redesign"} className={`${pathname==='/product-redesign'? 'bg-[#88BFF7]':'bg-white border-[1px] border-[#828282]'} md:mt-4 mt-6 border-[1px]  lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+          <Link to={"/driver-application"} className={`${pathname==='/driver-application'? 'bg-[#88BFF7]':'bg-white border-[1px] border-[#828282]'} md:mt-4 mt-6 border-[1px]  lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
             <div  className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               Product Redesign
@@ -51,7 +51,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <Link to={"/fuel-stops"} className={`${pathname==='/fuel-stops'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+        <Link to={"/suggested-fuel-stops"} className={`${pathname==='/suggested-fuel-stops'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
           <div  className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature

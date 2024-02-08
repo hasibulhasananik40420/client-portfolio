@@ -4,7 +4,6 @@ import { AiOutlineMinus } from "react-icons/ai"
 import { useState } from "react";
 
 
-import DeskResearchImage1 from "../../assets/Placeholder.png"
 
 import SemiStructuredInterviewsImage1 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/01.png"
 import SemiStructuredInterviewsImage2 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2024-01-24 6.10.00 PM.png"
@@ -31,17 +30,9 @@ const FuelStopsFaqSlider = () => {
 
     const faqData = [
         
+        
         {
           id: 1,
-          text: 'Desk Research',
-          images: [
-            { id: 1, image: DeskResearchImage1, text: "Caption Text 1" },
-           
-            // ... add more images as needed
-          ],
-        }, 
-        {
-          id: 2,
           text: 'Semi-structured Interviews',
           images: [
             { id: 1, image: SemiStructuredInterviewsImage1, text: "Semi-structured Interviews: Research Plan" },
@@ -53,7 +44,7 @@ const FuelStopsFaqSlider = () => {
           ],
         },
         {
-          id: 3,
+          id: 2,
           text: 'Journey Mapping',
           images: [
             { id: 1, image: ExperienceMappingImage1, text: "Journey Mapping: Research Plan" },
@@ -79,29 +70,7 @@ const FuelStopsFaqSlider = () => {
 
 
   return (
-    // <div className="flex flex-col gap-6">
-    //   {faqData.map((section, index) => (
-    //     <div key={section.id}>
-    //       <div className="flex gap-2" onClick={() => toggleSection(index)}>
-    //         {openSections[index] ? (
-    //           <AiOutlineMinus className="text-[30px] cursor-pointer" />
-    //         ) : (
-    //           <CiSquarePlus className="text-[30px] cursor-pointer" />
-    //         )}
-    //         <h3 className="text-[#2B2B2B] text-[20px] font-Montserrat leading-8 font-medium">
-    //           {section.text}
-    //         </h3>
-    //       </div>
-
-    //       {openSections[index] && (
-    //         <div className="">
-    //           <CustomSliderVTwo images={section.images} />
-    //         </div>
-    //       )}
-    //     </div>
-    //   ))}
-    // </div>
-
+   
 
     <div className="flex flex-col gap-[10px]">
     {faqData.map((section, index) => (

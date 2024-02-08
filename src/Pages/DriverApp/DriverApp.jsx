@@ -11,7 +11,7 @@ const DriverApp = () => {
   return (
     <div>
        <Helmet>
-        <title>Chad Smith | Driver App</title>
+        <title>Chad Smith | Driver Application</title>
        
       </Helmet>
       <div className="bg-white">

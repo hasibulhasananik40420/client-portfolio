@@ -14,7 +14,7 @@ const Header = () => {
       title: "Product Redesign",
       subTitle: "Driver App",
       para: "Redesigning an internal application",
-      link: "/product-redesign",
+      link: "/driver-application",
     },
 
     {
@@ -22,7 +22,7 @@ const Header = () => {
       title: "New Feature",
       subTitle: "Suggested Fuel Stops",
       para: " Pinpointing opportunities to recommend fueling stations",
-      link: "/fuel-stops",
+      link: "/suggested-fuel-stops",
     },
 
     {
