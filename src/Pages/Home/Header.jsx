@@ -35,7 +35,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="max-w-container mx-auto lg:px-[140px] xl:px-[140px] 2xl:px-0  px-4 md:px-8 py-6 ">
+    <div className="max-w-container mx-auto lg:px-[140px] xl:px-[140px] 2xl:px-0  px-[32px] md:px-8 py-6 ">
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
@@ -67,7 +67,7 @@ const Header = () => {
                 </p>
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[12px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px] ">
                   I also enjoy designing wireframes, and I'm currently enrolled
-                  in certification trainings in statistics and date science.
+                  in certification trainings in statistics and data science.
                 </p>
               </div>
             </div>
