@@ -51,7 +51,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <Link to={"/fuel-stops"} className={` bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] duration-300`}>
+        <Link to={"/fuel-stops"} className={` bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
           <div  className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </Link>
 
-        <Link   to={"/automated-equipment-dispatching"} className="bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] duration-300">
+        <Link   to={"/automated-equipment-dispatching"} className="bg-white mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300">
           <div
           
             className=" cursor-pointer"
