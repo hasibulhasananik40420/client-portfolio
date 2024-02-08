@@ -109,7 +109,7 @@ const Header = () => {
         </div>
 
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-[22px] xl:gap-[22px] lg:gap-[24px] gap-6 2xl:ml-0 xl:ml-0 lg:ml-0 ml-0 lg:mt-0 md:mt-10 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 2xl:gap-[22px] xl:gap-[22px] lg:gap-[24px] gap-10 2xl:ml-0 xl:ml-0 lg:ml-0 ml-0 lg:mt-0 md:mt-10 mt-10">
             {products?.map((product) => (
               <React.Fragment key={product._id}>
                 <Link
