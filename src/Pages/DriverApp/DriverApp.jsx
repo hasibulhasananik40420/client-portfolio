@@ -86,7 +86,7 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Impact</h1>
 
 
-           <div className='flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px]w-full'>
+           <div className='flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
 
            <div className='flex gap-4 mt-5'>
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
