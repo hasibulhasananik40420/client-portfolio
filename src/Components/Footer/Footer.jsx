@@ -32,13 +32,13 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 md:mt-8 lg:mt-0">
-          <p className="text-[14px] text-[#2B2B2B] font-Montserrat font-medium leading-6 border-b-[1px] border-black w-[100px] hover:border-[#88BFF7] hover:cursor-pointer duration-200">
+          <p className="text-[14px] text-[#2B2B2B] font-Montserrat font-medium leading-6 border-b-[1px] border-black w-[100px]">
             Case Studies
           </p>
          
           
 
-          <Link to={"/product-redesign"} className={`bg-[#88BFF7] mt-4 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+          <Link to={"/product-redesign"} className={`bg-[#88BFF7] mt-4 border-[1px]  w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
             <div  className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               Product Redesign
