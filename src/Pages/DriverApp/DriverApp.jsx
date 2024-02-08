@@ -27,9 +27,9 @@ const DriverApp = () => {
 
        <h3 className='text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]'>Background</h3>
 
-        <p className='mt-[16px] text-[#242424] text-[16px] font-Montserrat font-medium leading-6 tracking-[-0.1px] italic'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
+        <p className='mt-[16px] text-[#242424] text-[16px] font-Montserrat font-medium leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[930px] w-full'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p>
 
-         <p className='mt-[30px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px]'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
+         <p className='mt-[30px] text-[#242424] text-[16px] font-Montserrat font-normal leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[920px] w-full'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
 
 
        </div>
@@ -52,7 +52,7 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Research Findings</h1>
 
 
-           <div className='flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
+           <div className='flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[930px] w-full'>
 
            <div className='flex gap-4'>
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
@@ -120,7 +120,7 @@ const DriverApp = () => {
            <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Personal Learnings</h1>
 
 
-           <div className='flex flex-col gap-4 mt-[30px] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
+           <div className='flex flex-col gap-4 mt-[30px] lg:w-[790px] xl:w-[790px] 2xl:w-[930px] w-full'>
 
            <div className='flex gap-4'>
            <span className='w-[20px] h-[27px] flex justify-center items-center'>
