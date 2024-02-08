@@ -1,9 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import chad from "../../assets/chad.png";
 
 const Footer = () => {
+
+   const pathname = useLocation()
+
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
       <div className="max-w-container mx-auto lg:flex gap-3 md:flex-wrap justify-between h-full py-[66px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-4 md:px-8">
@@ -47,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
+        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:border-[#88BFF7] duration-300">
           <Link to={"/fuel-stops"} className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
@@ -59,7 +62,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg">
+        <div className="mt-10 border-[1px] border-[#828282] w-[210px] h-[80px] flex flex-col justify-center items-center rounded-lg hover:border-[#88BFF7] duration-300">
           <Link
             to={"/automated-equipment-dispatching"}
             className=" cursor-pointer"
