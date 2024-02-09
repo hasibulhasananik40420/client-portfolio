@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -9,9 +10,9 @@ const Footer = () => {
 
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
-      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[220px] xl:px-[210px] 2xl:px-[220px]  px-4 md:px-8">
+      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[220px] xl:px-[190px] 2xl:px-[220px]  px-4 md:px-8 ">
         <div className="md:block hidden">
-          <Link to={"/"} className="flex items-center gap-4  h-[60px]">
+          <Link to={"/"} className="flex items-center gap-4  h-[60px] xl:ml-4 2xl:ml-0 lg:ml-0 md:ml-0 ml-0">
             <div>
               <img
                 className="w-[48px] h-[48px] rounded-full"
@@ -24,13 +25,13 @@ const Footer = () => {
                 Chad
               </h1>
               <p className="text-[#2B2B2B] text-[12px] font-Montserrat font-normal leading-[16px]">
-                Senior UX Researcher
+              Senior UX Researcher
               </p>
             </div>
           </Link>
         </div>
 
-        <div className="mt-8 md:mt-8 lg:mt-0 xl:ml-7 lg:ml-0 2xl:ml-0 md:ml-0 ml-0">
+        <div className="mt-8 md:mt-8 lg:mt-0 xl:ml-16 lg:ml-0 2xl:ml-0 md:ml-0 ml-0">
           <p className="text-[14px] text-[#2B2B2B] font-Montserrat font-medium leading-6 border-b-[1px] border-black w-[100px]">
             Case Studies
           </p>
@@ -91,7 +92,7 @@ const Footer = () => {
                 Chad
               </h1>
               <p className="text-[#2B2B2B] text-[12px] font-Montserrat font-normal leading-[16px]">
-                Senior UX Researcher
+              Senior UX Researcher
               </p>
             </div>
           </Link>
