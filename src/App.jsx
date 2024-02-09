@@ -1,20 +1,3 @@
-// import { RouterProvider } from 'react-router-dom'
-// import routes from './Routes/routes'
-// import { HelmetProvider } from 'react-helmet-async';
-// const App = () => {
-//   return (
-//     <HelmetProvider>
-//       <div className='overflow-x-hidden'>
-       
-      
-//       <RouterProvider router={routes}/>
-//     </div>
-//     </HelmetProvider>
-//   )
-// }
-
-// export default App
-
 
 import { useState, useEffect } from 'react';
 import { RouterProvider } from 'react-router-dom';
@@ -61,19 +44,19 @@ const App = () => {
          
 
           <div className="flex flex-col justify-center items-center h-[100vh] ">
-          <h1 className="text-[44px] text-[#242424] font-Playfair font-bold">Please login</h1>
+          <h1 className="lg:w-[500px] text-[44px] text-[#242424] font-Playfair text-center font-bold">Please login</h1>
   
-           <form className="lg:w-[500px] w-full lg:px-0 px-2 mt-10">
+           <form className="lg:w-[500px] w-full lg:px-0 md:px-2 px-6 md:mt-14 mt-14">
                <div>
-                  <label className="text-[18px] text-[#242424] font-Montserrat font-normal leading-6" htmlFor="password">Enter Password</label>
-                   <input className="lg:w-[500px] w-full h-[48px] border-[1px] border-[#242424] rounded pl-5 outline-0 focus:ring-[0.6px] focus:ring-[#0f0f0f] block mt-2 text-[16px] font-Montserrat font-normal text-[#242424] duration-500" type="password" name="passowrd" id="" placeholder="Enter Your Password"  value={password}
+                  {/* <label className="text-[18px] text-[#242424] font-Montserrat font-normal leading-6" htmlFor="password">Enter Password</label> */}
+                   <input className="lg:w-[500px] w-full h-[48px] border-[1px] border-[#242424] rounded pl-5 outline-0 focus:ring-[0.6px] focus:ring-[#0f0f0f] block text-[16px] font-Montserrat font-normal text-[#242424] duration-500" type="password" name="passowrd" id="" placeholder="Enter Your Password"  value={password}
                      onChange={(e) => setPassword(e.target.value)}/>
              
                </div>
   
                 <div className="flex justify-center mt-5">
                 <button onClick={handleLogin}
-              className="bg-[#242424] w-[150px] h-[48px] rounded text-[20px] font-semibold leading-6 text-white"
+              className="bg-[#242424] w-full h-[48px] rounded text-[20px] font-semibold leading-6 text-white"
               type="button" >
                 Login
              </button>
@@ -86,7 +69,7 @@ const App = () => {
 
         ) : (
           <div>
-             
+            
             <RouterProvider router={routes} />
           </div>
         )}
