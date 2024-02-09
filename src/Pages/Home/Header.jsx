@@ -117,12 +117,14 @@ const Header = () => {
               
                 <Link
                   to={product?.link}
-                  className="2xl:w-[300px] xl:w-[300px] lg:w-[280px] w-full rounded-[12px] border-[1px] border-[#EAECF0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
+                  className="2xl:w-[300px] xl:w-[300px] lg:w-[280px] w-full rounded-[12px] border-[1px] border-[#B6B4B4] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
                   style={{
                     boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
                 >
-                  <div className="bg-[#E9ECEF] rounded-t-[10px] 2xl:h-[260px] xl:h-[260px] lg:h-[260px] md:h-[320px] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] duration-300">
+                  <div className="bg-[#E9ECEF] rounded-t-[12px] 2xl:h-[260px] xl:h-[260px] lg:h-[260px] md:h-[320px] h-[320px] p-6 flex flex-col gap-2 justify-center items-center group-hover:bg-[#88bff7] duration-300 group-hover:rounded-t-[10px]">
+                   
+                   
                     <h1 className="text-[#242424] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[28px] text-[28px] font-Montserrat font-semibold 2xl:leading-5 xl:leading-5 text-center">
                       {product?.title}
                     </h1>
