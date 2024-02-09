@@ -117,7 +117,7 @@ const Header = () => {
               
                 <Link
                   to={product?.link}
-                  className="2xl:w-[300px] xl:w-[300px] lg:w-[280px] w-full rounded-[12px] border-[1px] border-[#BCB9B9] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
+                  className="2xl:w-[300px] xl:w-[300px] lg:w-[280px] w-full rounded-[12px] border-[1px] border-[#C4C4C4] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
                   style={{
                     boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
