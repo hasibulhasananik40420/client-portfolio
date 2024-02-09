@@ -30,11 +30,11 @@ const App = () => {
     }
   };
 
-  // const handleLogout = () => {
-  //   setLoggedIn(false);
-  //   // Remove login status from localStorage
-  //   localStorage.removeItem('isLoggedIn');
-  // };
+  const handleLogout = () => {
+    setLoggedIn(false);
+    // Remove login status from localStorage
+    localStorage.removeItem('isLoggedIn');
+  };
 
   return (
     <HelmetProvider>
@@ -43,10 +43,10 @@ const App = () => {
         {!isLoggedIn ? (
          
 
-          <div className="flex flex-col justify-center items-center h-[100vh] ">
+          <div className="flex flex-col gap-12 justify-center items-center h-[100vh] ">
           <h1 className="lg:w-[500px] text-[44px] text-[#242424] font-Playfair text-center font-bold">Please login</h1>
   
-           <form className="lg:w-[500px] w-full lg:px-0 md:px-2 px-6 md:mt-14 mt-14">
+           <form className="lg:w-[500px] w-full lg:px-0 md:px-2 px-6 md:mt-14 mt-0">
                <div>
                   {/* <label className="text-[18px] text-[#242424] font-Montserrat font-normal leading-6" htmlFor="password">Enter Password</label> */}
                    <input className="lg:w-[500px] w-full h-[48px] border-[1px] border-[#242424] rounded pl-5 outline-0 focus:ring-[0.6px] focus:ring-[#0f0f0f] block text-[16px] font-Montserrat font-normal text-[#242424] duration-500" type="password" name="passowrd" id="" placeholder="Enter Your Password"  value={password}
@@ -69,7 +69,7 @@ const App = () => {
 
         ) : (
           <div>
-            
+            <button onClick={handleLogout}>lllll</button>
             <RouterProvider router={routes} />
           </div>
         )}
