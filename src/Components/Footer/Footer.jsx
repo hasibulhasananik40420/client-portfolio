@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
-      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[220px] xl:px-[220px] 2xl:px-[220px]  px-4 md:px-8 md:ml-0 lg:ml-2 ml-0">
+      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[220px] xl:px-[220px] 2xl:px-[220px]  px-4 md:px-8">
         <div className="md:block hidden">
           <Link to={"/"} className="flex items-center gap-4  h-[60px]">
             <div>
@@ -30,7 +30,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="mt-8 md:mt-8 lg:mt-0">
+        <div className="mt-8 md:mt-8 lg:mt-0 xl:ml-7 lg:ml-0 2xl:ml-0 md:ml-0 ml-0">
           <p className="text-[14px] text-[#2B2B2B] font-Montserrat font-medium leading-6 border-b-[1px] border-black w-[100px]">
             Case Studies
           </p>
