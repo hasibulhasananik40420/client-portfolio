@@ -7,15 +7,14 @@ const Footer = () => {
 
    const {pathname} = useLocation()
 
-
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
-      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[230px] xl:px-[230px] 2xl:px-[230px]  px-4 md:px-8">
+      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[220px] xl:px-[220px] 2xl:px-[220px]  px-4 md:px-8 md:ml-0 lg:ml-2 ml-0">
         <div className="md:block hidden">
           <Link to={"/"} className="flex items-center gap-4  h-[60px]">
             <div>
               <img
-                className="w-[50px] h-[50px] rounded-full"
+                className="w-[48px] h-[48px] rounded-full"
                 src={chad}
                 alt=""
               />
@@ -38,7 +37,7 @@ const Footer = () => {
          
           
 
-          <Link to={"/driver-application"} className={`${pathname==='/driver-application'? 'bg-[#88BFF7]':'bg-white border-[1px] border-[#828282]'} md:mt-4 mt-6 border-[1px]  lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+          <Link to={"/driver-application"} className={`${pathname==='/driver-application'? 'bg-[#88BFF7]':'bg-white border-[1px] border-[#828282]'} md:mt-4 mt-6 border-[1px]  lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
             <div  className=" cursor-pointer">
               <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               Product Redesign
@@ -51,7 +50,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <Link to={"/suggested-fuel-stops"} className={`${pathname==='/suggested-fuel-stops'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+        <Link to={"/suggested-fuel-stops"} className={`${pathname==='/suggested-fuel-stops'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
           <div  className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
               New Feature
@@ -63,7 +62,7 @@ const Footer = () => {
           </div>
         </Link>
 
-        <Link   to={"/automated-equipment-dispatching"} className={`${pathname==='/automated-equipment-dispatching'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[210px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+        <Link   to={"/automated-equipment-dispatching"} className={`${pathname==='/automated-equipment-dispatching'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
           <div
           
             className=" cursor-pointer"
