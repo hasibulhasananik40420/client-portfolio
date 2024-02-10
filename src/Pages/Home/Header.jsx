@@ -75,7 +75,7 @@ const Header = () => {
 
           {/********************** socal media icon start here *************************/}
 
-          <div className="flex gap-5 justify-start mt-5">
+          <div className="flex gap-5 justify-start md:mt-5 mt-7">
             <a target="_blank" href="https://www.linkedin.com/in/chadxsmith/">
               {" "}
               <img
