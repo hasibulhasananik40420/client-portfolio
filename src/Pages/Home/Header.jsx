@@ -39,7 +39,7 @@ const Header = () => {
       <div className="lg:flex justify-center lg:gap-6 2xl:gap-6">
         <div className="">
           <div className="w-full">
-            <div className="lg:w-[330px] xl:w-[339px] 2xl:w-[339px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[330px] lg:h-[330px] xl:h-[330px] md:h-[600px] h-[350px]">
+            <div className="lg:w-[330px] xl:w-[339px] 2xl:w-[339px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[330px] lg:h-[330px] xl:h-[330px] md:h-[600px] h-[396px]">
               <img
                 className="w-full h-full  object-cover rounded-lg"
                 src={chad2}
@@ -75,7 +75,7 @@ const Header = () => {
 
           {/********************** socal media icon start here *************************/}
 
-          <div className="flex gap-5 justify-start md:mt-5 mt-7">
+          <div className="flex gap-5 justify-start mt-7">
             <a target="_blank" href="https://www.linkedin.com/in/chadxsmith/">
               {" "}
               <img
