@@ -56,19 +56,13 @@ const Header = () => {
                   Senior UX Researcher
                 </p>
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                  UX Researcher with focus area in advancing internal and
-                  enterprise systems for B2B and B2C audiences.
+                UX Researcher with extensive experience using discovery and evaluative research methods. Searching for researcher roles on zero to one projects.
                 </p>
 
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                  I'm currently searching for roles focused on growing a user
-                  base and measuring & improving user behavior against defined
-                  business goals.
+                I am also currently enrolled in certification programs to extend my survey design and statistical analysis skills.
                 </p>
-                <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px] ">
-                  I also enjoy designing wireframes, and I'm currently enrolled
-                  in certification trainings in statistics and data science.
-                </p>
+                
               </div>
             </div>
           </div>
