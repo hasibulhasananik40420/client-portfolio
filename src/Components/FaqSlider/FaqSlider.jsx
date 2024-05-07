@@ -141,10 +141,10 @@ const FaqSlider = () => {
 
         {openSections[index] && (
           <div className="">
-            {section.images.length > 1 && ( // Only render slider if there is more than 1 image
+            {/* {section.images.length > 1 && ( // Only render slider if there is more than 1 image */}
               <CustomSliderVTwo images={section.images} />
-            )}
-            {section.images.length === 1 && ( // Render single image without slider
+            {/* )} */}
+            {/* {section.images.length === 1 && ( // Render single image without slider
               <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] mt-3">
                 <img
                   className="object-contain w-full h-full"
@@ -152,7 +152,7 @@ const FaqSlider = () => {
                   alt=""
                 />
               </div>
-            )}
+            )} */}
           </div>
         )}
       </div>

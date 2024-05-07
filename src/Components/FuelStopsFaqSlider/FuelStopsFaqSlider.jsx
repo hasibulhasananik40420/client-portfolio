@@ -8,8 +8,10 @@ import { useState } from "react";
 import SemiStructuredInterviewsImage1 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/01.png"
 import SemiStructuredInterviewsImage2 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2024-01-24 6.10.00 PM.png"
 import SemiStructuredInterviewsImage3 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/04 (1).png"
-import SemiStructuredInterviewsImage4 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.05 AM.png"
-import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.17 AM.png"
+
+ import SemiStructuredInterviewsImage4 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/-_semi-structured_interviews__fourth_image_.png"
+
+import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/semi-structured_interviews__fifth_image__720.png"
 import SemiStructuredInterviewsImage6 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.28 AM.png"
 
 

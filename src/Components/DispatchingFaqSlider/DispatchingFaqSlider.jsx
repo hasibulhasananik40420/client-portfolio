@@ -4,8 +4,8 @@ import ExperienceMappingImage1 from "../../assets/Automated Dispatching/Experien
 import ExperienceMappingImage2 from "../../assets/Automated Dispatching/Experience Mapping/003.png"
 import ExperienceMappingImage3 from "../../assets/Automated Dispatching/Experience Mapping/005.png"
 import ExperienceMappingImage4 from "../../assets/Automated Dispatching/Experience Mapping/006.png"
-import ExperienceMappingImage5 from "../../assets/Automated Dispatching/Experience Mapping/007.png"
-import ExperienceMappingImage6 from "../../assets/Automated Dispatching/Experience Mapping/010.png"
+import ExperienceMappingImage5 from "../../assets/Automated Dispatching/Experience Mapping/experiencing_mapping__fifth_image_.png"
+import ExperienceMappingImage6 from "../../assets/Automated Dispatching/Experience Mapping/xperiencing_mapping__sixth_image_.png"
 
 
 import NarrativeImage1 from "../../assets/Automated Dispatching/Narrative for Day-in-the-Life (Supported)/001.png"
@@ -22,13 +22,15 @@ import ConceptTestingImage5 from "../../assets/Automated Dispatching/Concept Tes
 
 
 import ExperienceBenchmarkingSupportedImage1 from "../../assets/Automated Dispatching/Experience Benchmarking (Supported)/001.png"
-import ExperienceBenchmarkingSupportedImage2 from "../../assets/Automated Dispatching/Experience Benchmarking (Supported)/002.png"
+import ExperienceBenchmarkingSupportedImage2 from "../../assets/Automated Dispatching/Experience Benchmarking (Supported)/experience_benchmarking__supported___second_image__.png"
 
-import TrainingBenchmarkingImage1 from '../../assets/Automated Dispatching/Traning/Screenshot 2023-12-28 at 6.51.05 PM.png'
-import TrainingBenchmarkingImage2 from '../../assets/Automated Dispatching/Traning/Screenshot 2023-12-28 at 6.46.13 PM.png'
-import TrainingBenchmarkingImage3 from '../../assets/Automated Dispatching/Traning/Screenshot 2023-12-28 at 6.45.58 PM.png'
-import TrainingBenchmarkingImage4 from '../../assets/Automated Dispatching/Traning/Screenshot 2023-12-28 at 6.46.26 PM.png'
-import TrainingBenchmarkingImage5 from '../../assets/Automated Dispatching/Traning/Screenshot 2023-12-28 at 6.46.47 PM.png'
+
+
+import TrainingBenchmarkingImage1 from '../../assets/Automated Dispatching/Traning/training_benchmark__first_image__720.png'
+import TrainingBenchmarkingImage2 from '../../assets/Automated Dispatching/Traning/training_benchmark__second_image__720.png'
+import TrainingBenchmarkingImage3 from '../../assets/Automated Dispatching/Traning/training_benchmark__third_image__720.png'
+import TrainingBenchmarkingImage4 from '../../assets/Automated Dispatching/Traning/training_benchmark__fourth_image__720.png'
+import TrainingBenchmarkingImage5 from '../../assets/Automated Dispatching/Traning/training_benchmark__fifth_image__720.png'
 
 
 
@@ -148,10 +150,11 @@ const DispatchingFaqSlider = () => {
 
       {openSections[index] && (
         <div className="">
-          {section.images.length > 1 && ( // Only render slider if there is more than 1 image
+          <CustomSliderVTwo images={section.images} />
+          {/* {section.images.length > 1 && ( // Only render slider if there is more than 1 image
             <CustomSliderVTwo images={section.images} />
-          )}
-          {section.images.length === 1 && ( // Render single image without slider
+          )} */}
+          {/* {section.images.length === 1 && ( // Render single image without slider
             <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] mt-3">
               <img
                 className="object-contain w-full h-full"
@@ -159,7 +162,7 @@ const DispatchingFaqSlider = () => {
                 alt=""
               />
             </div>
-          )}
+          )} */}
         </div>
       )}
     </div>
