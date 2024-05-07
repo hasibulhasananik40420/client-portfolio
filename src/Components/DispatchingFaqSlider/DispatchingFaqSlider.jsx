@@ -11,7 +11,7 @@ import ExperienceMappingImage6 from "../../assets/Automated Dispatching/Experien
 import NarrativeImage1 from "../../assets/Automated Dispatching/Narrative for Day-in-the-Life (Supported)/001.png"
 
 
-import PanelDiscussionImage1 from "../../assets/Automated Dispatching/Panel Discussion for Day-in-the-Life/Screenshot 2023-11-27 at 7.12.38 PM (1).png"
+import PanelDiscussionImage1 from "../../assets/Automated Dispatching/Panel Discussion for Day-in-the-Life/Day-in-the-life Panel Discussion.png"
 
 
 import ConceptTestingImage1 from "../../assets/Automated Dispatching/Concept Testing/001.png"
@@ -60,7 +60,7 @@ const DispatchingFaqSlider = () => {
         }, 
         {
           id: 2,
-          text: 'Day-in-the-Life Narrative(Supported)',
+          text: 'Day-in-the-Life Narrative (Supported)',
           images: [
             { id: 1, image: NarrativeImage1, text: "Day-in-the-Life Narrative: Current State" },
            
@@ -151,18 +151,6 @@ const DispatchingFaqSlider = () => {
       {openSections[index] && (
         <div className="">
           <CustomSliderVTwo images={section.images} />
-          {/* {section.images.length > 1 && ( // Only render slider if there is more than 1 image
-            <CustomSliderVTwo images={section.images} />
-          )} */}
-          {/* {section.images.length === 1 && ( // Render single image without slider
-            <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] mt-3">
-              <img
-                className="object-contain w-full h-full"
-                src={section.images[0].image}
-                alt=""
-              />
-            </div>
-          )} */}
         </div>
       )}
     </div>

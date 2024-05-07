@@ -11,7 +11,7 @@ import SemiStructuredInterviewsImage3 from "../../assets/Suggested-fuel-Stops/Se
 
  import SemiStructuredInterviewsImage4 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/-_semi-structured_interviews__fourth_image_.png"
 
-import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/semi-structured_interviews__fifth_image__720.png"
+import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Semi-structured Interviews (Fifth Image).png"
 import SemiStructuredInterviewsImage6 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.28 AM.png"
 
 
