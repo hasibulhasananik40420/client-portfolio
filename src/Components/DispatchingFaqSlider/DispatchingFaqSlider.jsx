@@ -82,9 +82,9 @@ const DispatchingFaqSlider = () => {
           images: [
             { id: 1, image: ConceptTestingImage1, text: "Concept Testing: Research Plan" },
             { id: 2, image: ConceptTestingImage2, text: "Concept Testing: Interview Guide" },
-            { id: 3, image: ConceptTestingImage3, text: "Concept Testing: Analysis" },
-            { id: 4, image: ConceptTestingImage4, text: "Caption Text 2" },
-            { id: 5, image: ConceptTestingImage5, text: "Caption Text 2" },
+            { id: 3, image: ConceptTestingImage3, text: "Concept Testing: Analysis (1 of 3)" },
+            { id: 4, image: ConceptTestingImage4, text: "Concept Testing: Analysis (2 of 3)" },
+            { id: 5, image: ConceptTestingImage5, text: "Concept Testing: Analysis (3 of 3)" },
            
           ],
         },

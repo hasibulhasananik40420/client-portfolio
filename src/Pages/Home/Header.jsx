@@ -30,7 +30,7 @@ const Header = () => {
       title: " New Feature",
       subTitle: "Automated Dispatching",
       para: "Helping launch a new major feature",
-      link: "/automated-equipment-dispatching",
+      link: "/automated-dispatching",
     },
   ];
 

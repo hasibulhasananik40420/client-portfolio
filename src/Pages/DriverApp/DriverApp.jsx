@@ -29,7 +29,7 @@ const DriverApp = () => {
 
         <p className='mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full'>Leadership wanted to redesign an internal application, used by branch drivers, with processes that could be reused on other internal applications.</p> 
         
-        {/* <p className='mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full'>Research & Insights, in collaboration Experience Design, was tasked with redesigning an existing employee application. In addition, the teams' director tasked both teams with creating a process that could be reused on future product redesigns across other employee applications.</p> */}
+       
 
          <p className='mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
 

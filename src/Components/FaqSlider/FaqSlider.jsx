@@ -92,7 +92,7 @@ const FaqSlider = () => {
           id: 6,
           text: 'Personas (Supported)',
           images: [
-            { id: 1, image: PersonasImage1, text: "Persona :Driver" },
+            { id: 1, image: PersonasImage1, text: "Persona: Driver" },
            
             // ... add more images as needed
           ],

@@ -10,7 +10,7 @@ const AutomatedEquipmentDispatching = () => {
   return (
     <div>
       <Helmet>
-        <title>Chad Smith | Automated Equipment Dispatching </title>
+        <title>Chad Smith | Automated Dispatching </title>
       </Helmet>
 
       <div className="bg-white">

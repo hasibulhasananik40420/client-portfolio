@@ -25,7 +25,7 @@ const routes = createBrowserRouter([
         element: <DriverApp />,
       },
       {
-        path: "/automated-equipment-dispatching",
+        path: "/automated-dispatching",
         element: <AutomatedEquipmentDispatching />,
       },
       {

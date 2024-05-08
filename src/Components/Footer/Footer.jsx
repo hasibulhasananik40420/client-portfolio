@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </Link>
 
-        <Link   to={"/automated-equipment-dispatching"} className={`${pathname==='/automated-equipment-dispatching'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+        <Link   to={"/automated-dispatching"} className={`${pathname==='/automated-dispatching'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
           <div
           
             className=" cursor-pointer"
