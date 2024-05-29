@@ -16,8 +16,12 @@ import PrioritizationWorkshopImage2 from "../../assets/driving-app/Learnings Pri
 import PrioritizationWorkshopImage3 from "../../assets/driving-app/Learnings Prioritization/05.png"
 
 
+import ADayInTheLifeNarrativeCurrentStateImage1 from "../../assets/driving-app/A Day In The Life Narrative Current State/image1.png"
+
+
+
+
 import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/Current Day Narratives (Supported)/Screenshot 2023-11-27 at 6.56.05 PM (1).png"
-import CurrentDayNarrativesSupportedImage2 from "../../assets/driving-app/Current Day Narratives (Supported)/01.png"
 
 
 
@@ -71,11 +75,22 @@ const FaqSlider = () => {
           ],
         },
         {
+          id: 45,
+          text: ' A Day In The Life Narrative: Current State (Supported',
+          images: [
+            { id: 1, image: ADayInTheLifeNarrativeCurrentStateImage1, text: "A Day In The Life Narrative: Current State" },
+            // { id: 2, image: CurrentDayNarrativesSupportedImage2, text: "Day-in-the-Life Narratives: Future State" },
+            // ... add more images as needed
+          ],
+        },
+        
+        {
           id: 4,
-          text: ' Current Day Narratives (Supported)',
+          text: ' A Day In The Life Narrative: Future State (Supported)',
           images: [
             { id: 1, image: CurrentDayNarrativesSupportedImage1, text: "Day-in-the-Life Narratives: Current State" },
-            { id: 2, image: CurrentDayNarrativesSupportedImage2, text: "Day-in-the-Life Narratives: Future State" },
+
+            
             // ... add more images as needed
           ],
         },
