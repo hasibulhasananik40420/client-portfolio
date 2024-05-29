@@ -3,6 +3,8 @@ import { useState } from "react";
 import ExperienceMappingImage1 from "../../assets/Automated Dispatching/Experience Mapping/001.png"
 import ExperienceMappingImage2 from "../../assets/Automated Dispatching/Experience Mapping/003.png"
 import ExperienceMappingImage3 from "../../assets/Automated Dispatching/Experience Mapping/005.png"
+import ExperienceMappingImageextra from "../../assets/Automated Dispatching/Experience Mapping/extra.png"
+
 import ExperienceMappingImage4 from "../../assets/Automated Dispatching/Experience Mapping/006.png"
 import ExperienceMappingImage5 from "../../assets/Automated Dispatching/Experience Mapping/experiencing_mapping__fifth_image_.png"
 import ExperienceMappingImage6 from "../../assets/Automated Dispatching/Experience Mapping/xperiencing_mapping__sixth_image_.png"
@@ -51,6 +53,7 @@ const DispatchingFaqSlider = () => {
             { id: 1, image: ExperienceMappingImage1, text: "Experience Mapping: Research Plan" },
             { id: 2, image: ExperienceMappingImage2, text: "Experience Mapping: Interview Guide" },
             { id: 3, image: ExperienceMappingImage3, text: "Experience Mapping: Data Capturing File" },
+            { id: 9, image: ExperienceMappingImageextra, text: "Experience Mapping: Data Capturing File Extra" },
             { id: 4, image: ExperienceMappingImage4, text: "Experience Mapping: Synthesis" },
             { id: 5, image: ExperienceMappingImage5, text: "Experience Mapping: Report Readout (1 out of 2)" },
             { id: 6, image: ExperienceMappingImage6, text: "Experience Mapping: Report Readout (2 out of 2)" },
