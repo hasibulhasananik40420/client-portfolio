@@ -76,7 +76,7 @@ const FaqSlider = () => {
         },
         {
           id: 45,
-          text: ' A Day In The Life Narrative: Current State (Supported',
+          text: ' A Day In The Life Narrative: Current State (Supported)',
           images: [
             { id: 1, image: ADayInTheLifeNarrativeCurrentStateImage1, text: "A Day In The Life Narrative: Current State" },
             // { id: 2, image: CurrentDayNarrativesSupportedImage2, text: "Day-in-the-Life Narratives: Future State" },
