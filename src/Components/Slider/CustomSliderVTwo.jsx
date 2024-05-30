@@ -95,21 +95,7 @@ const CustomSliderVTwo = ({ images,initialActiveIndex = 0 }) => {
 
             
 
-      {/* <div className="w-full absolute inset-0 flex items-center justify-between px-6">
-        <span
-          onClick={handleSlideLeft}
-          className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-7 2xl:h-7 flex justify-center items-center cursor-pointer"
-        >
-          <MdOutlineArrowBackIos className="text-white text-[14px] 2xl:text-[14px]" />
-        </span>
-
-        <span
-          onClick={handleSlideRight}
-          className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-7 2xl:h-7 flex justify-center items-center cursor-pointer"
-        >
-          <MdArrowForwardIos className="text-white text-[14px] 2xl:text-[14px]" />
-        </span>
-      </div> */}
+     
 
         {images.length > 1 && (
           <div className="w-full absolute inset-0 flex items-center justify-between px-6">

@@ -15,7 +15,7 @@ import PrioritizationWorkshopImage1 from "../../assets/driving-app/Learnings Pri
 import PrioritizationWorkshopImage2 from "../../assets/driving-app/Learnings Prioritization/image (1).png"
 import PrioritizationWorkshopImage3 from "../../assets/driving-app/Learnings Prioritization/05.png"
 
-//new added
+//new added here
 import ADayInTheLifeNarrativeCurrentStateImage1 from "../../assets/driving-app/A Day In The Life Narrative Current State/image1.png"
 
 
