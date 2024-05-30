@@ -1,6 +1,6 @@
 import { CiSquarePlus } from "react-icons/ci";
 import { AiOutlineMinus } from "react-icons/ai";
-
+//add image
 import AssumptionMappingImage1 from "../../assets/driving-app/Assumption Mapping/image1.png"
 
 
