@@ -13,6 +13,7 @@ import SemiStructuredInterviewsImage3 from "../../assets/Suggested-fuel-Stops/Se
 
 import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Semi-structured Interviews (Fifth Image).png"
 import SemiStructuredInterviewsImage6 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.28 AM.png"
+import SemiStructuredInterviewsImage7 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Image 3C.png"
 
 
 
@@ -43,6 +44,7 @@ const FuelStopsFaqSlider = () => {
             { id: 4, image: SemiStructuredInterviewsImage4, text: "Semi-structured Interviews: Report Readout (1 of 3)" },
             { id: 5, image: SemiStructuredInterviewsImage5, text: "Semi-structured Interviews: Report Readout (2 of 3)" },
             { id: 6, image: SemiStructuredInterviewsImage6, text: "Semi-structured Interviews: Report Readout (3 of 3)" },
+            { id: 7, image: SemiStructuredInterviewsImage7, text: "Semi-structured Interviews: Report Readout (3 of 3)" },
           ],
         },
         {
