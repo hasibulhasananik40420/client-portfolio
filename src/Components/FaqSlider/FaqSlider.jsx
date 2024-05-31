@@ -118,7 +118,7 @@ const FaqSlider = () => {
           images: [
             { id: 1, image: BenchmarkingImage1, text: "Benchmarking: UMUX-Lite for Current Experience" },
             
-            // ... add more images if needed
+            // ... add more images as needed
           ],
         },
       ];
