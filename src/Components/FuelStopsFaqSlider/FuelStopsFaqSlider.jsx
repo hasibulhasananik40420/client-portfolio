@@ -13,7 +13,7 @@ import SemiStructuredInterviewsImage3 from "../../assets/Suggested-fuel-Stops/Se
 
 import SemiStructuredInterviewsImage5 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Semi-structured Interviews (Fifth Image).png"
 import SemiStructuredInterviewsImage6 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2023-10-25 at 10.06.28 AM.png"
-import SemiStructuredInterviewsImage7 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Image 3C.png"
+// import SemiStructuredInterviewsImage7 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Image 3C.png"
 
 
 
@@ -44,7 +44,7 @@ const FuelStopsFaqSlider = () => {
             { id: 4, image: SemiStructuredInterviewsImage4, text: "Semi-structured Interviews: Report Readout (1 of 3)" },
             { id: 5, image: SemiStructuredInterviewsImage5, text: "Semi-structured Interviews: Report Readout (2 of 3)" },
             { id: 6, image: SemiStructuredInterviewsImage6, text: "Semi-structured Interviews: Report Readout (3 of 3)" },
-            { id: 7, image: SemiStructuredInterviewsImage7, text: "Semi-structured Interviews: Report Readout (3 of 3)" },
+            // { id: 7, image: SemiStructuredInterviewsImage7, text: "Semi-structured Interviews: Report Readout (3 of 3)" },
           ],
         },
         {
@@ -96,9 +96,9 @@ const FuelStopsFaqSlider = () => {
               <CustomSliderVTwo images={section.images} />
             )}
             {section.images.length === 1 && ( // Render single image without slider
-              <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] mt-3">
+              <div className="h-[416px] w-full p-4 border-[1px] border-[#D9D9D9] lg:w-[800px] xl:w-[800px] 2xl:w-[950px] mt-3 ">
                 <img
-                  className="object-contain w-full h-full"
+                  className="object-contain w-full h-full "
                   src={section.images[0].image}
                   alt=""
                 />
