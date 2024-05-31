@@ -3,7 +3,7 @@ import CustomSliderVTwo from "../Slider/CustomSliderVTwo"
 import { AiOutlineMinus } from "react-icons/ai"
 import { useState } from "react";
 
-//add image all
+//add image 
 
 import SemiStructuredInterviewsImage1 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/01.png"
 import SemiStructuredInterviewsImage2 from "../../assets/Suggested-fuel-Stops/Semi-structured Interviews/Screenshot 2024-01-24 6.10.00 PM.png"
