@@ -94,7 +94,7 @@ const DispatchingFaqSlider = () => {
 
         {
           id: 5,
-          text: 'Experience Benchmarking (Supported)',
+          text: 'Experience Benchmarking',
           images: [
             { id: 1, image: ExperienceBenchmarkingSupportedImage1, text: "Benchmarking: UMUX-Lite for Current Experience" },
             { id: 2, image: ExperienceBenchmarkingSupportedImage2, text: "Benchmarking: Report Readout" },
