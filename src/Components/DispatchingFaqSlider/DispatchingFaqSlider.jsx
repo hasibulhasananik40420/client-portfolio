@@ -71,9 +71,9 @@ const DispatchingFaqSlider = () => {
         },
         {
           id: 3,
-          text: 'A Day In The Life: Panel Discussion (Supported)',
+          text: 'A Day In The Life: Panel Discussion',
           images: [
-            { id: 1, image: PanelDiscussionImage1, text: "A Day In The Life: Panel Discussion (Supported)" },
+            { id: 1, image: PanelDiscussionImage1, text: "A Day In The Life: Panel Discussion" },
            
            
           ],
