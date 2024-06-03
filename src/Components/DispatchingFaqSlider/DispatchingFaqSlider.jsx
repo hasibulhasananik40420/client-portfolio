@@ -63,9 +63,9 @@ const DispatchingFaqSlider = () => {
         }, 
         {
           id: 2,
-          text: 'Day-in-the-Life Narrative (Supported)',
+          text: 'A Day In The Life Narrative: Current State (Supported)',
           images: [
-            { id: 1, image: NarrativeImage1, text: "Day-in-the-Life Narrative: Current State" },
+            { id: 1, image: NarrativeImage1, text: "A Day In The Life Narrative: Current State (Supported)" },
            
           ],
         },
