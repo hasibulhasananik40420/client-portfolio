@@ -36,7 +36,7 @@ const AutomatedEquipmentDispatching = () => {
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-              My role was leading research in support of launching a new ML/AI
+              My role was leading research in support of launching an artificial intelligence
               feature that would nudge employees to pick up equipment sooner. I
               led Experience Mapping to spotlight where the new feature may not
               address issues connected to returning equipment sooner. I also led
@@ -157,18 +157,17 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                The future state version of this application, which would eventually contain more employee nudging features, had regular co-design sessions with Experience Design and Technology.
-                </p>
+                When integrating machine learning features into internal systems, research partnering with training is a good idea because you'll have multiple surveying opportunities to understand how the features are being perceived. One opportunity, for example, exists after conducting training, while another opportunity exists after a few weeks of using the new feature.                </p>
               </div>
 
-              <div className="flex gap-4 mt-[10px]">
+              {/* <div className="flex gap-4 mt-[10px]">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
                 Once tech feasibility stages have been completed, I would recommend using the Kano Model to assess desirability of the vetted features to influence the order of slated roadmap items
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

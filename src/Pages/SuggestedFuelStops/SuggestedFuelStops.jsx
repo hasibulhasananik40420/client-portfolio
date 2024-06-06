@@ -16,11 +16,11 @@ const SuggestedFuelStops = () => {
         <div className="max-w-container mx-auto lg:px-[230px] xl:px-[230px] 2xl:[230px]  px-4 md:px-8">
           <div className="lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
             <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[24px] font-Montserrat font-bold tracking-[-0.5px]">
-            New Feature: Suggested Fuel Stops
+              New Feature: Suggested Fuel Stops
             </h1>
 
             <p className="text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-semibold mt-2 md:mt-4 lg:mt-0 xl:mt-0 2xl:mt-0">
-            Pinpointing opportunities to recommend fueling stations
+              Pinpointing opportunities to recommend fueling stations
             </p>
 
             <h3 className="text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]">
@@ -35,14 +35,13 @@ const SuggestedFuelStops = () => {
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
               My role was to understand how Drivers currently stop for fuel, to
               inform a feature that suggested fuel stops containg negotiated
-              pricing. I used "Semi-structured Interviews" and Experience Mapping to visualize how length of trip impacted when
-              fuel stop suggestions should appear. These findings informed the
-              MVP direction of integrating fuel stop suggestions into our Driver
+              pricing. I used "Semi-structured Interviews" and Experience
+              Mapping to visualize how length of trip impacted when fuel stop
+              suggestions should appear. These findings informed the MVP
+              direction of integrating fuel stop suggestions into our Driver
               application.
             </p>
           </div>
-
-        
 
           <div className="mt-[40px]">
             <h1 className="text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]">
@@ -66,7 +65,8 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Fueling behavior is driven by whether Drivers are taking short-distance or long-distance trips
+                  Fueling behavior is driven by whether Drivers are taking
+                  short-distance or long-distance trips
                 </p>
               </div>
 
@@ -75,7 +75,9 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Staying away from highest price gas & fuel stations without certain accommodations is most important when selecting fuel stations
+                  Staying away from highest price gas & fuel stations without
+                  certain accommodations is most important when selecting fuel
+                  stations
                 </p>
               </div>
 
@@ -84,7 +86,8 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                Long-distance and short-distance Drivers will likely use suggested fuel stops differently
+                  Long-distance and short-distance Drivers will likely use
+                  suggested fuel stops differently
                 </p>
               </div>
 
@@ -93,16 +96,17 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Knowing savings-to-company will likely impact whether short-distance Drivers add more time to route to travel to suggest stop
+                  Knowing savings-to-company will likely impact whether
+                  short-distance Drivers add more time to route to travel to
+                  suggest stop
                 </p>
               </div>
             </div>
           </div>
 
-
-            <div className="mt-[40px]">
+          <div className="mt-[40px]">
             <h1 className="text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]">
-            Impact
+              Impact
             </h1>
 
             <div className="flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
@@ -111,7 +115,8 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                Feasibility to build ideal feature, based on discovery research, was discussed
+                  Feasibility to build ideal feature, based on discovery
+                  research, was discussed
                 </p>
               </div>
 
@@ -120,19 +125,12 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6  ">
-                Limitations identified were co-designed into an MVP-direction and also vetted with a larger technical audience.
+                  Limitations identified were co-designed into an MVP-direction
+                  and also vetted with a larger technical audience.
                 </p>
               </div>
-
             </div>
           </div>
-
-
-
-
-
-
-
 
           <div className="mt-[40px]">
             <h1 className="text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]">
@@ -145,7 +143,10 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                When conducting discovery research for a new feature, the research readout meeting should both explain the users perspective and create space for innovation discussion & identifying additional research needs.
+                  When conducting discovery research for a new feature, the
+                  research readout meeting should both explain the users
+                  perspective and create space for innovation discussion &
+                  identifying additional research needs.
                 </p>
               </div>
 
@@ -154,7 +155,20 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                I would also recommend going into a tech feasibility discussion, and possibly doing some early concept designing, before doing discovery research. This can help bring teams together in co-designing solutions
+                  In some cases, if a new feature is severely limited by
+                  technical restraints (e.g. using an API to develop the
+                  feature), before doing discovery research, I recommend
+                  including technical limitation questions in the research
+                  planning phase. The underlying reason is because the ideal
+                  user experience may be completely unfeasible given the
+                  technical limitations. And although discovery interviews
+                  should be open-ended and unbiased, without knowing tech
+                  limitations upfront you cannot probe on how certain
+                  limitations may impact the user. Certain technical
+                  limitations, for example, may so severely hider the user
+                  experience that reprioritizing or additional planning for the
+                  feature is called into question. This missing insight
+                  ultimately affects the actionability of the research.
                 </p>
               </div>
             </div>
