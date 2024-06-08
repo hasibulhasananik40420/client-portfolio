@@ -1,44 +1,40 @@
 
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import routes from './Routes/routes';
 import { HelmetProvider } from 'react-helmet-async';
-import { toast, Toaster } from 'react-hot-toast';
+// import { toast, Toaster } from 'react-hot-toast';
 
 
 
 const App = () => {
-  const [password, setPassword] = useState('');
-  const defaultPassword = 'chad-smith-access';
-  const [isLoggedIn, setLoggedIn] = useState(false);
+  // const [password, setPassword] = useState('');
+  // const defaultPassword = 'chad-smith-access';
+  // const [isLoggedIn, setLoggedIn] = useState(false);
 
-  useEffect(() => {
-    // Check if the user is already logged in (on page reload)
-    const storedLoginStatus = localStorage.getItem('isLoggedIn');
-    if (storedLoginStatus === 'true') {
-      setLoggedIn(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Check if the user is already logged in (on page reload)
+  //   const storedLoginStatus = localStorage.getItem('isLoggedIn');
+  //   if (storedLoginStatus === 'true') {
+  //     setLoggedIn(true);
+  //   }
+  // }, []);
 
-  const handleLogin = () => {
-    if (password === defaultPassword) {
-      setLoggedIn(true);
-      // Save login status to localStorage
-      localStorage.setItem('isLoggedIn', 'true');
-    } else {
-      toast.error('Incorrect password. Please try again.');
-    }
-  };
-
-  // const handleLogout = () => {
-  //   setLoggedIn(false);
-  //   // Remove login status from localStorage
-  //   localStorage.removeItem('isLoggedIn');
+  // const handleLogin = () => {
+  //   if (password === defaultPassword) {
+  //     setLoggedIn(true);
+  //     // Save login status to localStorage
+  //     localStorage.setItem('isLoggedIn', 'true');
+  //   } else {
+  //     toast.error('Incorrect password. Please try again.');
+  //   }
   // };
+
+ 
 
   return (
     <HelmetProvider>
-      <div className='overflow-x-hidden'>
+      {/* <div className='overflow-x-hidden'>
         
         {!isLoggedIn ? (
          
@@ -77,7 +73,9 @@ const App = () => {
       <Toaster
   position="top-center"
   reverseOrder={false}
-/>
+/> */}
+
+<RouterProvider router={routes} />
     </HelmetProvider>
   );
 };
