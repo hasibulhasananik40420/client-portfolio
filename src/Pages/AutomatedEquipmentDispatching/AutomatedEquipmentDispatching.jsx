@@ -30,42 +30,20 @@ const AutomatedEquipmentDispatching = () => {
             </h3>
 
             <p className="mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full">
-              Completed equipment rentals regularly sat on customer's job sites
-              several days before being picked-up and returned back to the
-              rental's branch.
+            Completed equipment rentals regularly sat on customer's job sites several days before being picked-up and returned back to the rental's branch.
+
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-              My role was leading research in support of launching an artificial intelligence
-              feature that would nudge employees to pick up equipment sooner. I
-              led Experience Mapping to spotlight where the new feature may not
-              address issues connected to returning equipment sooner. I also led
-              Concept Testing to identify employee concerns with the automation
-              feature, spotlight confusing and requested add-on features, and
-              highlight training preferences. I also held a weekly meeting
-              keeping Research, Operations and Training aligned on research
-              needs and, where appropriate, quickly aligning on findings.
+            My role was leading research in support of launching an artificial intelligence feature that would nudge employees to pick up equipment sooner. I led Experience Mapping to spotlight where the new feature may not address issues connected to returning equipment sooner. I also led Concept Testing to identify employee concerns with the automation feature, spotlight confusing and requested add-on features, and highlight training preferences. I also held a weekly meeting keeping Research, Operations and Training aligned on research needs and, where appropriate, quickly aligning on findings.
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-              To help build greater awareness of current day challenges in
-              picking up equipment, I also led a Day-in-Life panel discussion
-              with the employee group responsible for scheduling equipment
-              pickups. This touchpoint allowed Product Managers across the
-              company's product suite to understand where their products created
-              downstreams issues during pickups. I also served as a reviewer of
-              the narrative documented highlighting the employee group's
-              Day-in-the-Life (both pre-release and post-release of the new
-              feature) and experience benchmarking pre-release of the existing
-              application.
+            To help build greater awareness of current day challenges in picking up equipment, I also led a Day-in-Life panel discussion with the employee group responsible for scheduling equipment pickups. This touchpoint allowed Product Managers across the company's product suite to understand where their products created downstreams issues during pickups. I also served as a reviewer of the narrative document highlighting the employee group's Day-in-the-Life (both pre-release and post-release of the new feature) and experience benchmarking pre-release of the existing application.
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-              My research's impact included elevating the urgency of delivering
-              an identified - but not yet scheduled - roadmap item connected to
-              addressing pickup delays. My findings also led to modified
-              training material and formats (e.g. including in-person hands on
-              training) in support of rolling out the feature.
+            My research's impact included elevating the urgency of delivering an identified - but not yet scheduled - roadmap item connected to addressing pickup delays. My findings also led to modified training material and formats (e.g. including in-person hands on training) in support of rolling out the feature.
             </p>
           </div>
 

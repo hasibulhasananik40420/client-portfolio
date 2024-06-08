@@ -28,18 +28,11 @@ const SuggestedFuelStops = () => {
             </h3>
 
             <p className="mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full">
-              Drivers were not regularly stopping at fuel pumps with negotiated
-              company pricing
+            Drivers were not regularly stopping at fuel pumps with negotiated company pricing
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-              My role was to understand how Drivers currently stop for fuel, to
-              inform a feature that suggested fuel stops containg negotiated
-              pricing. I used "Semi-structured Interviews" and Experience
-              Mapping to visualize how length of trip impacted when fuel stop
-              suggestions should appear. These findings informed the MVP
-              direction of integrating fuel stop suggestions into our Driver
-              application.
+            My role was to understand how Drivers currently stop for fuel, to inform a feature that suggested fuel stops containing negotiated pricing. I used Semi-structured Interviews and Experience Mapping to visualize how length of trip impacted when fuel stop suggestions should appear. These findings informed the MVP direction of integrating fuel stop suggestions into our Driver application
             </p>
           </div>
 
