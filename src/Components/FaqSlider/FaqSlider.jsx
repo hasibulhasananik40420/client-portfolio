@@ -21,11 +21,9 @@ import ADayInTheLifeNarrativeCurrentStateImage1 from "../../assets/driving-app/A
 
 
 
-// import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/Current Day Narratives (Supported)/image.jpg"
+import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/Current Day Narratives (Supported)/image.jpg"
 
 
-import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/A Day In The Life Narrative Current State/image1.png"
-// extra
 
 
 
