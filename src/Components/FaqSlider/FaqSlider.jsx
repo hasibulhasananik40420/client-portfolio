@@ -21,7 +21,7 @@ import ADayInTheLifeNarrativeCurrentStateImage1 from "../../assets/driving-app/A
 
 
 
-import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/Current Day Narratives (Supported)/image.jpg"
+import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/Current Day Narratives (Supported)/frame_1b_v2.webp"
 
 
 
