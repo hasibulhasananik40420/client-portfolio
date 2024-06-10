@@ -257,11 +257,12 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
         <Slider ref={sliderRef} {...settings}>
           {images.map((image, index) => (
             <div key={index} className="mb-[40px]">
-              <div className="h-[380px] w-full p-4">
+              <div className="h-[380px] w-full p-4 ">
                 <img
                   className="object-contain w-full h-full cursor-pointer "
                   src={image.image}
                   alt=""
+                  style={{ imageRendering: 'auto' }}
                   onClick={() => handleImageClick(index)}
                 />
               </div>
