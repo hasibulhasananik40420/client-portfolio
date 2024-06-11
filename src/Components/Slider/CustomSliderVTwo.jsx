@@ -262,7 +262,6 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
                   className="object-contain w-full h-full cursor-pointer "
                   src={image.image}
                   alt=""
-                  style={{ imageRendering: 'auto' }}
                   onClick={() => handleImageClick(index)}
                 />
               </div>
