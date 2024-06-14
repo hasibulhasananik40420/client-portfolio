@@ -253,13 +253,13 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
 
   return (
     <div>
-      <div className="relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full h-[416px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10">
-        <Slider ref={sliderRef} {...settings}>
+      <div className="relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full h-[416px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ">
+        <Slider className="" ref={sliderRef} {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="mb-[40px]">
-              <div className="h-[380px] w-full p-4 ">
+            <div key={index} className="mb-[40px] ">
+              <div className=" w-full p-4 h-[416px] overflow-y-auto">
                 <img
-                  className="object-contain w-full h-full cursor-pointer "
+                  className="object-cover w-full"
                   src={image.image}
                   alt=""
                   onClick={() => handleImageClick(index)}
@@ -270,7 +270,7 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
         </Slider>
 
         {images.length > 1 && (
-          <div className="w-full absolute inset-0 flex items-center justify-between px-6">
+          <div className="w-full absolute top-[47%] flex items-center justify-between px-6">
             <span
               onClick={() => sliderRef.current?.slickPrev()}
               className="bg-[#28163B] rounded-full w-7 h-7 2xl:w-7 2xl:h-7 flex justify-center items-center cursor-pointer"

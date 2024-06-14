@@ -40,3 +40,50 @@
   background-color: transparent; /* Set the color of the thumb */
 }
 
+
+
+
+
+
+
+
+
+
+/* --------Scroll Bar Style Start */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #E9ECEF #dfe9eb;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 7px;
+  background-color: #dfe9eb;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #dfe9eb;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #dfe9eb;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #E9ECEF;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #E9ECEF;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #E9ECEF;
+}
+/* Scroll Bar Style End */
