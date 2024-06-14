@@ -57,7 +57,7 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
       <div className="relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full h-[600px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ">
         <Slider className="" ref={sliderRef} {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="mb-[40px] ">
+            <div key={index} className="mb-[10px] ">
               <div className=" w-full p-4 h-[590px]">
                 <img
                   className="object-contain w-full h-full"
