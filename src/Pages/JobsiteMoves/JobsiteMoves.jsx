@@ -11,7 +11,7 @@ const JobsiteMoves = () => {
   return (
     <div>
        <Helmet>
-        <title>Chad Smith | Driver Application</title>
+        <title>Chad Smith | Jobsite Moves</title>
        
       </Helmet>
       <div className="bg-white">
@@ -22,7 +22,7 @@ const JobsiteMoves = () => {
        <h1 className="text-[#242424] 2xl:text-[28px] xl:text-[28px] lg:text-[28px] text-[24px] font-Montserrat font-bold tracking-[-0.5px]">Process Improvement: Jobsite Moves
        </h1>
      
-       <p className='text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-semibold mt-2 md:mt-4 lg:mt-0 xl:mt-0 2xl:mt-0'>Improving connected systems when moving rented equipment across multiple job sites
+       <p className='text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-semibold mt-2 md:mt-4 lg:mt-0 xl:mt-0 2xl:mt-0'>Improving connected systems when moving equipment across job sites
        </p>
     
        
