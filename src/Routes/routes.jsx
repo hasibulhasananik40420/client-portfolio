@@ -5,6 +5,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import SuggestedFuelStops from "../Pages/SuggestedFuelStops/SuggestedFuelStops";
 import DriverApp from "../Pages/DriverApp/DriverApp";
 import AutomatedEquipmentDispatching from "../Pages/AutomatedEquipmentDispatching/AutomatedEquipmentDispatching";
+import JobsiteMoves from "../Pages/JobsiteMoves/JobsiteMoves";
 
 
 
@@ -31,6 +32,10 @@ const routes = createBrowserRouter([
       {
         path: "/suggested-fuel-stops",
         element: <SuggestedFuelStops />,
+      }, 
+       {
+        path: "/jobsite-moves",
+        element: <JobsiteMoves />,
       }, 
       
 
