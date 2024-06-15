@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#F2F2F2] h-full w-full">
-      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[220px] xl:px-[190px] 2xl:px-[220px]  px-4 md:px-8 ">
+      <div className="max-w-container mx-auto lg:flex gap-3 justify-between h-full md:py-[66px] py-[10px] lg:px-[130px] xl:px-[130px] 2xl:px-[220px]  px-4 md:px-8 ">
         <div className="md:block hidden">
           <Link to={"/"} className="flex items-center gap-4  h-[60px] xl:ml-4 2xl:ml-0 lg:ml-0 md:ml-0 ml-0">
             <div>
