@@ -32,7 +32,7 @@ const SuggestedFuelStops = () => {
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My role was leading research in support of integrating an artificial intelligence feature that would nudge employees to pick up equipment sooner. I used Experience Mapping to spotlight where the new feature may not address issues connected to picking up equipment sooner. I then led Concept Testing, identifying employee concerns with the feature, spotlighting confusing and requested add-on functionality and highlighting training preferences. I also held weekly meetings with Training to identify additional research needs.
+            My role was understanding how Drivers currently stop for fuel. This research helped build a feature, which suggested fuel stops with negotiated pricing. I used Semi-structured Interviews and Journey Mapping to visualize how trip duration (e.g. short distance trip, long distance trip) may influence suggested fuel stop adoption. These findings informed what type of fuel stop and when fuel stop suggestions should appear in the Driver’s application.
             </p>
           </div>
 
