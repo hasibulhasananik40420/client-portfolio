@@ -104,16 +104,16 @@ const JobsiteMoves = () => {
 
             </div>
 
-             <div className='flex gap-4 mt-[10px]'>
+             {/* <div className='flex gap-4 mt-[10px]'>
              <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>Product built a backlog of issues to address based on feasibility & urgency
                </p>
 
-            </div> 
+            </div>  */}
             
-            <div className='flex gap-4 mt-[10px]'>
+            {/* <div className='flex gap-4 mt-[10px]'>
             <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
@@ -122,7 +122,7 @@ const JobsiteMoves = () => {
 
 </p>
 
-            </div>
+            </div> */}
 
            </div>
          </div>
