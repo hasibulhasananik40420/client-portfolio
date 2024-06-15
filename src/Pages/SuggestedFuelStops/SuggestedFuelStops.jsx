@@ -58,8 +58,7 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                  Fueling behavior is driven by whether Drivers are taking
-                  short-distance or long-distance trips
+                Fueling behavior is driven by whether Drivers are taking short-distance or long-distance trips
                 </p>
               </div>
 
@@ -68,9 +67,8 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                  Staying away from highest price gas & fuel stations without
-                  certain accommodations is most important when selecting fuel
-                  stations
+                Long-distance and Short-distance Drivers would likely use suggested fuel stops differently
+
                 </p>
               </div>
 
@@ -79,8 +77,8 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                  Long-distance and short-distance Drivers will likely use
-                  suggested fuel stops differently
+                Long-distance Drivers fuel to safely reach and return from far locations
+
                 </p>
               </div>
 
@@ -89,9 +87,28 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                  Knowing savings-to-company will likely impact whether
-                  short-distance Drivers add more time to route to travel to
-                  suggest stop
+                Short distance Drivers fuel when starting the day and prepping for the next day
+
+                </p>
+              </div>
+              
+               <div className="flex gap-4 mt-[10px]">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
+                Knowing savings-to-company would likely impact whether Short-distance Drivers travel further to reach a suggested stop
+
+
+                </p>
+              </div> 
+               <div className="flex gap-4 mt-[10px]">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
+                Staying away from highest price gas and stops lacking certain vehicle maneuvering & fueling accommodations were most important when selecting fuel stations
+
                 </p>
               </div>
             </div>
@@ -108,8 +125,8 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                  Feasibility to build ideal feature, based on discovery
-                  research, was discussed
+                Semi-structured Interviews provided the groundwork to discuss and begin vetting technical feasibility of an ideal user experience
+
                 </p>
               </div>
 
@@ -118,8 +135,18 @@ const SuggestedFuelStops = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6  ">
-                  Limitations identified were co-designed into an MVP-direction
-                  and also vetted with a larger technical audience.
+                Journey Mapping, based on past task analysis research and Semi-structured Interview findings, visualized how suggested fuel stop prompts could appear to align with Driver’s current ways of working.
+
+                </p>
+              </div> 
+              <div className="flex gap-4 mt-[10px]">
+                <span className="w-[20px] h-[27px] flex justify-center items-center">
+                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
+                </span>
+                <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6  ">
+                Journey Mapping findings guided additional technical discussions on critical features required and unachievable in the first release
+
+
                 </p>
               </div>
             </div>
