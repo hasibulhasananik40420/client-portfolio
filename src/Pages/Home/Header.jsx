@@ -34,8 +34,8 @@ const Header = () => {
     }, 
     {
       _id: 4,
-      title: " New Feature",
-      subTitle: "Process Improvement: Jobsite Moves",
+      title: " Process Improvement",
+      subTitle: "Jobsite Moves",
       para: "Improving connected systems when moving rented equipment across multiple job sites",
       link: "/jobsite-moves",
     },
