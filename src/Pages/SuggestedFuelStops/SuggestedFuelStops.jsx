@@ -32,7 +32,7 @@ const SuggestedFuelStops = () => {
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My role was to understand how Drivers currently stop for fuel, to inform a feature that suggested fuel stops containing negotiated pricing. I used Semi-structured Interviews and Experience Mapping to visualize how length of trip impacted when fuel stop suggestions should appear. These findings informed the MVP direction of integrating fuel stop suggestions into our Driver application
+            My role was understanding how Drivers currently stop for fuel. This research helped build a feature, which suggested fuel stops with negotiated pricing. I used Semi-structured Interviews and Journey Mapping to visualize how trip duration (e.g. short distance trip, long distance trip) may influence suggested fuel stop adoption. These findings informed what type of fuel stop and when fuel stop suggestions should appear in the Driver’s application.
             </p>
           </div>
 

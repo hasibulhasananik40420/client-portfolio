@@ -59,7 +59,7 @@ const DriverApp = () => {
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Drivers are missing features when completing daily tasks, which opens the door for human error and reliance on third-party tools</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Drivers were missing key features when completing daily tasks, which opened the door for human error and reliance on third-party tools</p>
 
             </div>
 
@@ -67,7 +67,7 @@ const DriverApp = () => {
              <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px]  font-normal font-Montserrat md:leading-6 leading-6 '>Drives are impacted by inaccurate or incomplete customer data entered by employees</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px]  font-normal font-Montserrat md:leading-6 leading-6 '>Drivers were impacted by inaccurate or incomplete customer data entered by employees</p>
 
             </div> 
             
@@ -75,7 +75,8 @@ const DriverApp = () => {
             <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6'>Driver need customers to follow company policies to reduce wasted employee hours</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6'>Customers not following equipment return policies contributed to wasted employee hours
+</p>
 
             </div>
 
@@ -92,7 +93,8 @@ const DriverApp = () => {
               <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Product aligned on what issues were addressable through user experience changes versus operational & multi-system changes</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Product aligned on what issues were addressable through solely user experience changes verses requiring additional operational changes
+               </p>
 
             </div>
 
@@ -100,7 +102,8 @@ const DriverApp = () => {
              <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>Product built a backlog of issues to address based on feasibility & urgency</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>Product built a backlog of issues to address based on feasibility & urgency
+               </p>
 
             </div> 
             
@@ -108,7 +111,10 @@ const DriverApp = () => {
             <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>One major feature was immediately redesigned and currently undergoing implementation</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>One major feature, an in-app photo capturing experience, was immediately redesigned and prioritized for implementation
+
+
+</p>
 
             </div>
 
