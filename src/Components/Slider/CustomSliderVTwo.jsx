@@ -72,17 +72,17 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
           ))}
         </Slider> */}
 
-<div className={`relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ${images.some(image => image.image === AssumptionMappingImage1) ? 'h-[416px]' : 'h-[600px]'}`}>
+<div className={`relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ${images.some(image => image.image === AssumptionMappingImage1) ? 'h-[460px]' : 'h-[600px]'}`}>
     <Slider className="" ref={sliderRef} {...settings}>
         {images.map((image, index) => (
             <div key={index} className="mb-[10px]">
-                <div className={`w-full p-4 ${image.image === AssumptionMappingImage1 ? 'h-[416px]' : 'h-[590px]'}`}>
+                <div className={`w-full p-4 ${image.image === AssumptionMappingImage1 ? 'h-[450px]' : 'h-[590px]'}`}>
                     <img
                         className="object-contain w-full h-full"
                         src={image.image}
                         alt=""
                         onClick={() => handleImageClick(index)}
-                        style={image.image === AssumptionMappingImage1 ? { width: "100%", height: "416px", objectFit: 'contain' } : {}}
+                        style={image.image === AssumptionMappingImage1 ? { } : {}}
                     />
                 </div>
             </div>
