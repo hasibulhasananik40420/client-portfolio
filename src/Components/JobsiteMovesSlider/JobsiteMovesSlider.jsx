@@ -4,10 +4,8 @@ import { AiOutlineMinus } from "react-icons/ai";
 import ResearchPlanImage1 from "../../assets/JobsiteMoves/Research Plan/Jobsite Moves - Research Plan.png"
 
 
-import ContextualInquiryImage1 from "../../assets/driving-app/Contextual Inquiry/01.png"
-import ContextualInquiryImage2 from "../../assets/driving-app/Contextual Inquiry/02 (1).png"
-import ContextualInquiryImage3 from "../../assets/driving-app/Contextual Inquiry/03 (1).png"
-import ContextualInquiryImage4 from "../../assets/driving-app/Contextual Inquiry/04 (1).png"
+import ProcessMappingServiceDesignBlueprintsImage1 from "../../assets/JobsiteMoves/Process Mapping Service Design Blueprints/image1.png"
+import ProcessMappingServiceDesignBlueprintsImage2 from "../../assets/JobsiteMoves/Process Mapping Service Design Blueprints/image2.png"
 
 
 
@@ -37,10 +35,9 @@ const JobsiteMovesSlider = () => {
           id: 2,
           text: 'Process Mapping: Service Design Blueprints',
           images: [
-            { id: 1, image: ContextualInquiryImage1, text: "Contextual Inquiry: Research Plan" },
-            { id: 2, image: ContextualInquiryImage2, text: "Contextual Inquiry: Note Taking Guide (Google Doc)" },
-            { id: 3, image: ContextualInquiryImage3, text: "Contextual Inquiry: Synthesis for Analysis & Alinment with Design" },
-            { id: 4, image: ContextualInquiryImage4, text: "Contextual Inquiry: Readout Report for Executive Team" },
+            { id: 1, image: ProcessMappingServiceDesignBlueprintsImage1, text: "Contextual Inquiry: Research Plan" },
+            { id: 2, image: ProcessMappingServiceDesignBlueprintsImage2, text: "Contextual Inquiry: Note Taking Guide (Google Doc)" },
+            
             
           ],
         },

@@ -104,25 +104,7 @@ const JobsiteMoves = () => {
 
             </div>
 
-             {/* <div className='flex gap-4 mt-[10px]'>
-             <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>Product built a backlog of issues to address based on feasibility & urgency
-               </p>
-
-            </div>  */}
-            
-            {/* <div className='flex gap-4 mt-[10px]'>
-            <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>One major feature, an in-app photo capturing experience, was immediately redesigned and prioritized for implementation
-
-
-</p>
-
-            </div> */}
+             
 
            </div>
          </div>
