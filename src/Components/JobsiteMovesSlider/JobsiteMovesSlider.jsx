@@ -1,7 +1,7 @@
 import { CiSquarePlus } from "react-icons/ci";
 import { AiOutlineMinus } from "react-icons/ai";
 //add image
-import AssumptionMappingImage1 from "../../assets/driving-app/Assumption Mapping/image1.png"
+import ResearchPlanImage1 from "../../assets/JobsiteMoves/Research Plan/Jobsite Moves - Research Plan.png"
 
 
 import ContextualInquiryImage1 from "../../assets/driving-app/Contextual Inquiry/01.png"
@@ -29,7 +29,7 @@ const JobsiteMovesSlider = () => {
           id: 1,
           text: 'Research Plan',
           images: [
-            { id: 1, image: AssumptionMappingImage1, text: "Assumption Mapping: Workshop Board" },
+            { id: 1, image: ResearchPlanImage1, text: "Assumption Mapping: Workshop Board" },
            
           ],
         }, 
