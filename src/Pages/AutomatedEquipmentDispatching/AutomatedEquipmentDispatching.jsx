@@ -39,11 +39,11 @@ const AutomatedEquipmentDispatching = () => {
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            To help build greater awareness of current day challenges in picking up equipment, I also led a Day-in-Life panel discussion with the employee group responsible for scheduling equipment pickups. This touchpoint allowed Product Managers across the company's product suite to understand where their products created downstreams issues during pickups. I also served as a reviewer of the narrative document highlighting the employee group's Day-in-the-Life (both pre-release and post-release of the new feature) and experience benchmarking pre-release of the existing application.
+            To build greater awareness on current day challenges when picking up equipment, I led A Day in The Life Panel Discussion with the employee group (i.e. Equipment Dispatchers) responsible for scheduling equipment pickups. This touchpoint allowed various Product Managers (e.g. e-commerce, sales & services) to understand where their products created downstreams issues during pickups. I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature). In addition, I supported an ease-of-use and satisfaction benchmark of the Equipment Dispatcher's application pre-release of the feature.
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My research's impact included elevating the urgency of delivering an identified - but not yet scheduled - roadmap item connected to addressing pickup delays. My findings also led to modified training material and formats (e.g. including in-person hands on training) in support of rolling out the feature.
+            My research elevated urgency of an identified - but not yet scheduled - roadmap item connected to pick up delays. My findings also led to training format changes (e.g. including in-person, hands-on training) in support of rolling out the feature.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6  ">
-                Pickups delays are sometimes occurring due to miscommunication in type of truck needed to pickup equipment and equipment being moved to jobsites that are much further away from the original renting branch
+                Equipment pickup delays were sometimes due to Drivers unknowingly bringing a truck that was unable to reach and/or load the equipment. Pickup delays were also connected to customers moving equipment to new locations that required long-distance travel. 
                 </p>
               </div>
 
@@ -80,7 +80,7 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                Training must extend to back-fills and include "hands-on" walkthroughs to build familiarity and to identify possible unmet needs
+                Equipment Dispatchers requested in-person, hands-on training that simulated completing a standard task with the new artificial intelligence feature assisting.
                 </p>
               </div>
 
@@ -102,7 +102,7 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Additional functionality was prioritized and implemented to the nudge branch closest to the equipment, instead of the original renting branch, to pickup equipment
+                Functionality was prioritized and implemented to the nudge branch closest to the equipment, to pick up the equipment, if the customer moved the equipment into a new region.
                 </p>
               </div>
 
@@ -111,7 +111,7 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                In-person training sessions were introduced roll-out planning, instead of solely e-learning training, with pilot group users who would also serve as change manage leaders
+                Training changed course and, instead of relying solely on e-learning courses, included in-person training sessions into rolling planning of the artificial intelligence feature
                 </p>
               </div>
 
@@ -135,7 +135,7 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                When integrating machine learning features into internal systems, research partnering with training is a good idea because you'll have multiple surveying opportunities to understand how the features are being perceived. One opportunity, for example, exists after conducting training, while another opportunity exists after a few weeks of using the new feature.                </p>
+                When integrating artificial intelligence features into employee’s work tools, Research partnering with Training is a good idea. This partnership creates multiple surveying opportunities to understand feature perception. One opportunity, for example, exists after conducting training, while another opportunity exists after a few weeks of using the feature.               </p>
               </div>
 
               {/* <div className="flex gap-4 mt-[10px]">
