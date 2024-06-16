@@ -39,7 +39,7 @@ const JobsiteMovesSlider = () => {
         }, 
         {
           id: 2,
-          text: 'Process Mapping: Service Design Blueprints',
+          text: 'Service Design Blueprints',
           images: [
             { id: 1, image: ProcessMappingServiceDesignBlueprintsImage1, text: "Contextual Inquiry: Research Plan" },
             { id: 2, image: ProcessMappingServiceDesignBlueprintsImage2, text: "Contextual Inquiry: Note Taking Guide (Google Doc)" },
