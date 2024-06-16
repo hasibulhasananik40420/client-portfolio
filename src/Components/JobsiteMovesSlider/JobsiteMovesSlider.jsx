@@ -5,7 +5,7 @@ import ResearchPlanImage1 from "../../assets/JobsiteMoves/Research Plan/Jobsite 
 
 
 import ProcessMappingServiceDesignBlueprintsImage1 from "../../assets/JobsiteMoves/Process Mapping Service Design Blueprints/image1.png"
-import ProcessMappingServiceDesignBlueprintsImage2 from "../../assets/JobsiteMoves/Process Mapping Service Design Blueprints/image2.png"
+import ProcessMappingServiceDesignBlueprintsImage2 from "../../assets/JobsiteMoves/Process Mapping Service Design Blueprints/image2.jpg"
 
 
 
