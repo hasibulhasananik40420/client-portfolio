@@ -9,6 +9,7 @@ import chad2 from "../../assets/chad2.png";
 
 const Header = () => {
   const products = [
+   
     {
       _id: 1,
       title: "Product Redesign",
@@ -16,12 +17,20 @@ const Header = () => {
       para: "Redesigning an internal application",
       link: "/driver-application",
     },
+    {
+      _id: 4,
+      title: " Process Improvement",
+      subTitle: "Jobsite Moves",
+      para: "Improving connected systems ",
+      //when moving equipment across job sites
+      link: "/jobsite-moves",
+    },
 
     {
       _id: 2,
       title: "New Feature",
       subTitle: "Suggested Fuel Stops",
-      para: " Pinpointing opportunities to recommend fueling stations",
+      para: "Identifying display opportunities",
       link: "/suggested-fuel-stops",
     },
 
@@ -29,16 +38,10 @@ const Header = () => {
       _id: 3,
       title: " New Feature",
       subTitle: "Automated Dispatching",
-      para: "Helping launch a new major feature",
+      para: "Releasing an artificial intelligence feature",
       link: "/automated-dispatching",
     }, 
-    {
-      _id: 4,
-      title: " Process Improvement",
-      subTitle: "Jobsite Moves",
-      para: "Improving connected systems when moving equipment across job sites",
-      link: "/jobsite-moves",
-    },
+   
   ];
 
   return (
