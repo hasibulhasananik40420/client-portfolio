@@ -51,6 +51,21 @@ const Footer = () => {
           </Link>
         </div>
 
+        <Link   to={"/automated-dispatching"} className={`${pathname==='/jobsite-moves'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
+          <div
+          
+            className=" cursor-pointer"
+          >
+            <h1 className="text-[#2B2B2B] text-[16px] text-center font-Montserrat font-semibold leading-[30px]">
+            Process Improvement
+            </h1>
+
+            <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px] text-center">
+            Jobsite Moves
+            </p>
+          </div>
+        </Link>
+
         <Link to={"/suggested-fuel-stops"} className={`${pathname==='/suggested-fuel-stops'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
           <div  className=" cursor-pointer">
             <h1 className="text-[#2B2B2B] text-center text-[16px] font-Montserrat font-semibold leading-[30px]">
@@ -78,20 +93,7 @@ const Footer = () => {
           </div>
         </Link>
 
-        <Link   to={"/automated-dispatching"} className={`${pathname==='/jobsite-moves'? 'bg-[#88BFF7] border-[#88BFF7]':'bg-white'}  lg:mt-10 mt-6 border-[1px] border-[#828282] lg:w-[200px] w-full h-[80px] flex flex-col justify-center items-center rounded-lg hover:bg-[#E9ECEF] hover:border-[#88BFF7] duration-300`}>
-          <div
-          
-            className=" cursor-pointer"
-          >
-            <h1 className="text-[#2B2B2B] text-[16px] text-center font-Montserrat font-semibold leading-[30px]">
-            Process Improvement
-            </h1>
-
-            <p className="text-[#2B2B2B] text-[12px] mt-[2px] font-Montserrat font-normal leading-[20px] text-center">
-            Jobsite Moves
-            </p>
-          </div>
-        </Link>
+       
 
         <div className="md:hidden block mt-11 mb-8">
           <Link to={"/"} className="flex items-center gap-4  h-[60px]">
