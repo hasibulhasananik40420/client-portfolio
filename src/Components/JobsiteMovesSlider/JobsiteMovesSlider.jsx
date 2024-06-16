@@ -14,7 +14,7 @@ import ProcessMappingServiceDesignBlueprintsImage2 from "../../assets/JobsiteMov
 // import ExecutivePresentationImage3 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-03.jpg"
 import ExecutivePresentationImage4 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-04.jpg"
 import ExecutivePresentationImage5 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-05.jpg"
-import ExecutivePresentationImage6 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-06.jpg"
+import ExecutivePresentationImage6 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-06.png"
 import ExecutivePresentationImage7 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-07.jpg"
 import ExecutivePresentationImage8 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-08.jpg"
 // import ExecutivePresentationImage9 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-09.jpg"
