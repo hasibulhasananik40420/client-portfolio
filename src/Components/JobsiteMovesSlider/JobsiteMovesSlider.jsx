@@ -9,9 +9,15 @@ import ProcessMappingServiceDesignBlueprintsImage2 from "../../assets/JobsiteMov
 
 
 
-import PrioritizationWorkshopImage1 from "../../assets/driving-app/Learnings Prioritization/image.png"
-import PrioritizationWorkshopImage2 from "../../assets/driving-app/Learnings Prioritization/image (1).png"
-import PrioritizationWorkshopImage3 from "../../assets/driving-app/Learnings Prioritization/05.png"
+import ExecutivePresentationImage1 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-01.jpg"
+import ExecutivePresentationImage2 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-02.jpg"
+import ExecutivePresentationImage3 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-03.jpg"
+import ExecutivePresentationImage4 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-04.jpg"
+import ExecutivePresentationImage5 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-05.jpg"
+import ExecutivePresentationImage6 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-06.jpg"
+import ExecutivePresentationImage7 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-07.jpg"
+import ExecutivePresentationImage8 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-08.jpg"
+import ExecutivePresentationImage9 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-09.jpg"
 
 
 
@@ -45,9 +51,16 @@ const JobsiteMovesSlider = () => {
           id: 3,
           text: 'Executive Presentation',
           images: [
-            { id: 1, image: PrioritizationWorkshopImage3, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 2, image: PrioritizationWorkshopImage2, text: "Learnings Prioritization: Prioritization Matrix" },
-            { id: 3, image: PrioritizationWorkshopImage1, text: "Learnings Prioritization: Prioritization Readout for Executive Team" },
+            { id: 1, image: ExecutivePresentationImage1, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 2, image: ExecutivePresentationImage2, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 3, image: ExecutivePresentationImage3, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 4, image: ExecutivePresentationImage4, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 5, image: ExecutivePresentationImage5, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 6, image: ExecutivePresentationImage6, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 7, image: ExecutivePresentationImage7, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 8, image: ExecutivePresentationImage8, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 9, image: ExecutivePresentationImage9, text: "Learnings Prioritization: Prioritization Working File" },
+           
            
           ],
         },
