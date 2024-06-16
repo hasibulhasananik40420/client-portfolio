@@ -9,9 +9,9 @@ import ProcessMappingServiceDesignBlueprintsImage2 from "../../assets/JobsiteMov
 
 
 
-import ExecutivePresentationImage1 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-01.jpg"
+// import ExecutivePresentationImage1 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-01.jpg"
 import ExecutivePresentationImage2 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-02.jpg"
-import ExecutivePresentationImage3 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-03.jpg"
+// import ExecutivePresentationImage3 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-03.jpg"
 import ExecutivePresentationImage4 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-04.jpg"
 import ExecutivePresentationImage5 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-05.jpg"
 import ExecutivePresentationImage6 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-06.jpg"
@@ -51,9 +51,9 @@ const JobsiteMovesSlider = () => {
           id: 3,
           text: 'Executive Presentation',
           images: [
-            { id: 1, image: ExecutivePresentationImage1, text: "Learnings Prioritization: Prioritization Working File" },
+            // { id: 1, image: ExecutivePresentationImage1, text: "Learnings Prioritization: Prioritization Working File" },
             { id: 2, image: ExecutivePresentationImage2, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 3, image: ExecutivePresentationImage3, text: "Learnings Prioritization: Prioritization Working File" },
+            // { id: 3, image: ExecutivePresentationImage3, text: "Learnings Prioritization: Prioritization Working File" },
             { id: 4, image: ExecutivePresentationImage4, text: "Learnings Prioritization: Prioritization Working File" },
             { id: 5, image: ExecutivePresentationImage5, text: "Learnings Prioritization: Prioritization Working File" },
             { id: 6, image: ExecutivePresentationImage6, text: "Learnings Prioritization: Prioritization Working File" },
