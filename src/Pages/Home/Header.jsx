@@ -21,8 +21,7 @@ const Header = () => {
       _id: 4,
       title: " Process Improvement",
       subTitle: "Jobsite Moves",
-      para: "Improving connected systems ",
-      //when moving equipment across job sites
+      para: "Showing pain points in a process  ",
       link: "/jobsite-moves",
     },
 
@@ -30,7 +29,7 @@ const Header = () => {
       _id: 2,
       title: "New Feature",
       subTitle: "Suggested Fuel Stops",
-      para: "Identifying display opportunities",
+      para: "Aligning feature direction with user needs",
       link: "/suggested-fuel-stops",
     },
 
@@ -66,11 +65,11 @@ const Header = () => {
                   Senior UX Researcher
                 </p>
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                UX Researcher with extensive experience using discovery and evaluative research methods. Searching for researcher roles on zero to one projects.
+                UX Researcher with extensive experience using discovery and evaluative research methods. Searching for researcher roles on ‘zero to one’ projects.
                 </p>
 
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                I am also currently enrolled in certification programs to extend my survey design and statistical analysis skills.
+                I am regularly enrolled in certification programs to extend my survey design and inferential statistical skills.
                 </p>
                 
               </div>

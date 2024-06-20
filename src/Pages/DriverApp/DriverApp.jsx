@@ -27,11 +27,12 @@ const DriverApp = () => {
 
        <h3 className='text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]'>Background</h3>
 
-        <p className='mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full'>Leadership wanted to redesign an internal application, used by branch drivers, with processes that could be reused on other internal applications.</p> 
+        <p className='mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full'>Leadership wanted to redesign an internal application used by branch drivers
+        </p> 
         
        
 
-         <p className='mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by Experience Design to build additional documents (e.g. Journey Maps, Personas & Storyboards) to inform the first redesign</p>
+         <p className='mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full'>My role was conducting observational research and prioritizing findings with Product. My findings were then reused by UX Design to build additional documents (e.g. A Day In The Life Narratives, Journey Maps & Personas) to inform the first redesign. </p>
 
        </div>
 
@@ -133,7 +134,7 @@ const DriverApp = () => {
            <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Keeping Product aligned throughout the entire research process was key to Product supporting and adopting the findings. This spanned from remaining connected on what type of participants were needed to what type of employee tasks were of most interest.</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Keeping Product aligned throughout the entire research process contributed to Product supporting and adopting the findings. This spanned from participant selection to reporting on employee tasks of most interest.</p>
 
             </div>
 
@@ -141,7 +142,7 @@ const DriverApp = () => {
              <span className='w-[20px] h-[27px] flex justify-center items-center'>
                 <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
               </span>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Creating readout documents for executive and delivery teams allowed each audience to take appropriate next steps. The executive team readout, for example, helped inform what immediate roadmap changes were needed. The delivery team readout, however, served as a point of reference for design when creating wireframes and other-related documents.</p>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Creating unique, readout documents for the executive and delivery teams allowed each audience to take role-appropriate next steps. The executive team readout, for example, helped to identify immediate roadmap changes. The delivery team readout, however, served as a point of reference for UX Design when creating wireframes and other designed-related artifacts.</p>
 
             </div> 
             

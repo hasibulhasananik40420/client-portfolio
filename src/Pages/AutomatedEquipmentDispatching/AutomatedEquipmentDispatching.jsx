@@ -30,20 +30,20 @@ const AutomatedEquipmentDispatching = () => {
             </h3>
 
             <p className="mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full">
-            Completed equipment rentals regularly sat on customer's job sites several days before being picked-up and returned back to the rental's branch.
+            Completed equipment rentals regularly sat on customer's job sites for several days, before being picked-up and returned back to the equipment rental branch.
 
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My role was leading research in support of launching an artificial intelligence feature that would nudge employees to pick up equipment sooner. I led Experience Mapping to spotlight where the new feature may not address issues connected to returning equipment sooner. I also led Concept Testing to identify employee concerns with the automation feature, spotlight confusing and requested add-on features, and highlight training preferences. I also held a weekly meeting keeping Research, Operations and Training aligned on research needs and, where appropriate, quickly aligning on findings.
+            My role was supporting the integrating of an artificial intelligence feature that would nudge employees to pick up equipment sooner. I led Experience Mapping to spotlight where the new feature may not address issues connected to picking up equipment sooner. I also led Concept Testing, identifying employee concerns with the new feature, spotlighting confusing and requested add-on functionality, and highlighting training preferences. I also held a weekly meeting with Training to distribute feedback surveys and identify additional research needs.
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            To build greater awareness on current day challenges when picking up equipment, I led A Day in The Life Panel Discussion with the employee group (i.e. Equipment Dispatchers) responsible for scheduling equipment pickups. This touchpoint allowed various Product Managers (e.g. e-commerce, sales & services) to understand where their products created downstreams issues during pickups. I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature). In addition, I supported an ease-of-use and satisfaction benchmark of the Equipment Dispatcher's application pre-release of the feature.
+            To help build greater awareness of current day challenges in picking up equipment, I also led A Day in The Life Panel Discussion with the employee group (i.e. Equipment Dispatchers) responsible for scheduling equipment pickups. This touchpoint allowed various Product Managers (e.g. e-commerce, sales & services) to understand where their products created downstreams issues during pickups. I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature) and conducted benchmark testing of the application receiving the new feature.  
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My research elevated urgency of an identified - but not yet scheduled - roadmap item connected to pick up delays. My findings also led to training format changes (e.g. including in-person, hands-on training) in support of rolling out the feature.
+            My research elevated the urgency of an identified - but not yet scheduled - roadmap item connected to pick up delays. My findings also led to training format changes (e.g. including in-person, hands-on training) in support of rolling out the feature.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6  ">
-                Equipment pickup delays were sometimes due to Drivers unknowingly bringing a truck that was unable to reach and/or load the equipment. Pickup delays were also connected to customers moving equipment to new locations that required long-distance travel. 
+                Equipment pickup delays were sometimes due to Drivers unknowingly bringing a truck that was unable to reach and/or load the equipment. Pickup delays were also connected to customers moving equipment to new locations  that required additional travel time and planning.
                 </p>
               </div>
 
@@ -103,6 +103,7 @@ const AutomatedEquipmentDispatching = () => {
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
                 Functionality was prioritized and implemented to the nudge branch closest to the equipment, to pick up the equipment, if the customer moved the equipment into a new region.
+
                 </p>
               </div>
 

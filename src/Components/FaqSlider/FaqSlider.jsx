@@ -50,7 +50,7 @@ const FaqSlider = () => {
           id: 1,
           text: 'Assumption Mapping',
           images: [
-            { id: 1, image: AssumptionMappingImage1, text: "Assumption Mapping: Workshop Board" },
+            { id: 1, image: AssumptionMappingImage1, text: "Research Plan " },
            
           ],
         }, 
@@ -58,8 +58,8 @@ const FaqSlider = () => {
           id: 2,
           text: 'Contextual Inquiry',
           images: [
-            { id: 1, image: ContextualInquiryImage1, text: "Contextual Inquiry: Research Plan" },
-            { id: 2, image: ContextualInquiryImage2, text: "Contextual Inquiry: Note Taking Guide (Google Doc)" },
+            { id: 1, image: ContextualInquiryImage1, text: "Service Design Blueprint: Extensive Map" },
+            { id: 2, image: ContextualInquiryImage2, text: "Service Design Blueprint: General Map" },
             { id: 3, image: ContextualInquiryImage3, text: "Contextual Inquiry: Synthesis for Analysis & Alinment with Design" },
             { id: 4, image: ContextualInquiryImage4, text: "Contextual Inquiry: Readout Report for Executive Team" },
             
