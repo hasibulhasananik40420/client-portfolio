@@ -69,7 +69,7 @@ const Header = () => {
                 </p>
 
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                I am regularly enrolled in certification programs to extend my survey design and inferential statistical skills.
+                I am also regularly enrolled in certification programs to extend my survey design and inferential statistical skills.
                 </p>
                 
               </div>
@@ -120,7 +120,7 @@ const Header = () => {
               
                 <Link
                   to={product?.link}
-                  className="2xl:w-[300px] xl:w-[300px] lg:w-[280px] w-full rounded-[12px] border-[1px] border-[#D0D0D0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
+                  className="2xl:w-[310px] xl:w-[310px] lg:w-[290px] w-full rounded-[12px] border-[1px] border-[#D0D0D0] group hover:border-[#88bff7] hover:cursor-pointer duration-300"
                   style={{
                     boxShadow: " 0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
