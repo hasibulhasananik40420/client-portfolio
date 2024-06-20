@@ -10,10 +10,10 @@ import ExperienceMappingImage5 from "../../assets/Automated Dispatching/Experien
 import ExperienceMappingImage6 from "../../assets/Automated Dispatching/Experience Mapping/xperiencing_mapping__sixth_image_.png"
 
 
-import NarrativeImage1 from "../../assets/Automated Dispatching/Narrative for Day-in-the-Life (Supported)/image_7_v2.webp"
+import NarrativeImage1 from "../../assets/Automated Dispatching/Narrative for Day-in-the-Life (Supported)/001.png"
 
 
-import PanelDiscussionImage1 from "../../assets/Automated Dispatching/Panel Discussion for Day-in-the-Life/image_8_v2.webp"
+import PanelDiscussionImage1 from "../../assets/Automated Dispatching/Panel Discussion for Day-in-the-Life/A Day In The Life_ Panel Discussion.png"
 
 
 import ConceptTestingImage1 from "../../assets/Automated Dispatching/Concept Testing/001.png"
