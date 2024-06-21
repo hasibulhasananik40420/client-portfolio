@@ -22,7 +22,7 @@ const AutomatedEquipmentDispatching = () => {
             </h1>
 
             <p className="text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-semibold mt-2 md:mt-4 lg:mt-0 xl:mt-0 2xl:mt-0 ">
-            Helping launch a new major feature
+            Releasing an artificial intelligence feature 
             </p>
 
             <h3 className="text-[#242424] text-[20px] mt-[40px] font-Montserrat font-bold leading-[34px]">
@@ -35,11 +35,11 @@ const AutomatedEquipmentDispatching = () => {
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My role was supporting the integrating of an artificial intelligence feature that would nudge employees to pick up equipment sooner. I led Experience Mapping to spotlight where the new feature may not address issues connected to picking up equipment sooner. I also led Concept Testing, identifying employee concerns with the new feature, spotlighting confusing and requested add-on functionality, and highlighting training preferences. I also held a weekly meeting with Training to distribute feedback surveys and identify additional research needs.
+            My role was supporting the integration of an artificial intelligence feature that would nudge employees to pick up equipment sooner. I led Experience Mapping to spotlight where the new feature may not address issues connected to picking up equipment sooner. I also led Concept Testing, identifying employee concerns with the new feature, spotlighting confusing and requested add-on functionality, and highlighting training preferences. I also held a weekly meeting with Training to distribute feedback surveys and identify additional research needs.
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            To help build greater awareness of current day challenges in picking up equipment, I also led A Day in The Life Panel Discussion with the employee group (i.e. Equipment Dispatchers) responsible for scheduling equipment pickups. This touchpoint allowed various Product Managers (e.g. e-commerce, sales & services) to understand where their products created downstreams issues during pickups. I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature) and conducted benchmark testing of the application receiving the new feature.  
+            To help build greater awareness of current day challenges in picking up equipment, I also led A Day In The Life Panel Discussion with the employee group (i.e. Equipment Dispatchers) responsible for scheduling equipment pickups. This touchpoint allowed various Product Managers (e.g. e-commerce, sales & services) to understand where their products created downstreams issues during pickups. I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature) and conducted benchmark testing of the application receiving the new feature.
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
@@ -71,7 +71,8 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6  ">
-                Equipment pickup delays were sometimes due to Drivers unknowingly bringing a truck that was unable to reach and/or load the equipment. Pickup delays were also connected to customers moving equipment to new locations  that required additional travel time and planning.
+                Equipment pickup delays were sometimes due to Drivers unknowingly bringing a truck that was unable to reach and/or load the equipment. Pickup delays were also connected to customers moving equipment to new locations that required additional travel time and planning
+
                 </p>
               </div>
 
@@ -102,7 +103,8 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Functionality was prioritized and implemented to the nudge branch closest to the equipment, to pick up the equipment, if the customer moved the equipment into a new region.
+                Functionality was prioritized and implemented to the nudge branch closest to the equipment, to pick up the equipment, if the customer moved the equipment into a new region
+
 
                 </p>
               </div>
@@ -112,7 +114,7 @@ const AutomatedEquipmentDispatching = () => {
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                Training changed course and, instead of relying solely on e-learning courses, included in-person training sessions into rolling planning of the artificial intelligence feature
+                Training changed course and, instead of relying solely on e-learning courses, included hands-on, in-person training sessions into the rollout planning of the artificial intelligence feature
                 </p>
               </div>
 
