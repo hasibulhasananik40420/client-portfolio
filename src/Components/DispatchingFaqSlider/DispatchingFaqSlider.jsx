@@ -50,11 +50,11 @@ const DispatchingFaqSlider = () => {
           id: 1,
           text: 'Experience Mapping',
           images: [
-            { id: 1, image: ExperienceMappingImage1, text: "Experience Mapping: Research Plan" },
-            { id: 2, image: ExperienceMappingImage2, text: "Experience Mapping: Interview Guide" },
-            { id: 3, image: ExperienceMappingImage3, text: "Experience Mapping: Data Capturing File" },
-            { id: 9, image: ExperienceMappingImageextra, text: "Experience Mapping: Data Capturing File Extra" },
-            { id: 4, image: ExperienceMappingImage4, text: "Experience Mapping: Synthesis" },
+            { id: 1, image: ExperienceMappingImage1, text: "Experience Mapping - Research Plan" },
+            { id: 2, image: ExperienceMappingImage2, text: "Experience Mapping - Interview Guide" },
+            { id: 3, image: ExperienceMappingImage3, text: "Experience Mapping - Data Capturing File (Template) " },
+            { id: 9, image: ExperienceMappingImageextra, text: "Experience Mapping: Data Capturing File (Documentation Example) " },
+            { id: 4, image: ExperienceMappingImage4, text: " Experience Mapping: Workflow Maps to Synthesize Findings" },
             { id: 5, image: ExperienceMappingImage5, text: "Experience Mapping: Report Readout (1 out of 2)" },
             { id: 6, image: ExperienceMappingImage6, text: "Experience Mapping: Report Readout (2 out of 2)" },
            
@@ -83,11 +83,11 @@ const DispatchingFaqSlider = () => {
           id: 4,
           text: 'Concept Testing',
           images: [
-            { id: 1, image: ConceptTestingImage1, text: "Concept Testing: Research Plan" },
-            { id: 2, image: ConceptTestingImage2, text: "Concept Testing: Interview Guide" },
-            { id: 3, image: ConceptTestingImage3, text: "Concept Testing: Analysis (1 of 3)" },
-            { id: 4, image: ConceptTestingImage4, text: "Concept Testing: Analysis (2 of 3)" },
-            { id: 5, image: ConceptTestingImage5, text: "Concept Testing: Analysis (3 of 3)" },
+            { id: 1, image: ConceptTestingImage1, text: "Concept Testing - Research Plan (1 of 2)" },
+            { id: 2, image: ConceptTestingImage2, text: " Concept Testing - Research Plan (2 of 2) " },
+            { id: 3, image: ConceptTestingImage3, text: "Concept Testing -  Interview Guide " },
+            { id: 4, image: ConceptTestingImage4, text: "Concept Testing -  Report Readout (1 of 2)" },
+            { id: 5, image: ConceptTestingImage5, text: "Concept Testing -  Report Readout (2 of 2)" },
            
           ],
         },
@@ -96,8 +96,8 @@ const DispatchingFaqSlider = () => {
           id: 5,
           text: 'Experience Benchmarking (Supported)',
           images: [
-            { id: 1, image: ExperienceBenchmarkingSupportedImage1, text: "Benchmarking: UMUX-Lite for Current Experience" },
-            { id: 2, image: ExperienceBenchmarkingSupportedImage2, text: "Benchmarking: Report Readout" },
+            { id: 1, image: ExperienceBenchmarkingSupportedImage1, text: "Benchmarking: UMUX-Lite Survey" },
+            { id: 2, image: ExperienceBenchmarkingSupportedImage2, text: "Benchmarking - Report Readout " },
            
           ],
         },

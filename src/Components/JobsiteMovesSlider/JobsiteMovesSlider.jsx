@@ -33,7 +33,7 @@ const JobsiteMovesSlider = () => {
           id: 1,
           text: 'Research Plan',
           images: [
-            { id: 1, image: ResearchPlanImage1, text: "Assumption Mapping: Workshop Board" },
+            { id: 1, image: ResearchPlanImage1, text: " Research Plan" },
            
           ],
         }, 
@@ -41,8 +41,8 @@ const JobsiteMovesSlider = () => {
           id: 2,
           text: 'Service Design Blueprints',
           images: [
-            { id: 1, image: ProcessMappingServiceDesignBlueprintsImage1, text: "Contextual Inquiry: Research Plan" },
-            { id: 2, image: ProcessMappingServiceDesignBlueprintsImage2, text: "Contextual Inquiry: Note Taking Guide (Google Doc)" },
+            { id: 1, image: ProcessMappingServiceDesignBlueprintsImage1, text: "Working File - Baseline" },
+            { id: 2, image: ProcessMappingServiceDesignBlueprintsImage2, text: "Search Design Blueprints - General Map" },
             
             
           ],
@@ -54,11 +54,11 @@ const JobsiteMovesSlider = () => {
             // { id: 1, image: ExecutivePresentationImage1, text: "Learnings Prioritization: Prioritization Working File" },
             // { id: 2, image: ExecutivePresentationImage2, text: "Learnings Prioritization: Prioritization Working File" },
             // { id: 3, image: ExecutivePresentationImage3, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 4, image: ExecutivePresentationImage4, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 5, image: ExecutivePresentationImage5, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 6, image: ExecutivePresentationImage6, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 7, image: ExecutivePresentationImage7, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 8, image: ExecutivePresentationImage8, text: "Learnings Prioritization: Prioritization Working File" },
+            { id: 4, image: ExecutivePresentationImage4, text: "Executive Presentation  - Intro" },
+            { id: 5, image: ExecutivePresentationImage5, text: "Executive Presentation  - General Map: Prioritization Working File" },
+            { id: 6, image: ExecutivePresentationImage6, text: " Executive Presentation - Findings (1 of 3)" },
+            { id: 7, image: ExecutivePresentationImage7, text: "Executive Presentation - Findings (2 of 3) " },
+            { id: 8, image: ExecutivePresentationImage8, text: "Executive Presentation - Findings (3 of 3) " },
             // { id: 9, image: ExecutivePresentationImage9, text: "Learnings Prioritization: Prioritization Working File" },
            
            

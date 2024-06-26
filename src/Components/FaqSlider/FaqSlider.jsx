@@ -50,7 +50,7 @@ const FaqSlider = () => {
           id: 1,
           text: 'Assumption Mapping',
           images: [
-            { id: 1, image: AssumptionMappingImage1, text: "Research Plan " },
+            { id: 1, image: AssumptionMappingImage1, text: "Assumption Mapping - Workshop File " },
            
           ],
         }, 
@@ -58,10 +58,10 @@ const FaqSlider = () => {
           id: 2,
           text: 'Contextual Inquiry',
           images: [
-            { id: 1, image: ContextualInquiryImage1, text: "Service Design Blueprint: Extensive Map" },
-            { id: 2, image: ContextualInquiryImage2, text: "Service Design Blueprint: General Map" },
-            { id: 3, image: ContextualInquiryImage3, text: "Contextual Inquiry: Synthesis for Analysis & Alinment with Design" },
-            { id: 4, image: ContextualInquiryImage4, text: "Contextual Inquiry: Readout Report for Executive Team" },
+            { id: 1, image: ContextualInquiryImage1, text: "Contextual Inquiry - Research Plan" },
+            { id: 2, image: ContextualInquiryImage2, text: "Contextual Inquiry - Interview Guide" },
+            { id: 3, image: ContextualInquiryImage3, text: "Contextual Inquiry -  Synthesis for Analysis & Early Alignment with Design" },
+            { id: 4, image: ContextualInquiryImage4, text: "Contextual Inquiry - Report Readout for Executive Team " },
             
           ],
         },
@@ -69,9 +69,9 @@ const FaqSlider = () => {
           id: 3,
           text: 'Learnings Prioritization',
           images: [
-            { id: 1, image: PrioritizationWorkshopImage3, text: "Learnings Prioritization: Prioritization Working File" },
-            { id: 2, image: PrioritizationWorkshopImage2, text: "Learnings Prioritization: Prioritization Matrix" },
-            { id: 3, image: PrioritizationWorkshopImage1, text: "Learnings Prioritization: Prioritization Readout for Executive Team" },
+            { id: 1, image: PrioritizationWorkshopImage3, text: " Learnings Prioritization - Report Readout for Product & Design to Begin Prioritization" },
+            { id: 2, image: PrioritizationWorkshopImage2, text: "Learnings Prioritization - Prioritization Output " },
+            { id: 3, image: PrioritizationWorkshopImage1, text: " Learnings Prioritization - Prioritization Readout for Executive Team" },
            
           ],
         },
@@ -79,7 +79,7 @@ const FaqSlider = () => {
           id: 45,
           text: ' A Day In The Life Narrative: Current State (Supported)',
           images: [
-            { id: 1, image: ADayInTheLifeNarrativeCurrentStateImage1, text: "A Day In The Life Narrative: Current State" },
+            { id: 1, image: ADayInTheLifeNarrativeCurrentStateImage1, text: " A Day In The Life Narrative: Current State (Supported) " },
             // { id: 2, image: CurrentDayNarrativesSupportedImage2, text: "Day-in-the-Life Narratives: Future State" },
             // ... add more images as needed
           ],
@@ -89,7 +89,7 @@ const FaqSlider = () => {
           id: 4,
           text: ' A Day In The Life Narrative: Future State (Supported)',
           images: [
-            { id: 1, image: CurrentDayNarrativesSupportedImage1, text: "A Day In The Life Narrative: Future State" },
+            { id: 1, image: CurrentDayNarrativesSupportedImage1, text: "A Day In The Life Narrative: Future State (Supported) " },
 
             
             // ... add more images as needed
@@ -99,16 +99,16 @@ const FaqSlider = () => {
           id: 5,
           text: 'Journey Maps (Supported)',
           images: [
-            { id: 1, image: JourneyMapImage1, text: "Journey Map: Milestones" },
-            { id: 2, image: JourneyMapImage2, text: "Journey Map: Sentiment & Tools Used" },
-            { id: 3, image: JourneyMapImage3, text: "Journey Map: Painpoints & Areas of Opportunities" },
+            { id: 1, image: JourneyMapImage1, text: "Journey Map (Supported) - Milestones" },
+            { id: 2, image: JourneyMapImage2, text: "Journey Map (Supported) - Sentiment & Tools Used" },
+            { id: 3, image: JourneyMapImage3, text: "Journey Ma (Supported) - Pain Points & Areas of Opportunities" },
           ],
         },
         {
           id: 6,
           text: 'Personas (Supported)',
           images: [
-            { id: 1, image: PersonasImage1, text: "Persona: Driver" },
+            { id: 1, image: PersonasImage1, text: " Personas (Supported) " },
            
             // ... add more images as needed
           ],
@@ -117,7 +117,7 @@ const FaqSlider = () => {
           id: 7,
           text: 'Benchmarking (Supported)',
           images: [
-            { id: 1, image: BenchmarkingImage1, text: "Benchmarking: UMUX-Lite for Current Experience" },
+            { id: 1, image: BenchmarkingImage1, text: "Benchmarking - UMUX-Lite Survey" },
             
             // ... add more images if needed
           ],

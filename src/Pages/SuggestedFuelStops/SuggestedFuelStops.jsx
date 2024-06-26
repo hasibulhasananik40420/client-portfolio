@@ -84,15 +84,7 @@ const SuggestedFuelStops = () => {
             
               
               
-               <div className="flex gap-4 mt-[10px]">
-                <span className="w-[20px] h-[27px] flex justify-center items-center">
-                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
-                </span>
-                <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Staying away from highest price gas and stops lacking certain vehicle maneuvering & fueling accommodations were most important when selecting fuel stations
-
-                </p>
-              </div>
+              
             </div>
           </div>
 
@@ -118,6 +110,8 @@ const SuggestedFuelStops = () => {
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6  ">
                 Journey Mapping, based on past task analysis research and Semi-structured Interview findings, visualized how suggested fuel stop prompts could appear to align with Drivers current ways of working.
+
+
 
                 </p>
               </div> 
@@ -155,6 +149,7 @@ const SuggestedFuelStops = () => {
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
                 In some cases, if a new feature is severely limited by technical restraints (e.g. using an API to develop the feature), before doing discovery research, I recommend including technical limitation questions in the research planning phase. The underlying reason is because the ideal user experience may be completely unfeasible given the technical limitations. And although discovery interviews should be open-ended and unbiased, without knowing tech limitations upfront you cannot gather feedback on how certain limitations may impact the user. Certain technical limitations, for example, may so severely hinder the user’s experience that reprioritizing or additional planning for the feature is called into question. This missing insight ultimately affects the actionability of the research.
+
 
                 </p>
               </div>

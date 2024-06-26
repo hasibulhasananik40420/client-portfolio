@@ -63,7 +63,8 @@ const DriverApp = () => {
               </span>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Drivers were missing key features when completing daily tasks, which opened the door for human error and reliance on third-party tools</p>
 
-            </div>
+            </div> 
+           
 
             
 

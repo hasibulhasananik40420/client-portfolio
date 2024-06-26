@@ -36,10 +36,12 @@ const AutomatedEquipmentDispatching = () => {
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
             My role was supporting the integration of an artificial intelligence feature that would nudge employees to pick up equipment sooner. I led Experience Mapping to spotlight where the new feature may not address issues connected to picking up equipment sooner. I also led Concept Testing, identifying employee concerns with the new feature, spotlighting confusing and requested add-on functionality, and highlighting training preferences. I also held a weekly meeting with Training to distribute feedback surveys and identify additional research needs.
+
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
             To help build greater awareness of current day challenges in picking up equipment, I also led A Day In The Life Panel Discussion with the employee group (i.e. Equipment Dispatchers) responsible for scheduling equipment pickups. This touchpoint allowed various Product Managers (e.g. e-commerce, sales & services) to understand where their products created downstreams issues during pickups. I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature) and conducted benchmark testing of the application receiving the new feature.
+
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
@@ -73,6 +75,7 @@ const AutomatedEquipmentDispatching = () => {
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6  ">
                 Equipment pickup delays were sometimes due to Drivers unknowingly bringing a truck that was unable to reach and/or load the equipment. Pickup delays were also connected to customers moving equipment to new locations that required additional travel time and planning
 
+
                 </p>
               </div>
 
@@ -82,6 +85,7 @@ const AutomatedEquipmentDispatching = () => {
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
                 Equipment Dispatchers requested in-person, hands-on training that simulated completing a standard task with the new artificial intelligence feature assisting.
+
                 </p>
               </div>
 
@@ -97,13 +101,14 @@ const AutomatedEquipmentDispatching = () => {
             Impact
             </h1>
 
-            <div className="flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px]w-full">
+            <div className="flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
               <div className="flex gap-4 mt-5">
                 <span className="w-[20px] h-[27px] flex justify-center items-center">
                   <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
                 Functionality was prioritized and implemented to the nudge branch closest to the equipment, to pick up the equipment, if the customer moved the equipment into a new region
+
 
 
                 </p>
@@ -115,6 +120,7 @@ const AutomatedEquipmentDispatching = () => {
                 </span>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
                 Training changed course and, instead of relying solely on e-learning courses, included hands-on, in-person training sessions into the rollout planning of the artificial intelligence feature
+
                 </p>
               </div>
 
