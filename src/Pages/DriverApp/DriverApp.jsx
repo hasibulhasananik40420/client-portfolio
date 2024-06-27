@@ -58,9 +58,9 @@ const DriverApp = () => {
            <div className='flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[930px] w-full'>
 
            <div className='flex gap-4 mt-[20px]'>
-              <span className='w-[27px] h-[20px] flex justify-center items-center '>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+           <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Drivers were missing key features when completing daily tasks, which opened the door for human error and reliance on third-party tools</p>
 
             </div> 
@@ -69,17 +69,17 @@ const DriverApp = () => {
             
 
              <div className='flex gap-4 mt-[10px]'>
-             <span className='w-[20px] h-[20px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+             <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px]  font-normal font-Montserrat md:leading-6 leading-6 '>Drivers were impacted by inaccurate or incomplete customer data entered by employees</p>
 
             </div> 
             
             <div className='flex gap-4 mt-[10px]'>
-            <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+            <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6'>Customers not following equipment return policies contributed to wasted employee hours
             </p>
 
@@ -95,27 +95,27 @@ const DriverApp = () => {
            <div className='flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
 
            <div className='flex gap-4 mt-5'>
-              <span className='w-[27px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+           <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Product aligned on what issues were addressable through solely user experience changes verses requiring additional operational changes
                </p>
 
             </div>
 
              <div className='flex gap-4 mt-[10px]'>
-             <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+             <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>Product built a backlog of issues to address based on feasibility & urgency
                </p>
 
             </div> 
             
             <div className='flex gap-4 mt-[10px]'>
-            <span className='w-[27px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+            <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6 '>One major feature, an in-app photo capturing experience, was immediately redesigned and prioritized for implementation
 
 
@@ -135,17 +135,17 @@ const DriverApp = () => {
            <div className='flex flex-col lg:w-[790px] xl:w-[790px] 2xl:w-[930px] w-full'>
 
            <div className='flex gap-4 mt-5'>
-           <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+           <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Keeping Product aligned throughout the entire research process contributed to Product supporting and adopting the findings. This spanned from participant selection to reporting on employee tasks of most interest.</p>
 
             </div>
 
              <div className='flex gap-4 mt-[10px]'>
-             <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+             <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Creating unique, readout documents for the executive and delivery teams allowed each audience to take role-appropriate next steps. The executive team readout, for example, helped to identify immediate roadmap changes. The delivery team readout, however, served as a point of reference for UX Design when creating wireframes and other designed-related artifacts.</p>
 
             </div> 

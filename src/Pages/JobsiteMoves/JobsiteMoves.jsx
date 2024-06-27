@@ -60,27 +60,27 @@ const JobsiteMoves = () => {
            <div className='flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[930px] w-full'>
 
            <div className='flex gap-4 mt-[20px]'>
-              <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+           <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Entering duplicate data into multiple systems led to Drivers going to the wrong location or not receiving the task to complete 
                </p>
 
             </div>
 
              <div className='flex gap-4 mt-[10px]'>
-             <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+             <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px]  font-normal font-Montserrat md:leading-6 leading-6 '>Varying procedures led to downstream systems missing key information and, as a result, disabling key features
                </p>
 
             </div> 
             
             <div className='flex gap-4 mt-[10px]'>
-            <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+            <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6'>Manual steps contributed to billing delays and omissions
 
 </p>
@@ -97,9 +97,9 @@ const JobsiteMoves = () => {
            <div className='flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>
 
            <div className='flex gap-4 mt-5'>
-              <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+           <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '> Product used the findings to remove and add features on each identified application's roadmap. The changes allowed Product to improve one application, instead of multiple applications, to address most of the mentioned pain points.
 
                </p>
@@ -120,9 +120,9 @@ const JobsiteMoves = () => {
            <div className='flex flex-col lg:w-[790px] xl:w-[790px] 2xl:w-[930px] w-full'>
 
            <div className='flex gap-4 mt-5'>
-           <span className='w-[20px] h-[27px] flex justify-center items-center'>
-                <p className='w-2 h-2 rounded-full bg-[#242424]'></p>
-              </span>
+           <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Creating a Service Design Blueprint requires making an extensive and general map. The extensive map captures detailed learnings, such as edge cases and sub-flows, to build a deep understanding of how a process works. The general map, however, aims to help stakeholders quickly grasp the procedure and improvement opportunities.  </p>
 
             </div>

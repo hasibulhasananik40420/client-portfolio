@@ -69,9 +69,10 @@ const AutomatedEquipmentDispatching = () => {
 
             <div className="flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[930px] w-full">
               <div className="flex gap-4 mt-[20px]">
-                <span className="w-[20px] h-[27px] flex justify-center items-center">
-                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
-                </span>
+              
+                 <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6  ">
                 Equipment pickup delays were sometimes due to Drivers unknowingly bringing a truck that was unable to reach and/or load the equipment. Pickup delays were also connected to customers moving equipment to new locations that required additional travel time and planning
 
@@ -80,9 +81,10 @@ const AutomatedEquipmentDispatching = () => {
               </div>
 
               <div className="flex gap-4 mt-[10px]">
-                <span className="w-[20px] h-[27px] flex justify-center items-center">
-                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
-                </span>
+               
+                 <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
                 Equipment Dispatchers requested in-person, hands-on training that simulated completing a standard task with the new artificial intelligence feature assisting.
 
@@ -103,10 +105,11 @@ const AutomatedEquipmentDispatching = () => {
 
             <div className="flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full">
               <div className="flex gap-4 mt-5">
-                <span className="w-[20px] h-[27px] flex justify-center items-center">
-                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
-                </span>
-                <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
+              
+               <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>  
+                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
                 Functionality was prioritized and implemented to the nudge branch closest to the equipment, to pick up the equipment, if the customer moved the equipment into a new region
 
 
@@ -115,9 +118,10 @@ const AutomatedEquipmentDispatching = () => {
               </div>
 
               <div className="flex gap-4 mt-[10px]">
-                <span className="w-[20px] h-[27px] flex justify-center items-center">
-                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
-                </span>
+               
+                 <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
                 Training changed course and, instead of relying solely on e-learning courses, included hands-on, in-person training sessions into the rollout planning of the artificial intelligence feature
 
@@ -140,21 +144,16 @@ const AutomatedEquipmentDispatching = () => {
 
             <div className="flex flex-col lg:w-[790px] xl:w-[790px] 2xl:w-[930px] w-full">
               <div className="flex gap-4 mt-5">
-                <span className="w-[20px] h-[27px] flex justify-center items-center">
-                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
-                </span>
+               
+
+               <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
                 When integrating artificial intelligence features into employee’s work tools, Research partnering with Training is a good idea. This partnership creates multiple surveying opportunities to understand feature perception. One opportunity, for example, exists after conducting training, while another opportunity exists after a few weeks of using the feature.               </p>
               </div>
 
-              {/* <div className="flex gap-4 mt-[10px]">
-                <span className="w-[20px] h-[27px] flex justify-center items-center">
-                  <p className="w-2 h-2 rounded-full bg-[#242424]"></p>
-                </span>
-                <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Once tech feasibility stages have been completed, I would recommend using the Kano Model to assess desirability of the vetted features to influence the order of slated roadmap items
-                </p>
-              </div> */}
+              
             </div>
           </div>
         </div>
