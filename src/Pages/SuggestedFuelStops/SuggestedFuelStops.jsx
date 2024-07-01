@@ -77,7 +77,7 @@ const SuggestedFuelStops = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                Knowing savings-to-company would likely impact whether Short-distance Drivers travel further to reach a suggested stop 
+                Knowing savings-to-company would likely impact whether Short-distance Drivers travel further to reach a suggested fuel stop
 
                 </p>
               </div>

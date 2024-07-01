@@ -60,7 +60,7 @@ const FaqSlider = () => {
           images: [
             { id: 1, image: ContextualInquiryImage1, text: "Contextual Inquiry - Research Plan" },
             { id: 2, image: ContextualInquiryImage2, text: "Contextual Inquiry - Interview Guide" },
-            { id: 3, image: ContextualInquiryImage3, text: "Contextual Inquiry -  Synthesis for Analysis & Early Alignment with Design" },
+            { id: 3, image: ContextualInquiryImage3, text: "Contextual Inquiry - Synthesis for Analysis & Early Alignment with UX Design" },
             { id: 4, image: ContextualInquiryImage4, text: "Contextual Inquiry - Report Readout for Executive Team " },
             
           ],
@@ -69,7 +69,7 @@ const FaqSlider = () => {
           id: 3,
           text: 'Learnings Prioritization',
           images: [
-            { id: 1, image: PrioritizationWorkshopImage3, text: " Learnings Prioritization - Report Readout for Product & Design to Begin Prioritization" },
+            { id: 1, image: PrioritizationWorkshopImage3, text: " Learnings Prioritization - Report Readout for Product Management & UX Design to Begin Prioritization" },
             { id: 2, image: PrioritizationWorkshopImage2, text: "Learnings Prioritization - Prioritization Output " },
             { id: 3, image: PrioritizationWorkshopImage1, text: " Learnings Prioritization - Prioritization Readout for Executive Team" },
            

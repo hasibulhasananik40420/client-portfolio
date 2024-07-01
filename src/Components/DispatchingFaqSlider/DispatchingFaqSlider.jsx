@@ -52,11 +52,11 @@ const DispatchingFaqSlider = () => {
           images: [
             { id: 1, image: ExperienceMappingImage1, text: "Experience Mapping - Research Plan" },
             { id: 2, image: ExperienceMappingImage2, text: "Experience Mapping - Interview Guide" },
-            { id: 3, image: ExperienceMappingImage3, text: "Experience Mapping - Data Capturing File (Template) " },
+            { id: 3, image: ExperienceMappingImage3, text: " Experience Mapping - Data Capturing File (Documentation Example)" },
             { id: 9, image: ExperienceMappingImageextra, text: "Experience Mapping: Data Capturing File (Documentation Example) " },
-            { id: 4, image: ExperienceMappingImage4, text: " Experience Mapping: Workflow Maps to Synthesize Findings" },
-            { id: 5, image: ExperienceMappingImage5, text: "Experience Mapping: Report Readout (1 out of 2)" },
-            { id: 6, image: ExperienceMappingImage6, text: "Experience Mapping: Report Readout (2 out of 2)" },
+            { id: 4, image: ExperienceMappingImage4, text: " Experience Mapping - Workflow Maps to Synthesize Findings" },
+            { id: 5, image: ExperienceMappingImage5, text: "Experience Mapping - Report Readout (1 out of 4)" },
+            { id: 6, image: ExperienceMappingImage6, text: "Experience Mapping - Report Readout (2 out of 4)" },
            
            
           ],
@@ -106,11 +106,11 @@ const DispatchingFaqSlider = () => {
           id: 6,
           text: 'Training Benchmarking',
           images: [
-            { id: 1, image: TrainingBenchmarkingImage1, text: "Benchmarking: Servey for Virtual Training" },
-            { id: 2, image: TrainingBenchmarkingImage2, text: "Benchmarking: Servey for In-person Training (1 out 4)" },
-            { id: 3, image: TrainingBenchmarkingImage3, text: "Benchmarking: Servey for In-person Training (2 out 4)" },
-            { id: 4, image: TrainingBenchmarkingImage4, text: "Benchmarking: Servey for In-person Training (3 out 4)" },
-            { id: 5, image: TrainingBenchmarkingImage5, text: "Benchmarking: Servey for In-person Training (4 out 4)" },
+            { id: 1, image: TrainingBenchmarkingImage1, text: "Benchmarking: Training Survey (1 out 5)" },
+            { id: 2, image: TrainingBenchmarkingImage2, text: "Benchmarking: Training Survey (2 out 5) " },
+            { id: 3, image: TrainingBenchmarkingImage3, text: "Benchmarking: Training Survey (3 out 5)" },
+            { id: 4, image: TrainingBenchmarkingImage4, text: "Training Survey (4 out 5) " },
+            { id: 5, image: TrainingBenchmarkingImage5, text: "Training Survey (5 out 5)" },
            
            
           ],
