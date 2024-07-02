@@ -101,7 +101,7 @@ const FaqSlider = () => {
           images: [
             { id: 1, image: JourneyMapImage1, text: "Journey Map (Supported) - Milestones" },
             { id: 2, image: JourneyMapImage2, text: "Journey Map (Supported) - Sentiment & Tools Used" },
-            { id: 3, image: JourneyMapImage3, text: "Journey Ma (Supported) - Pain Points & Areas of Opportunities" },
+            { id: 3, image: JourneyMapImage3, text: "Journey Map (Supported) - Pain Points & Areas of Opportunities" },
           ],
         },
         {

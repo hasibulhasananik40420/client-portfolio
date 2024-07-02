@@ -33,7 +33,8 @@ const DriverApp = () => {
         
        
 
-         <p className='mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full'>My role was conducting observational research and prioritizing the findings with Product Management.My findings were then reused by UX Design to build additional documents (e.g. A Day In The Life Narratives, Journey Maps & Personas) to inform the first redesign. </p>
+         <p className='mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full'>My role was conducting observational research and prioritizing the findings with Product Management. My findings were then reused by UX Design to build additional documents (e.g., A Day In The Life Narratives, Journey Maps & Personas) to inform the first redesign.
+</p>
 
        </div>
 
@@ -140,7 +141,7 @@ const DriverApp = () => {
            <div>
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Keeping Product Management aligned throughout the entire research process enabled Product Management to support and adopt the findings. This spanned from participant selection to reporting on employee tasks of most interest.
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '>Keeping Product Management integrated throughout the entire research process enabled Product Management to support and adopt the findings. This spanned from participant selection to identifying concerns of most interest.
                </p>
 
             </div>

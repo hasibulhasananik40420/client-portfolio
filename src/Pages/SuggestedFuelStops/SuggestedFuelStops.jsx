@@ -28,11 +28,11 @@ const SuggestedFuelStops = () => {
             </h3>
 
             <p className="mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full">
-            Drivers were not stopping at gas stations with negotiated company pricing
+            Drivers were not stopping at gas stations with negotiated company pricing.
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My role was understanding how Drivers currently stop for fuel. This research helped build a feature that suggested fuel stops with negotiated pricing. I used Semi-structured Interviews and Journey Mapping to visualize how trip duration may influence suggested fuel stop adoption. These findings informed what type of fuel stop and when fuel stop suggestions should appear in the Driver’s application. This insight guided discussions on critical features required and unachievable in the first release.             </p>
+            My role was understanding how Drivers currently stop for fuel. This research helped build a feature that suggested fuel stops with negotiated pricing. I used Semi-structured Interviews and Journey Mapping to visualize how trip duration may influence suggested fuel stop adoption. These findings informed what type of fuel stop and when fuel stop suggestions should appear in the Driver’s application. The insight guided discussions on critical features required and unachievable in the first release.             </p>
           </div>
 
           <div className="mt-[40px]">
@@ -149,7 +149,7 @@ const SuggestedFuelStops = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                In some cases, if a new feature is severely limited by technical restraints (e.g. using an API to develop the feature), before doing discovery research, I recommend including technical limitation questions in the research planning phase. The underlying reason is because the ideal user experience may be completely unfeasible given the technical limitations. And although discovery interviews should be open-ended and unbiased, without knowing tech limitations upfront you cannot gather feedback on how certain limitations may impact the user. Certain technical limitations, for example, may so severely hinder the user’s experience that reprioritizing or additional planning for the feature is called into question. This missing insight ultimately affects the actionability of the research.
+                In some cases, if a new feature is severely limited by technical restraints, I recommend including technical limitation questions in the research planning phase. The underlying reason is because the ideal user experience may be completely unfeasible given the technical limitations. And although discovery interviews should be open-ended and unbiased, without knowing tech limitations upfront you cannot gather feedback on how certain limitations may impact the user. Certain technical limitations, for example, may so severely hinder the user’s experience that reprioritizing or additional planning for the feature is called into question. This missing insight ultimately affects the actionability of the research.
 
 
                 </p>

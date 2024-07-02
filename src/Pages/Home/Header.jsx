@@ -5,7 +5,7 @@ import linkedin from "../../assets/linkedin.svg";
 import email from "../../assets/email.svg";
 import doc from "../../assets/Frame 66.svg";
 import React from "react";
-import chad2 from "../../assets/chad2.png";
+import chad2 from "../../assets/1712944679622.jpeg";
 
 const Header = () => {
   const products = [
@@ -50,7 +50,7 @@ const Header = () => {
           <div className="w-full">
             <div className="lg:w-[330px] xl:w-[339px] 2xl:w-[339px] rounded-lg md:mx-auto lg:mx-0 2xl:h-[330px] lg:h-[330px] xl:h-[330px] md:h-[600px] h-[396px]">
               <img
-                className="w-full h-full  object-cover rounded-lg"
+                className="w-full h-full rounded-lg"
                 src={chad2}
                 alt=""
               />

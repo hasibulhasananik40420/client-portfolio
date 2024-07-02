@@ -40,14 +40,14 @@ const AutomatedEquipmentDispatching = () => {
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            To help build greater awareness of current day challenges in picking up equipment, I also led A Day In The Life Panel Discussion with the employee group (i.e., Equipment Dispatchers) responsible for scheduling equipment pickups.This touchpoint allowed various Product Managers (e.g., e-commerce, sales & services) to understand where their products created downstreams issues during pickups.I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature) and conducted benchmark experience testing (i.e., measuring ease of use & satisfaction) of the application receiving the new feature.
+            To help build greater awareness of current day challenges in picking up equipment, I also led A Day In The Life Panel Discussion with the employee group (i.e., Equipment Dispatchers) responsible for scheduling equipment pickups. This touchpoint allowed various Product Managers (e.g., e-commerce, sales & services) to understand where their products created downstreams issues during pickups. I also served as a reviewer of a narrative document highlighting Equipment Dispatchers' Day in The Life (both pre-release and post-release of the feature) and conducted benchmark testing of the application receiving the new feature. The benchmark testing quantified ease of use and satisfaction of the application, pre-integration of the new feature, for post-integration comparison. 
 
 
 
             </p>
 
             <p className="mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full">
-            My research elevated the urgency of an identified - but not yet scheduled - roadmap item connected to pick up delays.My findings also led to training format changes (e.g., including in-person, hands-on training) in support of rolling out the feature.
+            The research led to changes in product roadmap planning and employee training, in support of rolling out the new artificial intelligence feature. 
             </p>
           </div>
 
@@ -76,7 +76,7 @@ const AutomatedEquipmentDispatching = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6  ">
-                Pickup delays occurred because missing job site information caused Equipment Dispatchers to send vehicles that couldn't pick up the equipment. Additionally, customers placing equipment in blocked locations and moving equipment to new job sites requiring additional planning and travel time further contributed to the delays.
+                The new artificial intelligence would not address all issues connected to pick up delays. Some pickup delays were caused by missing job site information, which led to dispatching ill-equipped vehicles unable to pick up the equipment. Additionally, customers placing equipment in blocked locations and moving equipment to new job sites requiring additional planning and travel time further contributed to pick up delays. 
 
 
                 </p>
@@ -88,8 +88,7 @@ const AutomatedEquipmentDispatching = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                Equipment Dispatchers requested in-person, hands-on training that simulated completing a standard task with the new artificial intelligence feature assisting
-
+                For employee training, Dispatchers requested in-person, hands-on training that simulated completing a standard task with the new artificial intelligence feature assisting
 
 
                 </p>
@@ -114,7 +113,8 @@ const AutomatedEquipmentDispatching = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>  
                  <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                Functionality was prioritized and implemented to the nudge branch closest to the equipment, to pick up the equipment, if the customer moved the equipment into a new region
+                 Due to the findings, Product Management prioritized and implemented new functionality to address pick up delays caused by equipment moved to a new job site. Previously, the branch renting the equipment would pick up equipment. If the customer moved the equipment into a new region, the artificial intelligence feature would now nudge the branch closest to the equipment, to pick up the equipment
+
 
 
 
@@ -128,6 +128,8 @@ const AutomatedEquipmentDispatching = () => {
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
                 Training changed course and, instead of relying solely on e-learning courses, included hands-on, in-person training sessions into the rollout planning of the artificial intelligence feature
+
+
 
                 </p>
               </div>

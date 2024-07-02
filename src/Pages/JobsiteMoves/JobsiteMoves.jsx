@@ -35,7 +35,8 @@ const JobsiteMoves = () => {
         
        
 
-         <p className='mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full'>My role was documenting how employees moved rented equipment across jobsites.I used Critical Incident Technique (CIT) to understand and then visualize systems and steps commonly used, along with pain points experienced.Product Management utilized the findings to determine the critical system upgrades that would most significantly enhance the process of moving rented equipment across jobsites
+         <p className='mt-[10px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-normal md:leading-6 leading-6 tracking-[-0.1px] lg:w-[790px] xl:w-[790px] 2xl:w-[910px] w-full'>My role was documenting how employees moved rented equipment across jobsites. I used Critical Incident Technique (CIT) to understand and then visualize the equipment moving process. The visualization captured systems and steps commonly used, along with pain points experienced when moving equipment. The findings improved Product Management’s decision making in determining resourcing needs to improve the equipment moving process. 
+
          </p>
 
        </div>
@@ -101,7 +102,23 @@ const JobsiteMoves = () => {
            <div>
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
-               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '> Product used the findings to remove and add features on each identified application's roadmap.The findings guided Product Management to improve one application, instead of multiple applications, to remove data re-entry issues, enable a standardized process and automate billing for jobsite moves.
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '> Product Management used the findings in roadmap planning discussions; specifically in  removing planned and adding new features to address reported pain points.
+
+
+
+               </p>
+
+            </div>
+
+              <div className='flex gap-4 mt-5'>
+           <div>
+              <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
+                  </div>
+               <p className='text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 '> The findings guided Product Management to ultimately improve one application, instead of multiple applications, to remove data re-entry issues, enable a standardized process and automate billing for jobsite moves.
+
+
+
+
 
                </p>
 

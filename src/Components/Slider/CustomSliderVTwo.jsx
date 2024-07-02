@@ -46,30 +46,15 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
     setSelectedImageIndex(newIndex);
   };
 
-  const handleOverlayClick = (e) => {
-    if (e.target.classList.contains("modal-overlay")) {
-      handleModalClose();
-    }
-  };
+  // const handleOverlayClick = (e) => {
+  //   if (e.target.classList.contains("modal-overlay")) {
+  //     handleModalClose();
+  //   }
+  // };
 
   return (
     <div>
-      {/* <div className="relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full h-[600px] border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ">
-        <Slider className="" ref={sliderRef} {...settings}>
-          {images.map((image, index) => (
-            <div key={index} className="mb-[10px] ">
-              <div className=" w-full p-4 h-[590px]">
-                <img
-                  className="object-contain w-full h-full"
-                  src={image.image}
-                  alt=""
-                  onClick={() => handleImageClick(index)}
-                  style={image.image === AssumptionMappingImage1 ? { width: "100%", height: "416px",objectFit:'contain' } : {}}
-                />
-              </div>
-            </div>
-          ))}
-        </Slider> */}
+     
 
 <div className={`relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ${images.some(image => image.image === PanelDiscussionImage1) ? 'h-[790px]' : 'h-[600px]'}`}>
     <Slider className="" ref={sliderRef} {...settings}>
@@ -121,7 +106,7 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
 
       {isModalOpen && (
         <div
-          onClick={handleOverlayClick}
+          
           className="fixed top-0 z-50 left-0 w-full h-full flex justify-center bg-[#323232] bg-opacity-95 modal-overlay"
         >
           <div className="lg:w-[900px] 2xl:w-[900px] 2xl:h-[500px] h-[500px] w-full mt-4 relative">

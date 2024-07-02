@@ -42,7 +42,7 @@ const JobsiteMovesSlider = () => {
           text: 'Service Design Blueprints',
           images: [
             { id: 1, image: ProcessMappingServiceDesignBlueprintsImage1, text: "Service Design Blueprint - Extensive Map" },
-            { id: 2, image: ProcessMappingServiceDesignBlueprintsImage2, text: "Search Design Blueprint - General Map" },
+            { id: 2, image: ProcessMappingServiceDesignBlueprintsImage2, text: "Service Design Blueprint - General Map" },
             
             
           ],

@@ -53,10 +53,10 @@ const DispatchingFaqSlider = () => {
             { id: 1, image: ExperienceMappingImage1, text: "Experience Mapping - Research Plan" },
             { id: 2, image: ExperienceMappingImage2, text: "Experience Mapping - Interview Guide" },
             { id: 3, image: ExperienceMappingImage3, text: " Experience Mapping - Data Capturing File (Documentation Example)" },
-            { id: 9, image: ExperienceMappingImageextra, text: "Experience Mapping: Data Capturing File (Documentation Example) " },
+            { id: 9, image: ExperienceMappingImageextra, text: "Experience Mapping - Data Capturing File (Documentation Example)" },
             { id: 4, image: ExperienceMappingImage4, text: " Experience Mapping - Workflow Maps to Synthesize Findings" },
-            { id: 5, image: ExperienceMappingImage5, text: "Experience Mapping - Report Readout (1 out of 4)" },
-            { id: 6, image: ExperienceMappingImage6, text: "Experience Mapping - Report Readout (2 out of 4)" },
+            { id: 5, image: ExperienceMappingImage5, text: "Experience Mapping - Report Readout (1 out of 2)" },
+            { id: 6, image: ExperienceMappingImage6, text: "Experience Mapping - Report Readout (2 out of 2)" },
            
            
           ],
