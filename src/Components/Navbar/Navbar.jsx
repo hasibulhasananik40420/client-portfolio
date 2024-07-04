@@ -10,7 +10,7 @@ const Navbar = () => {
             <img className='w-[50px] h-[50px] rounded-full' src={chad} alt="" />
         </div>
          <div>
-            <h1 className='text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]'>Chad</h1>
+            <h1 className='text-[#2B2B2B] text-[16px] font-Montserrat font-semibold leading-[30px]'>Chad Smith</h1>
              <p className='text-[#2B2B2B] text-[12px] italic font-Montserrat font-medium leading-[16px]'>Senior UX Researcher</p>
          </div>
         </Link>

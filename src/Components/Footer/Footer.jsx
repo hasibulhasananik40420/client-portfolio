@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div>
               <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-bold leading-[34px]">
-                Chad
+              Chad Smith
               </h1>
               <p className="text-[#2B2B2B] text-[12px] font-Montserrat font-normal leading-[16px]">
               Senior UX Researcher
@@ -106,7 +106,7 @@ const Footer = () => {
             </div>
             <div>
               <h1 className="text-[#2B2B2B] text-[16px] font-Montserrat font-bold leading-[34px]">
-                Chad
+              Chad Smith
               </h1>
               <p className="text-[#2B2B2B] text-[12px] font-Montserrat font-normal leading-[16px]">
               Senior UX Researcher
