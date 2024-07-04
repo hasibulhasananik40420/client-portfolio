@@ -30,7 +30,7 @@ const AutomatedEquipmentDispatching = () => {
             </h3>
 
             <p className="mt-[20px] text-[#242424] md:text-[16px] text-[14px] font-Montserrat font-medium md:leading-6 leading-6 tracking-[-0.1px] italic lg:w-[700px] xl:w-[790px] 2xl:w-[920px] w-full">
-            Completed equipment rentals regularly sat on customer's job sites for several days, before being picked-up and returned back to the equipment rental branch.
+            Completed equipment rentals regularly sat on customer's job sites for several days, before being picked up and returned back to the equipment rental branch.
 
             </p>
 
@@ -88,7 +88,7 @@ const AutomatedEquipmentDispatching = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                For employee training, Dispatchers requested in-person, hands-on training that simulated completing a standard task with the new artificial intelligence feature assisting
+                For employee training, Dispatchers requested in-person, hands-on training that simulated completing a standard task with the new artificial intelligence feature assisting.
 
 
                 </p>
@@ -113,7 +113,8 @@ const AutomatedEquipmentDispatching = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>  
                  <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6">
-                 Due to the findings, Product Management prioritized and implemented new functionality to address pick up delays caused by equipment moved to a new job site. Previously, the branch renting the equipment would pick up equipment. If the customer moved the equipment into a new region, the artificial intelligence feature would now nudge the branch closest to the equipment, to pick up the equipment
+                 Due to the findings, Product Management prioritized and implemented new functionality to address pick up delays caused by moving equipment to a new job site. Previously, the branch renting the equipment would pick up the moved equipment. If the customer moved the equipment into a new region, the artificial intelligence feature would now nudge the branch closest to the equipment, to pick up the equipment.
+
 
 
 
@@ -127,7 +128,7 @@ const AutomatedEquipmentDispatching = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                Training changed course and, instead of relying solely on e-learning courses, included hands-on, in-person training sessions into the rollout planning of the artificial intelligence feature
+                Training changed course and, instead of relying solely on e-learning courses, included hands-on, in-person training sessions into the rollout planning of the artificial intelligence feature.
 
 
 

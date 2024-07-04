@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import chad from '../../assets/chad.png'
+import chad from '../../assets/1712944679622.jpeg'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (

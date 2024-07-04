@@ -93,7 +93,7 @@ const JobsiteMoves = () => {
          </div>
 
             <div className='mt-[40px]'>
-           <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Research Impact </h1>
+           <h1 className='text-[#242424] text-[20px] font-bold font-Montserrat leading-[28px]'>Impact </h1>
 
 
            <div className='flex flex-col lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full'>

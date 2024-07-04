@@ -9,15 +9,11 @@ import ProcessMappingServiceDesignBlueprintsImage2 from "../../assets/JobsiteMov
 
 
 
-// import ExecutivePresentationImage1 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-01.jpg"
-// import ExecutivePresentationImage2 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-02.jpg"
-// import ExecutivePresentationImage3 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-03.jpg"
 import ExecutivePresentationImage4 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-04.jpg"
 import ExecutivePresentationImage5 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-05.jpg"
 import ExecutivePresentationImage6 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-06.png"
 import ExecutivePresentationImage7 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-07.jpg"
 import ExecutivePresentationImage8 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-08.jpg"
-// import ExecutivePresentationImage9 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-09.jpg"
 
 
 
@@ -51,15 +47,12 @@ const JobsiteMovesSlider = () => {
           id: 3,
           text: 'Executive Presentation',
           images: [
-            // { id: 1, image: ExecutivePresentationImage1, text: "Learnings Prioritization: Prioritization Working File" },
-            // { id: 2, image: ExecutivePresentationImage2, text: "Learnings Prioritization: Prioritization Working File" },
-            // { id: 3, image: ExecutivePresentationImage3, text: "Learnings Prioritization: Prioritization Working File" },
+           
             { id: 4, image: ExecutivePresentationImage4, text: "Executive Presentation  - Intro" },
             { id: 5, image: ExecutivePresentationImage5, text: "Executive Presentation - General Map " },
             { id: 6, image: ExecutivePresentationImage6, text: " Executive Presentation - Findings (1 of 3)" },
             { id: 7, image: ExecutivePresentationImage7, text: "Executive Presentation - Findings (2 of 3) " },
             { id: 8, image: ExecutivePresentationImage8, text: "Executive Presentation - Findings (3 of 3) " },
-            // { id: 9, image: ExecutivePresentationImage9, text: "Learnings Prioritization: Prioritization Working File" },
            
            
           ],

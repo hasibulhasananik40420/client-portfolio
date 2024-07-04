@@ -110,7 +110,7 @@ const SuggestedFuelStops = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat leading-6  ">
-                Journey Mapping, based on past task analysis research and Semi-structured Interview findings, visualized how suggested fuel stop prompts could appear to align with Drivers current ways of working.
+                Journey Mapping, based on past task analysis research and Semi-structured Interview findings, visualized how suggested fuel stop prompts could appear to align with Drivers current ways of working
 
 
 
@@ -149,7 +149,7 @@ const SuggestedFuelStops = () => {
               <span className="inline-block h-2 w-2 bg-black rounded-full"></span>
                   </div>
                 <p className="text-[#2B2B2B] md:text-[16px] text-[14px] font-normal font-Montserrat md:leading-6 leading-6 ">
-                In some cases, if a new feature is severely limited by technical restraints, I recommend including technical limitation questions in the research planning phase. The underlying reason is because the ideal user experience may be completely unfeasible given the technical limitations. And although discovery interviews should be open-ended and unbiased, without knowing tech limitations upfront you cannot gather feedback on how certain limitations may impact the user. Certain technical limitations, for example, may so severely hinder the user’s experience that reprioritizing or additional planning for the feature is called into question. This missing insight ultimately affects the actionability of the research.
+                In some cases, if a new feature is severely limited by technical restraints, I recommend including technical limitation questions in the research planning phase. The underlying reason is because the ideal user experience may be completely unfeasible given the technical limitations. And although discovery interviews should be open-ended and unbiased, without knowing technology limitations upfront you cannot gather feedback on how certain limitations may impact the user. Certain technical limitations, for example, may so severely hinder the user’s experience that reprioritizing or additional planning for the feature is called into question. This missing insight ultimately affects the actionability of the research.
 
 
                 </p>
