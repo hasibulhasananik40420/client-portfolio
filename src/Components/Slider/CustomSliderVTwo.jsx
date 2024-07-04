@@ -1,4 +1,5 @@
 import PanelDiscussionImage1 from "../../assets/Automated Dispatching/Panel Discussion for Day-in-the-Life/A Day In The Life_ Panel Discussion.png"
+import AssumptionMappingImage1 from "../../assets/driving-app/Assumption Mapping/image1.png"
 
 
 /* eslint-disable react/prop-types */
@@ -56,17 +57,19 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
     <div>
      
 
-<div className={`relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ${images.some(image => image.image === PanelDiscussionImage1) ? 'h-[790px]' : 'h-[600px]'}`}>
-    <Slider className="" ref={sliderRef} {...settings}>
+        
+         <div className={`relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ${images.some(image => image.image === PanelDiscussionImage1) ? 'h-[790px]' : images.some(image => image.image === AssumptionMappingImage1) ? 'h-[300px]' : 'h-[600px]'}`}>
+
+        <Slider className="" ref={sliderRef} {...settings}>
         {images.map((image, index) => (
             <div key={index} className="mb-[10px]">
-                <div className={`w-full p-4 ${image.image === PanelDiscussionImage1 ? 'h-[780px]' : 'h-[590px]'}`}>
+                <div className={`w-full p-4 ${image.image === PanelDiscussionImage1 ? 'h-[780px]' : image.image === AssumptionMappingImage1 ? 'h-[300px]' : 'h-[550px]'}`}>
                     <img
                         className="object-contain w-full h-full"
                         src={image.image}
                         alt=""
                         onClick={() => handleImageClick(index)}
-                        style={image.image === PanelDiscussionImage1 ? { } : {}}
+                        style={image.image === PanelDiscussionImage1 ? {} : {}}
                     />
                 </div>
             </div>
@@ -109,8 +112,8 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
           
           className="fixed top-0 z-50 left-0 w-full h-full flex justify-center bg-[#323232] bg-opacity-95 modal-overlay"
         >
-          <div className="lg:w-[900px] 2xl:w-[900px] 2xl:h-[500px] h-[500px] w-full mt-4 relative">
-            <div className="lg:w-[900px] 2xl:w-[900px] 2xl:h-[500px] w-full h-[500px] border-[6px] border-white">
+          <div className="lg:w-[900px] 2xl:w-[900px] 2xl:h-[500px] h-[480px] w-full mt-4 relative">
+            <div className="lg:w-[900px] 2xl:w-[900px] 2xl:h-[500px] w-full h-[480px] border-[6px] border-white">
               <img
                 className="object-contain w-full h-full flex justify-center items-center mx-auto"
                 src={images[selectedImageIndex].image}
@@ -148,7 +151,7 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
               <div>
                 <span
                   onClick={handleModalClose}
-                  className="h-8 w-8 bg-red-500 cursor-pointer flex justify-center items-center rounded-full"
+                  className="z-50 h-8 w-8 bg-red-500 cursor-pointer flex justify-center items-center rounded-full"
                 >
                   <MdClose className="text-white text-xl font-bold" />
                 </span>
