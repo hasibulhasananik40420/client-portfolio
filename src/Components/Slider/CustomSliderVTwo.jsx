@@ -173,6 +173,14 @@ import PanelDiscussionImage1 from "../../assets/Automated Dispatching/Panel Disc
 import AssumptionMappingImage1 from "../../assets/driving-app/Assumption Mapping/image1.png";
 import CurrentDayNarrativesSupportedImage1 from "../../assets/driving-app/Current Day Narratives (Supported)/image 1B AI-01.png";
 
+import ExecutivePresentationImage4 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-04.jpg"
+import ExecutivePresentationImage5 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-05.jpg"
+import ExecutivePresentationImage6 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-06.png"
+import ExecutivePresentationImage7 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-07.jpg"
+import ExecutivePresentationImage8 from "../../assets/JobsiteMoves/Executive Presentation/workflow2-08.jpg"
+
+
+
 /* eslint-disable react/prop-types */
 import { useRef, useState, useEffect } from "react";
 import {
@@ -233,14 +241,21 @@ const CustomSliderVTwo = ({ images, initialActiveIndex = 0 }) => {
     }
   }, [selectedImageIndex]);
 
+
+  const isExecutivePresentationImage = (image) => {
+    return [ExecutivePresentationImage4, ExecutivePresentationImage5, ExecutivePresentationImage6, ExecutivePresentationImage7, ExecutivePresentationImage8].includes(image);
+  };
+
   return (
     <div>
-      <div className={`relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ${images.some(image => image.image === PanelDiscussionImage1) ? 'h-[790px]' : images.some(image => image.image === AssumptionMappingImage1) ? 'h-[300px]' : images.some(image => image.image === CurrentDayNarrativesSupportedImage1) ? 'h-[700px]' : 'h-[600px]'}`}>
+      <div className={`relative lg:w-[800px] xl:w-[800px] 2xl:w-[950px] w-full border-[1px] border-[#D9D9D9] mt-14 md:mt-14 lg:mt-4 mb-10 ${images.some(image => image.image === PanelDiscussionImage1) ? 'h-[790px]' : images.some(image => image.image === AssumptionMappingImage1) ? 'h-[300px]' : images.some(image => image.image === CurrentDayNarrativesSupportedImage1) ? 'h-[700px]' : images.some((image) => isExecutivePresentationImage(image.image))
+            ? "h-[500px]" : 'h-[600px]'}`}>
 
         <Slider className="" ref={sliderRef} {...settings}>
           {images.map((image, index) => (
             <div key={index} className="mb-[10px]">
-              <div className={`w-full p-4 ${image.image === PanelDiscussionImage1 ? 'h-[780px]' : image.image === AssumptionMappingImage1 ? 'h-[300px]' : image.image === CurrentDayNarrativesSupportedImage1 ? 'h-[600px]' : 'h-[550px]'}`}>
+              <div className={`w-full p-4 ${image.image === PanelDiscussionImage1 ? 'h-[780px]' : image.image === AssumptionMappingImage1 ? 'h-[300px]' : image.image === CurrentDayNarrativesSupportedImage1 ? 'h-[600px]' : isExecutivePresentationImage(image.image)
+                    ? "h-[450px]" : 'h-[550px]'}`}>
                 <img
                   className="object-contain w-full h-full"
                   src={image.image}
