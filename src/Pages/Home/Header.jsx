@@ -69,7 +69,7 @@ const Header = () => {
                 </p>
 
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                I also recently completed Python-based training in inferential statistics, focused on building confidence intervals and testing for statistical significance using t-tests.
+                Recently completed Python-based training in inferential statistics, focused on building confidence intervals and testing for statistical significance using t-tests.
                 </p>
                 
               </div>
