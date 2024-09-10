@@ -33,13 +33,13 @@ const Header = () => {
       link: "/suggested-fuel-stops",
     },
 
-    {
-      _id: 3,
-      title: " New Feature",
-      subTitle: "Automated Dispatching",
-      para: "Releasing an artificial intelligence feature",
-      link: "/automated-dispatching",
-    }, 
+    // {
+    //   _id: 3,
+    //   title: " New Feature",
+    //   subTitle: "Automated Dispatching",
+    //   para: "Releasing an artificial intelligence feature",
+    //   link: "/automated-dispatching",
+    // }, 
    
   ];
 
@@ -65,12 +65,11 @@ const Header = () => {
                   Senior UX Researcher
                 </p>
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                UX Researcher with extensive experience using discovery and evaluative research methods. Recently completed Python-based training in inferential statistics, focused on building confidence intervals and testing for statistical significance. Currently enrolled in Data Science training to extend knowledge base in regression modeling.
+                User Experience Researcher with a background in workshop facilitation, mixed-method research techniques, and interaction design.
                 </p>
 
                 <p className="text-[#2B2B2B] 2xl:text-[12px] lg:text-[12px] xl:text-[12px] text-[14px] md:text-[16px] font-Montserrat font-normal mt-4 w-full md:w-full lg:w-[335px] xl:w-[339px] 2xl:w-[339px]">
-                Interested in UX roles focused on launching new products and benchmark testing.
-                </p>
+                Skills: Research Scoping & Planning | Project Management | Workshop Facilitation | Survey Design | Experience Mapping | Persona Design | Concept Design | Concept & Prototype Testing | Benchmark Surveys | Advanced Statistical Analysis Methods </p>
                 
               </div>
             </div>
